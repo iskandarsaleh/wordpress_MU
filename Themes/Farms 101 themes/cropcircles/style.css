@@ -1,0 +1,712 @@
+/*  
+Theme Name: Crop Circles
+Theme URI: http://theloo.org/2005/02/06/first-1999-crop-circles-in-canada/
+Description: A theme invaded by aliens.
+Version: 1.5
+Author: Marianne
+Author URI: http://theloo.org/
+
+The CSS, XHTML and design is released under GPL: http://www.opensource.org/licenses/gpl-license.php
+	
+Please feel free to contact me through the theme homepage if you have any questions!
+
+Marianne
+
+*/
+
+
+
+/* Begin Typography & Colors */
+body {
+	font-size: 62.5%; /* Resets 1em to 10px */
+	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	background-color: white;
+	color: #333;
+	text-align: center;
+	background-image: url('images/circlesback.jpg');
+	background-repeat: repeat-x; background-attachment: fixed}
+
+
+#header 	{ background-image: url('images/circlesheader.jpg');
+background-repeat: repeat-x}
+
+#titleimage 	{ background: url('images/posttitleback.jpg') no-repeat bottom left; border: none; padding-top: 30px;}
+
+#footer 	{ background: url('images/circlesfooter.jpg') no-repeat bottom; border: none;}
+			
+.hilite {	color: #fff;
+	background-color: #f93;}
+
+#page {
+	background-color: white;
+	text-align: left;
+	}
+
+#header {
+	background-color: white;
+	}
+
+#content {
+	font-size: 1.2em
+	}
+
+.widecolumn .entry p {
+	font-size: 1.05em;
+	}
+
+.narrowcolumn .entry, .widecolumn .entry {
+	line-height: 1.4em;
+	}
+
+.widecolumn {
+	line-height: 1.6em;
+	}
+	
+.narrowcolumn .postmetadata {
+	text-align: left;
+	}
+
+.graybox {
+	background-color: #f8f8f8;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	}
+
+#footer {
+	background-color: white;
+	}
+
+small {
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-size: 0.9em;
+	line-height: 1.5em;
+	}
+
+h2, h3 {
+	font-family: 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	font-weight: bold;
+	}
+
+h1 {font-family: 'Impact', 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, Sans-Serif;
+font-size: 3.1em;
+	width: 120px;
+	}
+
+h2 { 	font-size: 1.6em; }
+
+h2.pagetitle { 
+	font-size: 1.6em;
+	}
+#content h2 { background: url('images/posttitleback.jpg') no-repeat bottom right; border: none;
+	width: 95%;}
+
+#sidebar h2 { background: url('images/titleback.gif') no-repeat bottom right; border: none; 	padding-top: 20px;
+	font-family: 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	padding: 10px;
+	font-size: 1.3em;
+	border-left: 0px;
+	border-bottom: 0px;
+	color: #B3B1B1;
+	width: 158px;
+     text-align:justified; }
+
+#sidebar h3 {
+	font-size: 1.5em;
+	width: 120px;
+	color: #B3B1B1;}
+
+h1, h1 a, h1 a:visited, .description {
+	text-decoration: none;
+	color: #B3B1B1;
+	}
+
+h1 a:hover {
+	color: #996666;
+	text-decoration: none;
+	}
+
+#sidebar h1 a:hover {
+	color: #996666;
+	text-decoration: none;
+	}
+
+h2, h2 a, h2 a:visited, h3, h3 a, h3 a:visited, {
+	color: #8B6969;
+	}
+
+h2, h2 a, h2 a:hover, h2 a:visited, h3, h3 a, h3 a:hover, h3 a:visited, #sidebar h2, #wp-calendar caption, cite {
+	text-decoration: none;
+	}
+
+.entry p a:visited {
+	color: #8B0000;
+	}
+
+.commentlist li, #commentform input, #commentform textarea {
+	font: 0.9em 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	}
+	
+.commentlist li {
+	font-weight: bold;
+	}
+
+.commentlist cite, .commentlist cite a {
+	font-weight: bold;
+	font-style: normal;
+	font-size: 1.1em;
+	}
+
+.commentlist p {
+	font-weight: normal;
+	line-height: 1.5em;
+	text-transform: none;
+	}
+
+#commentform p {
+	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	}
+
+.commentmetadata {
+	font-weight: normal;
+	}
+
+#sidebar {
+	font: 1em 'Lucida Grande', Verdana, Arial, Sans-Serif;
+		color: #333;
+	}
+
+small, #sidebar ul ul li, #sidebar ul ol li, .nocomments, .postmetadata, blockquote, strike {
+	color: #777;
+	}
+	
+code {
+	font: 1.1em 'Courier New', Courier, Fixed;
+	}
+
+acronym, abbr, span.caps
+{
+	font-size: 0.9em;
+	letter-spacing: .07em;
+	}
+
+a, h2 a:hover, h3 a:hover, h1 a:hover {
+	color: #8B0000;
+	text-decoration: none;
+	}
+
+a:hover {
+	color: #8B0000;
+	text-decoration: underline;
+	}
+	
+#wp-calendar #prev a {
+	font-size: 9pt;
+	color: #333;
+	}
+
+#wp-calendar a {
+	text-decoration: none;
+	}
+
+#wp-calendar caption {
+	font: bold 1.3em 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	text-align: center;
+	color: #333;
+	}
+
+#wp-calendar th {
+	font-style: normal;
+	text-transform: capitalize;
+	color: #333;
+	}
+/* End Typography & Colors */
+
+
+
+/* Begin Structure */
+body {
+	margin: 0;
+	padding: 0; 
+	}
+
+#page {
+	background-color: white;
+	margin: 20px auto;
+	padding: 0px;
+	width: 760px;
+	}
+	
+#header {
+	padding: 0;
+	margin: 0 auto;
+	height: 200px;
+	width: 100%;
+	background-color: white;
+	}
+
+#headerimg {
+	margin: 0;
+	height: 200px;
+	width: 100%;
+	}
+
+.narrowcolumn {
+	float: left;
+	padding: 40px 0 10px 40px;
+	margin: 0px 0px 0;
+	width: 450px;
+	}
+
+.widecolumn {
+	padding: 40px 0 10px 40px;
+	margin: 0px 0px 0;
+	width: 700px;
+	}
+	
+.post {
+	margin: 0 0 30px;
+padding-top: 10px;
+	text-align: left;
+	}
+
+.archivepost {
+	margin: 0 0 40px 50px;
+	text-align: left;
+	}
+
+.widecolumn .post {
+	margin: 0;
+	}
+
+.narrowcolumn .postmetadata {
+	padding-top: 5px;
+	}
+
+.widecolumn .postmetadata {
+	margin: 30px 0;
+	}
+	
+#footer {
+	padding: 0;
+	margin: 0 auto;
+	width: 760px;
+	clear: both;
+	}
+
+#footer p {
+	margin: 0;
+	padding: 20px 0;
+	text-align: center;
+	}
+/* End Structure */
+
+
+
+/*	Begin Headers */
+
+.description {
+	text-align: center;
+	}
+
+h2 {	
+	margin: 30px 0 0;
+	}
+
+h2.pagetitle {
+
+	margin-top: 30px;
+	text-align: center;
+}
+
+#sidebar h2 {
+	margin: 5px 0 0;
+	padding: 0;
+	}
+
+h3 {
+	padding: 0;
+	margin: 30px 0 0;
+	}
+
+h3.comments {
+	padding: 0;
+	margin: 40px auto 20px ;
+	}
+/* End Headers */
+
+
+
+/* Begin Images */
+p img {
+	padding: 0;
+	max-width: 100%;
+	}
+
+/*	Using 'class="alignright"' on an image will (who would've
+	thought?!) align the image to the right. And using 'class="centered',
+	will of course center the image. This is much better than using
+	align="center", being much more futureproof (and valid) */
+	
+img.centered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	
+img.alignright {
+	padding: 4px;
+	margin: 0 0 2px 7px;
+	display: inline;
+	}
+
+img.alignleft {
+	padding: 4px;
+	margin: 0 7px 2px 0;
+	display: inline;
+	}
+
+.alignright {
+	float: right;
+	padding-bottom: 4px;
+width: 150px;
+	}
+	
+.alignleft {
+	float: left;
+width: 150px;
+	}
+
+/* End Images */
+
+
+
+/* Begin Lists
+
+	Special stylized non-IE bullets
+	Do not work in Internet Explorer, which merely default to normal bullets. */
+
+html>body .entry ul {
+	margin-left: 0px;
+	padding: 0 0 0 30px;
+	list-style: none;
+	padding-left: 10px;
+	text-indent: -10px;
+	} 
+
+html>body .entry li {
+	margin: 7px 0 8px 10px;
+	}
+
+.entry ul li:before, #sidebar ul ul li:before {
+	content: "\00BB \0020";
+	}
+
+.entry ol {
+	padding: 0 0 0 35px;
+	margin: 0;
+	}
+
+.entry ol li {
+	margin: 0;
+	padding: 0;
+	}
+
+.postmetadata ul, .postmetadata li {
+	display: inline;
+	list-style-type: none;
+	list-style-image: none;
+	}
+	
+#sidebar ul, #sidebar ul ol {
+	margin: 0;
+	padding: 0;
+	}
+
+#sidebar ul li {
+	list-style-type: none;
+	list-style-image: none;
+	margin-bottom: 15px;
+	}
+
+#sidebar ul p, #sidebar ul select {
+	margin: 5px 0 8px;
+	}
+
+#sidebar ul ul, #sidebar ul ol {
+	margin: 5px 0 0 10px;
+	}
+
+#sidebar ul ul ul, #sidebar ul ol {
+	margin: 0 0 0 10px;
+	}
+
+ol li, #sidebar ul ol li {
+	list-style: decimal outside;
+	}
+
+#sidebar ul ul li, #sidebar ul ol li {
+	margin: 3px 0 0;
+	padding: 0;
+	}
+/* End Entry Lists */
+
+
+
+/* Begin Form Elements */
+#searchform {	position: absolute;
+	top: 213px;
+	margin: 0px auto;
+	padding:  0px 0px; 
+	text-align: center;
+	}
+
+#sidebar #searchform #s {
+	width: 170px;
+	padding: 0px;
+	text-align: center;
+	}
+
+#sidebar #searchsubmit {
+display: none;
+	}
+
+.entry form { /* This is mainly for password protected posts, makes them look better. */
+	text-align:center;
+	}
+
+select {
+	width: 130px;
+	}
+
+#commentform input {
+	width: 170px;
+	padding: 2px;
+	margin: 5px 5px 1px 0;
+	}
+
+#commentform textarea {
+	width: 100%;
+	padding: 2px;
+	}
+
+#commentform #submit {
+	margin: 0;
+	float: right;
+	}
+/* End Form Elements */
+
+
+
+/* Begin Comments*/
+.graybox {
+	margin: 0;
+	padding: 10px;
+	}
+
+.commentlist {
+	padding: 0;
+	text-align: left;
+	}
+
+.commentlist li {
+	margin: 15px 0 3px;
+	padding: 5px 10px 3px;
+	list-style: none;
+	}
+
+.commentlist p {
+	margin: 10px 5px 10px 0;
+	}
+
+#commentform p {
+	margin: 5px 0;
+	}
+
+.nocomments {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	}
+
+.commentmetadata {
+	margin: 0;
+	display: block;
+	}
+/* End Comments */
+
+
+
+/* Begin Sidebar */
+#sidebar
+{	background: url('images/circlesside.jpg') no-repeat top; border: none;
+	padding: 20px 0 10px 0;
+	margin-left: 544px;
+	width: 190px;
+	}
+
+#sidebar form {
+	margin: 0;
+	}
+/* End Sidebar */
+
+
+
+/* Begin Calendar */
+#wp-calendar {
+	empty-cells: show;
+	margin: 10px auto 0;
+	width: 155px;
+	}
+
+#wp-calendar #next a {
+	padding-right: 10px;
+	text-align: right;
+	}
+
+#wp-calendar #prev a {
+	padding-left: 10px;
+	text-align: left;
+	}
+
+#wp-calendar a {
+	display: block;
+	}
+
+#wp-calendar caption {
+	text-align: center;
+	width: 100%;
+	}
+
+#wp-calendar td {
+	padding: 3px 0;
+	text-align: center;
+	}
+
+#wp-calendar td.pad:hover { /* Doesn't work in IE */
+	background-color: #fff; }
+/* End Calendar */
+
+
+
+/* Begin Various Tags & Classes */
+acronym, abbr, span.caps {
+	cursor: help;
+	}
+
+acronym, abbr {
+	border-bottom: 1px dashed #999;
+	}
+
+blockquote {
+	margin: 0px 0px 0 10px;
+	padding-left: 10px;
+	border-left: 7px solid #cccccc;
+	}
+
+blockquote cite {
+	margin: 5px 0 0;
+	display: block;
+	}
+
+.center {
+	text-align: center;
+	}
+
+hr {
+	display: none;
+	}
+
+a img {
+	border: none;
+	}
+
+.navigation {
+	text-align: left;
+	margin-top: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 10px;
+font-size: 0.9em;
+	}
+/* End Various Tags & Classes*/
+
+#supernav {
+	font: bold 10px/10px Verdana, Lucida Grande, Arial, Helvetica, Sans-Serif;
+	position: absolute; 
+	top: 88px;
+	left: 154px;
+ 	width: 100px; 
+	margin: 0 0 0 2px;
+	background: white;
+	text-align: left;
+	}
+
+#supernav ul {
+margin-left: 0;
+padding-left: 0;
+list-style-type: none;
+	}
+
+#supernav li {
+	display: list-item;
+	list-style-type: none;
+	list-style-image: none;
+	margin: 0;
+	padding: 20 25px;
+	}
+
+#supernav a {
+	color: #ffffff;
+	background: #BBBBBB;
+	font-weight: normal;
+	display: block;
+	padding: 3px;
+	width: 100px;
+	}
+
+#supernav a:hover {
+	color: #555;
+	background: white;
+	text-decoration: none;
+	}
+
+#supernav a:active {
+	color: #000000;
+	background: #E5E5E5;
+	text-decoration: none;
+	}
+
+	.waypath-box {
+		  font-size: 70%;
+		  border: thin solid #00288C;
+		  margin: 5px;
+		  background-color: #F0F0F0;
+		}
+
+		.wp-box-title {
+		  margin-left: 3px;
+		  margin-bottom: 5px;
+		}
+
+		.wp-item {
+		  margin-top: 3px;
+		  margin-bottom: 10px;
+		  margin-left: 3px;
+		  margin-right: 3px;
+		  line-height: 1;
+		}
+
+		.wp-item-title {
+		  margin-bottom: 2px;
+		}
+
+		.wp-item-origin {
+		  margin-top: 2px;
+		  margin-bottom: 3px;
+		}
+
+		.wp-item-summary {
+		  margin-top: 3px;
+		  line-height: 1;
+		}
+

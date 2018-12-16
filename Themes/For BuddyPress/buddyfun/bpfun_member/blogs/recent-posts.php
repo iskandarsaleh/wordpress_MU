@@ -1,0 +1,53 @@
+<?php
+/*
+ * /blogs/recent-posts.php
+ * Displays all the recent blog posts made by a user across all the public blogs on this WPMU install.
+ * 
+ * Loaded on URL:
+ * 'http://example.org/members/[username]/blogs/recent-posts
+ */
+?>
+
+<?php get_header() ?>
+
+<div class="content-header">
+	<?php bp_blogs_blog_tabs() ?>
+</div>
+
+<div id="main">
+	
+<h2 id="post-header"><?php _e("Recent Posts", "buddypress"); ?></h2>
+	
+<?php do_action( 'template_notices' ) // (error/success feedback) ?>
+
+<?php if ( bp_has_posts() ) : ?>
+<?php while ( bp_posts() ) : bp_the_post(); ?>
+
+<div class="post" id="post-<?php bp_post_id(); ?>">
+<h1 class="post-title"><a href="<?php bp_post_permalink() ?>" rel="bookmark" title="<?php printf ( __( 'Permanent Link to %s', 'buddypress' ), bp_post_title( false ) ); ?>"><?php bp_post_title(); ?></a></h1>
+<div class="post-author"><?php printf( __( '%1$s <em>in %2$s by %3$s</em>', 'buddypress' ), bp_post_date(__('F jS, Y', 'buddypress'), false ), bp_post_category( ', ', '', null, false ), bp_post_author( false ) ); ?></div>
+
+<div class="post-content"><?php bp_post_content(__('Read the rest of this entry &raquo;')); ?></div>
+
+<div class="post-tagged">
+<?php bp_post_tags( '<p class="tags">tags: ', ', ', '</p>' ); ?>
+<p class="com">
+<?php bp_post_comments( __('No Comments'), __('1 Comment'), __('% Comments') ); ?>
+ </p>
+</div>
+
+
+</div>
+<?php endwhile; ?>
+		
+	<?php else: ?>
+
+		<div id="message" class="info">
+			<p><?php bp_word_or_name( __( "You haven't made any posts yet.", 'buddypress' ), __( "%s hasn't made any posts yet.", 'buddypress' ) ) ?></p>
+		</div>
+
+	<?php endif;?>
+
+</div>
+
+<?php get_footer() ?>

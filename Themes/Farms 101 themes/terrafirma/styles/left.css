@@ -1,0 +1,12 @@
+#content
+{
+	float:right;
+}
+#sidebar 
+{
+	float:left;
+}
+#footer 
+{
+	clear:both;
+}

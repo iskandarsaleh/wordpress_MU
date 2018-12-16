@@ -1,0 +1,35 @@
+#navigation {
+	background: url(corporate-light/navs.png) no-repeat!important;
+}
+ul#nav li a, h2.widgettitle a {
+    color: #292929!important;
+}
+ul#nav li.selected, ul#nav li.current_page_item {
+	background: url(corporate-light/leftbar.png) no-repeat left center!important;
+}
+ul#nav li.selected a, ul#nav li.current_page_item a {
+    color: #FFF!important;
+	background: url(corporate-light/rightbar.png) no-repeat right center!important;
+}
+#post-entry h2.widgettitle {
+    color: #292929!important;
+	background: url(corporate-light/longbar.png) no-repeat!important;
+}
+#center-column h2.widgettitle {
+    color: #292929!important;
+	background: url(corporate-light/mediumbar.png) no-repeat!important;
+}
+#right-column h2.widgettitle {
+    color: #292929!important;
+	background: url(corporate-light/shortbar.png) no-repeat!important;
+}
+
+
+#member-entry #userbar #meprofile {
+    background: url(corporate-light/side.png) repeat-x!important;
+
+}
+#member-entry #userbar #meprofile p {
+    color: #292929!important;
+
+}

@@ -1,0 +1,10 @@
+/*
+Theme Name: Blix
+Theme URI: http://www.kingcosmonaut.de/blix/
+Description: Clean and straightforward, a no nonsense theme with customisable header.
+Author: Sebastian Schmieg
+Author URI: http://www.kingcosmonaut.de/
+*/
+
+@import "layout.css?1";
+@import "spring_flavour.css";

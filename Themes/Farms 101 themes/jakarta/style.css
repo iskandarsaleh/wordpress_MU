@@ -1,0 +1,744 @@
+/*  
+Theme Name: Jakarta
+Theme URI: http://www.scarletblaze.com/wp/?p=3
+Description: Sandstone meets accessibility, customise the dog piccie at will.
+Version: 1.1
+Author: Jose Mulia
+Author URI: http://www.scarletblaze.com
+
+NOTES:
+Jakarta was inspired by many themes I found on Internet. If you don’t like this one, try one of the alternatives below:
+    * Kubrick Template for WordPress. Very well structured CSS file. I recommend you to use it as a base to create your own Theme.
+    * Coffebreak. Very nice layout scheme and color. Too bad it’s only for WordPress 1.2.
+    * Pink Lilies. The winner of WordPress CSS Style Competition. I think this one is for WordPress 1.0.1
+*/
+
+/* BEGIN IMAGE CSS: place all the images here */	
+#headerimg {
+	background: url(images/sb-collage.jpg) no-repeat;	/* Image Location */
+	MARGIN: 0 0 0 -2px;  /* Edit this to position/center your image */
+	BACKGROUND-COLOR: #FFFFCC;
+	width: 480px; 		/* Image Width */
+	HEIGHT: 200px; 		/* Image Height */
+}
+		
+body	 	{ background: url(images/sb-bgtile.jpg); }	
+#page		{ background: url(images/sb-bgy.jpg) repeat-y top; border: none; } 
+#header 	{ background: url(images/header.jpg) no-repeat center; }
+#footer 	{ background: url(images/footer.jpg) no-repeat bottom; border: none;}
+BLOCKQUOTE { background: url(images/sb-blockquote.gif) no-repeat; }
+#wp-calendar a { background: url(images/day2.gif) no-repeat; }
+#wp-calendar a:hover { background: url(images/day.gif) no-repeat; }
+#wp-calendar td { background: url(images/day.gif) no-repeat; }
+#wp-calendar #today { background: url(images/today.gif) no-repeat; }
+
+/* END IMAGE CSS */
+
+/* General Layout Positionings */
+HTML
+{
+     scrollbar-face-color: #CBAC73;
+	 scrollbar-arrow-color: #B08356;
+	 scrollbar-track-color: #CBAC73;
+	 scrollbar-shadow-color: #B08356;
+	 scrollbar-highlight-color: #E4C58C;
+	 scrollbar-3dlight-color: #E4C58C;
+	 scrollbar-darkshadow-color: #B08356;
+}
+
+
+BODY {
+	FONT-SIZE: 62.5%;
+	COLOR: #867663;
+	FONT-FAMILY: Georgia, Verdana, "times New Roman", Times, Serif;
+	BACKGROUND-COLOR: #DABB82;
+	MARGIN: 25px;
+	filter: Shadow(color:gray, strength:10, direction:135);
+}
+
+#page {
+	MARGIN: auto;
+	WIDTH: 760px;
+	BACKGROUND-COLOR: #ECDAB5;
+}
+
+#header {
+	MARGIN: 0px auto;
+	WIDTH: 100%;
+	HEIGHT: 108px;
+	BACKGROUND-COLOR: #CCCC99;
+	COLOR: #FFFFCC;
+}
+
+#header a {
+	COLOR: #FFFFCC;
+	text-decoration: none;
+}
+
+#header a:hover {
+	color: #7D5B38;
+	text-decoration: none;
+}
+
+#toolbar-top {
+	WIDTH: 100%;
+	HEIGHT: 65px;
+}
+
+#toolbar-left {
+	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	FONT-SIZE: 1.3em;
+	padding-top: 20px;
+	padding-left: 20px;
+	float: left;
+	color: #FFFFCC;
+	font-weight: bold;
+}
+
+#toolbar-right {
+	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	FONT-SIZE: 1.2em;
+	padding-top: 20px;
+	padding-right: 20px;
+	text-align: right;
+	color: #FFFFCC;
+}
+
+#content {
+	FONT-SIZE: 1.2em;
+	TEXT-ALIGN: justify;
+}
+
+.narrowcolumn {
+	PADDING-RIGHT: 15px;
+	MARGIN: 0px;
+	WIDTH: 500px;
+	PADDING-TOP: 5px;
+	FLOAT: left;
+	padding-top: 10px;
+	padding-left: 15px;
+}
+.widecolumn {
+	PADDING-RIGHT: 15px;
+	MARGIN: 0px;
+	WIDTH: 470px;
+	PADDING-TOP: 10px;
+	FLOAT: left;
+	padding-top: 10px;
+	padding-left: 15px;
+}
+
+#sidebar {
+	WIDTH: 200px;
+	margin-left: 540px;
+	PADDING-TOP: 20px;
+}
+
+.post {
+	MARGIN: 0px 20px 40px 0px; 
+}
+
+#footer {
+	CLEAR: both;
+	MARGIN: 0px;
+	WIDTH: 760px;
+	color: #7D5B38;
+	BACKGROUND-COLOR: #CCCC99;
+}
+/* End of General Layout Positionings */
+
+
+/* Content / attribute */
+#toolbar-top .blogtitle {
+	color: #7D5B38;
+}
+
+#toolbar-top .blogtitle a {
+	color: #7D5B38;
+}
+
+#toolbar-top .blogtitle a:hover {
+	COLOR: #FFFFCC;
+}
+
+.widecolumn .entry P {
+	FONT-SIZE: 1.05em
+}
+
+.widecolumn P:hover {
+	color: #660000;	
+}
+
+.narrowcolumn P:hover {
+	color: #660000;	
+}
+
+.narrowcolumn .entry {
+	LINE-HEIGHT: 1.4em
+}
+.widecolumn .entry {
+	LINE-HEIGHT: 1.4em
+}
+.widecolumn .post {
+	MARGIN: 0px
+}
+
+.narrowcolumn .postmetadata {
+	TEXT-ALIGN: center
+}
+
+.narrowcolumn .postmetadata {
+	PADDING-TOP: 5px
+}
+.widecolumn .postmetadata {
+	MARGIN: 30px 0px
+}
+
+BLOCKQUOTE {
+	PADDING-LEFT: 40px;
+	MARGIN: 15px 30px 0px 10px;
+	COLOR: #867663;
+	padding-top: 5px;
+	font-style: italic;
+	padding-bottom: 5px;
+}
+
+BLOCKQUOTE CITE {
+	DISPLAY: block; MARGIN: 5px 0px 0px
+}
+
+SMALL {
+	FONT-SIZE: 0.9em; LINE-HEIGHT: 1.5em; 
+	FONT-FAMILY: Arial, Helvetica, Sans-Serif
+	COLOR: #777
+}
+
+.entry {
+	BORDER-TOP: #7D5B38 1px solid;
+	
+}
+
+.entry P A:visited {
+	COLOR: #b85b5a
+}
+
+.entry UL LI:unknown {
+	content: "» "
+}
+
+.entry UL LI:hover {
+	LIST-STYLE-TYPE: square;
+	color: #660000;
+}
+
+.entry OL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 35px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.entry OL LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px;
+}
+
+.entry FORM {
+	TEXT-ALIGN: center;
+}
+
+.alt {
+	BORDER-TOP: #ddd 1px solid;
+	BORDER-BOTTOM: #ddd 1px solid;
+    BACKGROUND-COLOR:#CCCC99;
+	PADDING-RIGHT: 10px; 	
+	PADDING-LEFT: 10px;
+	PADDING-BOTTOM: 10px;
+	MARGIN: 0px;
+	PADDING-TOP: 10px;
+}
+
+.description {
+	FONT-SIZE: 1.2em;
+	TEXT-ALIGN: center;
+	COLOR: #7D5B38;
+	TEXT-DECORATION: none;
+	TEXT-ALIGN: left;
+	margin-left: 5px;
+}
+
+H1 { 
+	FONT-FAMILY: 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	FONT-SIZE: 3em;
+	TEXT-ALIGN: left;
+	COLOR: #7D5B38; 
+	MARGIN: 5px 0px 0px 5px; 
+}
+H1 A {
+	COLOR: #7D5B38;
+}
+H1 A:hover {
+	color: #660000;
+}
+H1 A:visited {
+	COLOR: #7D5B38;
+}
+
+H2 {
+    FONT-WEIGHT: bold; 
+	FONT-FAMILY: 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, Sans-Serif;
+    COLOR: #7D5B38;
+	FONT-SIZE: 1.6em;
+	TEXT-DECORATION: none;
+	MARGIN: 30px 0px 0px;
+}
+H2.pagetitle {
+	FONT-SIZE: 1.6em;
+	MARGIN-TOP: 30px; 
+	TEXT-ALIGN: center;
+}
+
+H2 A {
+	COLOR: #7D5B38;
+	TEXT-DECORATION: none;
+}
+H2 A:visited {
+	COLOR: #7D5B38;
+	TEXT-DECORATION: none;
+}
+
+H2 A:hover {
+COLOR: #06c; 
+TEXT-DECORATION: none;
+}
+
+H3 {
+	FONT-WEIGHT: bold; FONT-FAMILY: 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	FONT-SIZE: 1.3em;
+	COLOR: #7D5B38;
+	TEXT-DECORATION: none;
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 30px 0px 0px; PADDING-TOP: 0px;
+
+}
+
+H3.comments {
+	PADDING-RIGHT: 0px; 
+	PADDING-LEFT: 0px; 
+	PADDING-BOTTOM: 0px; 
+	MARGIN: 40px auto 20px; 
+	PADDING-TOP: 0px;
+}
+
+H3 A {
+	COLOR: #7D5B38;
+	TEXT-DECORATION: none;
+}
+H3 A:visited {
+	COLOR: #7D5B38;
+	TEXT-DECORATION: none;
+}
+
+H3 A:hover {
+COLOR: #06c; 
+TEXT-DECORATION: none;
+
+}
+
+#searchform {
+	PADDING-RIGHT: 3px;
+	PADDING-LEFT: 3px;
+	PADDING-BOTTOM: 5px;
+	MARGIN: 10px auto;
+	PADDING-TOP: 5px;
+	TEXT-ALIGN: center;
+}
+
+input, textarea {
+	border: 1px solid #A1A19F;
+	margin: 1px 2px;
+	-moz-border-radius: 4px;
+	background-color: #FFFFCC;
+	}
+input:hover, textarea:hover { 
+	border-color: #666; 
+	background-color: #DBCD9C;
+	}
+input:focus, textarea:focus {
+	border-color: #7D5B38; 
+	background-color: #DBCD9C;
+	}
+
+CITE {
+	TEXT-DECORATION: none
+}
+STRIKE {
+	COLOR: #777
+}
+CODE {
+	FONT: 1.1em 'Courier New', Courier, Fixed
+}
+
+UNKNOWN {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 10px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 0px; TEXT-INDENT: -10px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+	MARGIN: 7px 0px 8px 10px
+}
+SELECT {
+	WIDTH: 130px
+}
+ACRONYM {
+BORDER-BOTTOM: #999 1px dashed
+FONT-SIZE: 0.9em; LETTER-SPACING: 0.07em
+	CURSOR: help
+}
+abbr {
+FONT-SIZE: 0.9em; LETTER-SPACING: 0.07em
+	CURSOR: help
+	BORDER-BOTTOM: #999 1px dashed
+}
+SPAN.caps {
+	CURSOR: help
+	FONT-SIZE: 0.9em; LETTER-SPACING: 0.07em
+}
+
+.center {
+	TEXT-ALIGN: center
+}
+
+HR {
+	DISPLAY: none;
+}
+
+#footer P {
+	MARGIN: 0px;
+	TEXT-ALIGN: center;
+	padding-top: 15px;
+	FONT-FAMILY: 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, Sans-Serif;
+}
+
+A {
+	COLOR: #06c; TEXT-DECORATION: none
+}
+
+A:hover {
+	COLOR: #147; TEXT-DECORATION: underline
+}
+
+A IMG {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+
+P IMG {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; max-width: 100%
+}
+IMG.centered {
+	DISPLAY: block; MARGIN-LEFT: auto; MARGIN-RIGHT: auto
+}
+IMG.alignright {
+	PADDING-RIGHT: 4px; DISPLAY: inline; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; MARGIN: 0px 0px 2px 7px; PADDING-TOP: 4px
+}
+IMG.alignleft {
+	PADDING-RIGHT: 4px; DISPLAY: inline; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; MARGIN: 0px 7px 2px 0px; PADDING-TOP: 4px
+}
+.alignright {
+	FLOAT: right
+}
+.alignleft {
+	FLOAT: left
+}
+
+.postmetadata {
+	COLOR: #777
+}
+.postmetadata UL {
+	DISPLAY: inline; LIST-STYLE-IMAGE: none; LIST-STYLE-TYPE: none
+}
+.postmetadata LI {
+	DISPLAY: inline; LIST-STYLE-IMAGE: none; LIST-STYLE-TYPE: none
+}
+
+OL LI {
+	LIST-STYLE-POSITION: outside; LIST-STYLE-TYPE: decimal
+}
+
+.navigation {
+	MARGIN-TOP: 10px; DISPLAY: block; MARGIN-BOTTOM: 60px; TEXT-ALIGN: center
+}
+
+
+/* Comments */
+#commentform INPUT {
+	FONT: 0.9em 'Lucida Grande', Verdana, Arial, Sans-Serif;
+}
+#commentform TEXTAREA {
+	FONT: 0.9em 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	PADDING-RIGHT: 2px; 
+	PADDING-LEFT: 2px; 
+	PADDING-BOTTOM: 2px; 
+	WIDTH: 100%; 
+	PADDING-TOP: 2px;
+}
+#commentform INPUT {
+	PADDING-RIGHT: 2px; 
+	PADDING-LEFT: 2px; 
+	PADDING-BOTTOM: 2px; 
+	MARGIN: 5px 5px 1px 0px; 
+	WIDTH: 170px; 
+	PADDING-TOP: 2px;
+}
+
+#commentform #submit {
+	FLOAT: right; 
+	MARGIN: 0px;
+	background-color: #DBCD9C;
+	border: 1px solid #7D5B38;
+	color: #7D5B38;
+}
+
+#commentform P {
+	MARGIN: 5px 0px
+}
+
+.commentlist LI {
+	FONT: 0.9em 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	PADDING-RIGHT: 10px; 
+	PADDING-LEFT: 10px; 
+	PADDING-BOTTOM: 3px; 
+	MARGIN: 15px 0px 3px; 
+	PADDING-TOP: 5px; 
+	LIST-STYLE-TYPE: none;
+}
+.commentlist {
+	PADDING-RIGHT: 0px; 
+	PADDING-LEFT: 0px; P
+	ADDING-BOTTOM: 0px; 
+	PADDING-TOP: 0px; 
+}
+
+.commentlist CITE {
+	 FONT-SIZE: 1.1em; 
+	 FONT-STYLE: normal
+}
+.commentlist CITE A {
+	FONT-SIZE: 1.1em; 
+	FONT-STYLE: normal;
+}
+.commentlist P {
+	MARGIN: 10px 5px 10px 0px;
+	 LINE-HEIGHT: 1.5em;
+	FONT-FAMILY: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+}
+
+.commentmetadata {
+	DISPLAY: block; 
+	MARGIN: 0px;
+}
+
+.nocomments {
+	PADDING-RIGHT: 0px; 
+	PADDING-LEFT: 0px; 
+	PADDING-BOTTOM: 0px; 
+	MARGIN: 0px; 
+	PADDING-TOP: 0px; 
+	TEXT-ALIGN: center
+	COLOR: #777
+}
+
+/* Sidebar */
+#sidebar {
+	FONT: 1.1em Georgia, Verdana, "times New Roman", Times, Serif;
+	}
+	
+#sidebar H2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 5px 0px 0px; PADDING-TOP: 0px
+}
+
+#sidebar FORM {
+	MARGIN: 0px
+}
+
+#sidebar H2 {
+	FONT-SIZE: 1.2em; 
+	FONT-FAMILY: 'Lucida Grande', Verdana, Sans-Serif;
+	TEXT-DECORATION: none;
+}
+#sidebar #searchform #s {
+	PADDING-RIGHT: 2px;
+	PADDING-LEFT: 2px;
+	PADDING-BOTTOM: 2px;
+	WIDTH: 115px;
+	PADDING-TOP: 2px;
+}
+
+#sidebar #searchsubmit {
+	PADDING-RIGHT: 1px;
+	PADDING-LEFT: 1px;
+	PADDING-BOTTOM: 1px;
+	PADDING-TOP: 1px;
+	background-color: #DBCD9C;
+	border: 1px solid #7D5B38;
+	color: #7D5B38;
+	-moz-border-radius: 4px;
+}
+
+#sidebar UL UL LI:unknown {
+	content: "» "
+}
+
+#sidebar UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#sidebar UL OL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#sidebar UL LI {
+	LIST-STYLE-IMAGE: none; 
+	MARGIN-BOTTOM: 15px; 
+	LIST-STYLE-TYPE: none;
+}
+
+#sidebar UL UL LI {
+	COLOR: #777
+}
+
+#sidebar UL OL LI {
+	COLOR: #777
+}
+#sidebar UL P {
+	MARGIN: 5px 0px 8px
+}
+#sidebar UL SELECT {
+	MARGIN: 5px 0px 8px
+}
+#sidebar UL UL {
+	MARGIN: 5px 0px 0px 10px
+}
+#sidebar UL OL {
+	MARGIN: 5px 0px 0px 10px
+}
+#sidebar UL UL UL {
+	MARGIN: 0px 0px 0px 10px
+}
+#sidebar UL OL {
+	MARGIN: 0px 0px 0px 10px
+}
+#sidebar UL OL LI {
+	LIST-STYLE-POSITION: outside; 
+	LIST-STYLE-TYPE: decimal;
+}
+#sidebar UL UL LI {
+	PADDING-RIGHT: 0px; 
+	PADDING-LEFT: 0px; 
+	PADDING-BOTTOM: 0px; 
+	MARGIN: 3px 0px 0px; 
+	PADDING-TOP: 0px;
+}
+#sidebar UL OL LI {
+	PADDING-RIGHT: 0px; 
+	PADDING-LEFT: 0px; 
+	PADDING-BOTTOM: 0px; 
+	MARGIN: 3px 0px 0px; 
+	PADDING-TOP: 0px;
+}	
+
+/* calendar */
+#wp-calendar {
+	background-color: #FFFFCC;
+	empty-cells: show;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #654D35;
+	font-weight:bold;
+	width: 160px;
+	margin-bottom: 8px;
+	border: 1px solid #918867;
+}
+
+#wp-calendar #next a, #wp-calendar #next {
+	padding: 0 5px 0 0;
+	text-align: center;
+	color: #8A6C46;
+	background-color: #FFFFCC;
+	font-weight:normal;
+	background-image: none;
+	}
+
+#wp-calendar #prev a, #wp-calendar #prev{
+	padding: 0 0 0 5px;
+	text-align: center;
+	color: #8A6C46;
+	background-color: #FFFFCC;
+	font-weight:normal;
+	background-image: none;
+	}
+
+#wp-calendar a {
+	display: block;
+	text-decoration: none;
+	color: #6E2224;
+	}
+
+#wp-calendar td:hover {
+	background-color: #DBCD9C;
+	}
+
+#wp-calendar caption {
+	text-align: center;
+	padding-bottom: 2px;
+	padding-left: 2px;
+	}
+
+#wp-calendar td { 	
+	color: #666;
+	font-size: 10px;
+	font-weight: normal;
+	padding: 1px 1px;
+	text-align: center;
+	}
+	
+#wp-calendar td.pad {
+	background-color: #FFFFCC;
+	}
+	
+#wp-calendar td {
+	border-bottom: 1px solid #ccc; 
+	border-right: 1px solid #ccc; 
+	text-align: center;
+}	
+	
+#wp-calendar #today {
+	color: #FFF;
+	}
+
+#wp-calendar th {
+	background-color: #DBCD9C;
+	border: 1px solid #7D5B38;
+	color: #7D5B38;
+	font-style: normal;
+	text-transform: lowercase;
+	text-align:center;
+	}
+
+/* Toolbar Tooltip */
+a.tooltip, a.tooltip:link, a.tooltip:visited, a.tooltip:active  {
+  position: relative;
+  text-decoration: none; 
+  }
+  
+a.tooltip:hover {
+  background: transparent;
+  }
+
+a.tooltip span {
+  display: none;  
+  text-decoration: none; 
+}
+
+a.tooltip:hover span {
+	display: block;
+	position: absolute;
+	z-index: 100;
+	color: #7D5B38;
+	border:1px solid #7D5B38;
+	background: #FFFFCC;
+	font: .9em 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	top: -20px;
+	cursor: crosshair;
+	padding: 5px;
+  }
+
+/* End Toolbar Tooltip */

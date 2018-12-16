@@ -1,0 +1,1146 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: vistered-little el 1.0\n"
+"Report-Msgid-Bugs-To: tom@windyroad.org\n"
+"POT-Creation-Date: 2007-06-19 18:56+1000\n"
+"PO-Revision-Date: 2008-02-18 12:58+0200\n"
+"Last-Translator: Ελένη <stergatu@cti.gr>\n"
+"Language-Team: NTS on cti.gr <nts@cti.gr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Greek\n"
+"X-Poedit-Country: GREECE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: ../skins/default/functions.php:5
+msgid "Width"
+msgstr "Πλάτος"
+
+#: ../skins/default/functions.php:7
+msgid "Narrow"
+msgstr ""
+
+#: ../skins/default/functions.php:9
+msgid "Wide"
+msgstr "Πλατύ"
+
+#: ../skins/default/functions.php:11
+#: ../skins/default/functions.php:20
+#: ../functions.php:35
+#: ../functions.php:61
+#: ../functions.php:70
+#: ../functions.php:81
+#: ../functions.php:89
+#: ../functions.php:99
+#: ../functions.php:109
+#: ../functions.php:125
+#: ../functions.php:149
+#: ../functions.php:161
+#: ../functions.php:171
+#: ../functions.php:181
+#: ../functions.php:203
+#: ../functions.php:212
+msgid "default"
+msgstr "default"
+
+#: ../skins/default/functions.php:13
+msgid "Flex"
+msgstr ""
+
+#: ../skins/default/functions.php:15
+msgid "Select the page width."
+msgstr "Επιλέξτε το πλάτος της σελίδας."
+
+#: ../skins/default/functions.php:16
+msgid "Tone"
+msgstr "Τόνος"
+
+#: ../skins/default/functions.php:18
+msgid "Dark"
+msgstr "Σκούρο"
+
+#: ../skins/default/functions.php:22
+msgid "Light"
+msgstr "Φωτεινό"
+
+#: ../skins/default/functions.php:24
+msgid "Select the tone."
+msgstr "Επιλογή τόνου."
+
+#: ../tags.php:27
+msgid "Well, you should be seeing a pretty nifty tag cloud here, however it looks like someone has disabled it and forgot to hide/delete this page."
+msgstr ""
+
+#: ../single-comment.php:57
+#: ../comments.php:19
+msgid "Your comment is awaiting moderation."
+msgstr "Το σχόλιό σας αναμένει την έγκριση του διαχειριστή."
+
+#. if there's a password
+#. and it doesn't match the cookie
+#: ../yatcp_comments.php:26
+msgid "This post is password protected. To view it please enter your password below:"
+msgstr "Αυτή η δημοσίευση είναι προστατευμένη με κωδικό. Για να τη δείτε δώστε τον κωδικό παρακάτω:"
+
+#. You can start editing here.
+#: ../404.php:12
+#: ../header.php:36
+msgid "Page not found"
+msgstr "Η σελίδα δεν βρέθηκε"
+
+#: ../404.php:13
+msgid "You have reached a non-existant url. This address is either outdated or incorrectly linked."
+msgstr ""
+
+#: ../comments-form.php:9
+msgid "Leave a comment"
+msgstr "Αφήστε ένα σχόλιο"
+
+#: ../comments-form.php:11
+msgid "Names and email addresses are required (email addresses aren't displayed), url's are optional."
+msgstr ""
+
+#: ../comments-form.php:12
+msgid "Comments may contain the following xhtml tags:"
+msgstr ""
+
+#: ../comments-form.php:50
+msgid "Name"
+msgstr "Όνομα"
+
+#: ../comments-form.php:54
+msgid "E-mail"
+msgstr "E-mail"
+
+#: ../comments-form.php:58
+msgid "Uniform Resource Identifier"
+msgstr "Uniform Resource Identifier"
+
+#: ../comments-form.php:58
+msgid "URI"
+msgstr "URI"
+
+#: ../comments-form.php:66
+msgid "You are logged in as"
+msgstr "Συνδεδεμένος ως"
+
+#: ../comments-form.php:73
+msgid "I'm done, post it."
+msgstr "Τελείωσα, δημοσίευσε το."
+
+#: ../footer.php:13
+#: ../widgets.php:252
+#: ../widgets.php:256
+msgid "Newer"
+msgstr "Νεώτερο"
+
+#: ../footer.php:14
+#: ../widgets.php:253
+#: ../widgets.php:257
+msgid "Older"
+msgstr "Παλιότερα"
+
+#: ../footer.php:23
+#: ../widgets.php:332
+msgid "Theme"
+msgstr "Θέμα"
+
+#: ../footer.php:24
+#: ../index.php:66
+#: ../search.php:36
+msgid "by"
+msgstr "από"
+
+#: ../functions.php:35
+msgid "Random"
+msgstr "Τυχαίο"
+
+#: ../functions.php:46
+msgid "Select a default wallpaper for your page."
+msgstr ""
+
+#: ../functions.php:48
+msgid "Enter the width of the logo in pixels. The default is 500."
+msgstr ""
+
+#: ../functions.php:49
+msgid "Enter the height of the logo in pixels. The default is 90."
+msgstr ""
+
+#: ../functions.php:52
+msgid "An attempt will be made to determine the logo width automatically."
+msgstr ""
+
+#: ../functions.php:53
+msgid "An attempt will be made to determine the logo height automatically."
+msgstr ""
+
+#: ../functions.php:57
+msgid "Sidebar Location"
+msgstr "Θέση Παράπλευρης μπάρας"
+
+#: ../functions.php:59
+#: ../functions.php:111
+msgid "Right"
+msgstr "Δεξιά"
+
+#: ../functions.php:63
+#: ../functions.php:107
+msgid "Left"
+msgstr "Αριστερά"
+
+#: ../functions.php:65
+msgid "Select which side of the page you want your sidebar to be on."
+msgstr ""
+
+#: ../functions.php:67
+#, fuzzy
+msgid "Side Bar Type"
+msgstr "Μη επιτρεπόμενος τύπος αρχείου"
+
+#: ../functions.php:69
+msgid "Single Position"
+msgstr "Απλή θέση"
+
+#: ../functions.php:71
+msgid "Quad Position"
+msgstr ""
+
+#: ../functions.php:73
+msgid "A quad position sidebar allows you to configure widgets that are displayed in a wide section at the top of the side bar, on the left and right of the side bar and a wide sections at the bottom of the side bar."
+msgstr ""
+
+#: ../functions.php:75
+msgid "Header Position"
+msgstr "Θέση Κεφαλίδας"
+
+#: ../functions.php:77
+msgid "Normal"
+msgstr "Κανονικό"
+
+#: ../functions.php:79
+msgid "Fixed"
+msgstr ""
+
+#: ../functions.php:83
+msgid "Select whether the header should have normal or Fixed positioning."
+msgstr ""
+
+#: ../functions.php:85
+#, fuzzy
+msgid "Header Search Field"
+msgstr "Το προσαρμοσμένο πεδίο διαγράφηκε."
+
+#: ../functions.php:87
+#: ../functions.php:127
+#: ../functions.php:159
+#: ../functions.php:169
+#: ../functions.php:210
+msgid "Show"
+msgstr "Προβολή"
+
+#: ../functions.php:91
+#: ../functions.php:123
+#: ../functions.php:163
+#: ../functions.php:173
+#: ../functions.php:214
+msgid "Hide"
+msgstr "Απόκρυψη"
+
+#: ../functions.php:93
+msgid "Select whether to display a search box in the header."
+msgstr ""
+
+#: ../functions.php:95
+msgid "Thumbnail Frames"
+msgstr "Πλαίσια Μικρογραφίας"
+
+#: ../functions.php:97
+#, fuzzy
+msgid "Use CSS Border"
+msgstr "Χρώμα γραμματοσειράς (CSS):"
+
+#: ../functions.php:101
+msgid "Use Image"
+msgstr "Χρήση Εικόνας"
+
+#: ../functions.php:103
+msgid "Select whether to use a CSS border or an image to frame the wallpaper thumbnails."
+msgstr ""
+
+#: ../functions.php:105
+msgid "Thumbnail Location"
+msgstr "Θέση Μικρογραφίας"
+
+#: ../functions.php:113
+#: ../functions.php:329
+#: ../monosidebar.php:11
+msgid "Sidebar"
+msgstr "Παράπλευρη μπάρα"
+
+#: ../functions.php:115
+msgid "None"
+msgstr "Κανένα"
+
+#: ../functions.php:117
+msgid "Select where you would like the thumbnails to be displayed."
+msgstr ""
+
+#: ../functions.php:121
+msgid "Random Wallpaper Option"
+msgstr ""
+
+#: ../functions.php:129
+msgid "Select if a thumbnail should be shown to the user to have random wallpapers."
+msgstr ""
+
+#: ../functions.php:131
+msgid "Logo Path"
+msgstr "Διαδρομή για το λογότυπο"
+
+#: ../functions.php:133
+#: ../functions.php:193
+#, fuzzy
+msgid "Enter the path (relative to \""
+msgstr "Διαδρομή στα αρχεία GM:"
+
+#: ../functions.php:135
+msgid "\") to the directory containing your site logos or the path to a single logo (leave blank to use \""
+msgstr ""
+
+#: ../functions.php:137
+msgid "\" instead).<br/>If a directory is specified, then every time the site is displayed, a random logo will be selected from this directory.<br/>Recognised types: gif, png, jpeg and tiff"
+msgstr ""
+
+#: ../functions.php:139
+msgid "Logo Width"
+msgstr "Πλάτος λογότυπου"
+
+#: ../functions.php:142
+msgid "Logo Height"
+msgstr "Ύψος λογότυπου"
+
+#: ../functions.php:145
+#, fuzzy
+msgid "Archive Links"
+msgstr "Εισερχόμενοι Σύνδεσμοι"
+
+#: ../functions.php:147
+msgid "Older and Newer"
+msgstr "Παλιότερα και Νεώτερα"
+
+#: ../functions.php:151
+msgid "Monthly"
+msgstr "Μηνιαία"
+
+#: ../functions.php:153
+msgid "Both"
+msgstr "και τα δύο"
+
+#: ../functions.php:155
+msgid "Select if the Archived menu should display an Older/Newer link, Monthly links or both."
+msgstr ""
+
+#: ../functions.php:157
+msgid "Credits"
+msgstr ""
+
+#: ../functions.php:165
+msgid "If you like Vistered Little, then you can say thank you by showing me some link love.  Otherwise you can disable the link in the footer by selecting hide."
+msgstr ""
+
+#: ../functions.php:167
+#, fuzzy
+msgid "Credits in Meta"
+msgstr "Σχόλια για επιθεώρηση (%s)"
+
+#: ../functions.php:175
+msgid "You can also hide the link to Vistered Little in the Meta widget, by selecting hide here."
+msgstr ""
+
+#: ../functions.php:177
+#, fuzzy
+msgid "Credits in Head"
+msgstr "Σχόλια για επιθεώρηση (%s)"
+
+#: ../functions.php:179
+#, fuzzy
+msgid "Include"
+msgstr "Πίνακες να περιεχθούν:"
+
+#: ../functions.php:183
+msgid "Remove"
+msgstr "Αφαίρεση"
+
+#: ../functions.php:185
+msgid "There is one more link to Vistered Little, which is located in the xhtml head section (i.e. not visible).  Select remove to get rid of it as well."
+msgstr ""
+
+#: ../functions.php:187
+#, fuzzy
+msgid "Comment Policy"
+msgstr "Κατάσταση Σχολίου"
+
+#: ../functions.php:189
+msgid "Here you can specify the comment moderation policy for your site."
+msgstr ""
+
+#: ../functions.php:191
+msgid "Customization directory"
+msgstr ""
+
+#: ../functions.php:195
+msgid "\") to a directory containing custom stylesheets and/or custom php files.<br/>Files ending with \".css\" or \".css.php\" will be included as stylesheets.  Files ending in \"-ie.css\" or \"-ie.css.php\" will also be included as stylesheets, but will only be visible to IE 6.  All other files ending in \".php\" will be included at the end of this themes \"functions.php\" file."
+msgstr ""
+
+#: ../functions.php:198
+#, fuzzy
+msgid "Sideblog format"
+msgstr "Προεπιλεγμένη μορφή ημερομηνίας:"
+
+#: ../functions.php:200
+msgid "Combined"
+msgstr ""
+
+#: ../functions.php:202
+msgid "Separated ("
+msgstr ""
+
+#: ../functions.php:205
+msgid "If you want your sideblog to display in a single box, select \"Combined\" and set the sideblog display format to <pre><code>&lt;div&gt;&lt;h4&gt;%title_url%&lt;/h4&gt;%content%&lt;/div&gt;</code></pre>If you want the sideblog title and posts to appear in separate boxes, select \"Separated\" and set the sideblog display format to <pre><code>&lt;div class=\"menubefore\"&gt;&lt;/div&gt;&lt;div class=\"menu\"&gt;&lt;h4&gt;%title_url%&lt;/h4&gt;%content%&lt;/div&gt;&lt;div class=\"menuafter\"&gt;&lt;/div&gt;</code></pre>"
+msgstr ""
+
+#: ../functions.php:208
+msgid "Show Author"
+msgstr "Εμφάνιση Συγγραφέα"
+
+#: ../functions.php:216
+msgid "Select Hide if you don't want the author to be displayed at the top of posts."
+msgstr ""
+
+#: ../functions.php:218
+msgid "Font"
+msgstr "Γραμματοσειρά"
+
+#: ../functions.php:220
+msgid "Specify the font you want to use for the site."
+msgstr ""
+
+#: ../functions.php:221
+msgid "<br/>The default is <code>\"verdana\", sans-serif</code>"
+msgstr ""
+
+#: ../functions.php:223
+msgid "Title Font"
+msgstr "Χρώμα Τίτλου"
+
+#: ../functions.php:225
+msgid "Specify the font you want to use for the site's Title."
+msgstr ""
+
+#: ../functions.php:226
+msgid "<br/>The default is <code>\"Trebuchet MS\", sans-serif</code>"
+msgstr ""
+
+#: ../functions.php:228
+msgid "Font Size"
+msgstr "Μέγεθος γραμμάτων"
+
+#: ../functions.php:230
+msgid "Specify the font size you want to use for the site."
+msgstr ""
+
+#: ../functions.php:231
+#, fuzzy
+msgid "<br/>The default is <code>22px</code>"
+msgstr "Προκαθορισμένο είναι <code>wp-content/uploads</code>"
+
+#: ../functions.php:320
+#: ../header.php:187
+#: ../header.php:194
+msgid "Banner"
+msgstr "Banner"
+
+#: ../functions.php:338
+#: ../quadsidebar.php:19
+#, fuzzy
+msgid "Quadbar - Top"
+msgstr "POP3 top:"
+
+#: ../functions.php:345
+#: ../quadsidebar.php:32
+#, fuzzy
+msgid "Quadbar - Left"
+msgstr "Στοίχιση Αριστερά"
+
+#: ../functions.php:348
+#: ../quadsidebar.php:50
+#, fuzzy
+msgid "Quadbar - Right"
+msgstr "Στοίχιση Δεξιά"
+
+#: ../functions.php:351
+#: ../quadsidebar.php:71
+msgid "Quadbar - Bottom"
+msgstr ""
+
+#: ../functions.php:356
+msgid "Footer Bar"
+msgstr "Μπάρα υποσέλιδου"
+
+#: ../functions.php:365
+#: ../index.php:92
+#, fuzzy
+msgid "End Of Post"
+msgstr "Συγγραφέας δημοσίευσης"
+
+#: ../functions.php:373
+#: ../index.php:12
+#: ../index.php:18
+#, fuzzy
+msgid "2nd Banner"
+msgstr "Δεν υπάρχει banner διακομιστή (server banner)"
+
+#: ../functions.php:381
+#: ../index.php:27
+#: ../index.php:33
+#, fuzzy
+msgid "3rd Banner"
+msgstr "Δεν υπάρχει banner διακομιστή (server banner)"
+
+#: ../header.php:7
+#: ../header.php:12
+#: ../header.php:17
+#: ../header.php:27
+#: ../header.php:32
+#: ../header.php:37
+#: ../header.php:57
+msgid "@"
+msgstr "@"
+
+#: ../header.php:113
+#: ../header.php:151
+msgid "Search"
+msgstr "Αναζήτηση"
+
+#: ../header.php:114
+msgid "Type and press enter."
+msgstr "Πληκτρολογήστε και πατήστε enter."
+
+#: ../header.php:172
+msgid "Go home."
+msgstr "Επιστροφή στην αρχική."
+
+#: ../index.php:53
+#: ../index.php:58
+#, fuzzy
+msgid "Permalink for"
+msgstr "Σχόλια για %s"
+
+#: ../index.php:60
+#: ../search.php:32
+msgid "Posted on"
+msgstr "Posted on"
+
+#: ../index.php:69
+msgid "edit."
+msgstr "επεξεργασία."
+
+#: ../index.php:71
+#: ../monosidebar.php:28
+#: ../quadsidebar.php:58
+msgid "Categories"
+msgstr "Κατηγορίες"
+
+#: ../index.php:79
+msgid "Next"
+msgstr "Επόμενο"
+
+#: ../index.php:80
+msgid "Previous"
+msgstr "Προηγούμενο"
+
+#: ../index.php:86
+msgid "Pages:"
+msgstr "Σελίδες:"
+
+#: ../index.php:123
+#: ../index.php:128
+msgid "no comments yet."
+msgstr "Δεν υπάρχουν ακόμη σχόλια."
+
+#: ../index.php:124
+#: ../index.php:129
+msgid "1 comment."
+msgstr "1 σχόλιο."
+
+#: ../index.php:125
+#: ../index.php:130
+#, fuzzy, php-format
+msgid "% comments."
+msgstr "% σχόλια."
+
+#: ../index.php:163
+msgid "There are no posts relating to your query."
+msgstr ""
+
+#: ../miniwidgets.php:84
+msgid "Style:"
+msgstr "Στυλ:"
+
+#: ../miniwidgets.php:85
+msgid "Class:"
+msgstr "Class:"
+
+#: ../miniwidgets.php:86
+#, fuzzy
+msgid "Hide on front page"
+msgstr "Δεν μπορέσαμε να εντοπίσουμε τίτλο για τη σελίδα αυτή."
+
+#: ../miniwidgets.php:87
+#, fuzzy
+msgid "Hide on individual posts"
+msgstr "Προβολή όλων των άρθρων στο %s"
+
+#: ../miniwidgets.php:88
+#, fuzzy
+msgid "Hide on \"pages\""
+msgstr "Δεν υπάρχουν σελίδες ακόμα."
+
+#: ../miniwidgets.php:89
+#, fuzzy
+msgid "Hide on category archives"
+msgstr "Βλέπεις το αρχείο για την κατηγορία '%s'"
+
+#: ../miniwidgets.php:90
+msgid "Hide on date based archives"
+msgstr ""
+
+#: ../miniwidgets.php:118
+#: ../miniwidgets.php:124
+msgid "MW &raquo; "
+msgstr "MW &raquo; "
+
+#: ../miniwidgets.php:139
+msgid "Print This Post"
+msgstr "Εκτύπωση αυτής της δημοσίευσης"
+
+#: ../miniwidgets.php:170
+msgid "Sociable"
+msgstr ""
+
+#: ../miniwidgets.php:178
+msgid "Tags: "
+msgstr "Ετικέτες:"
+
+#: ../miniwidgets.php:182
+msgid "Jerome's Keywords"
+msgstr "Jerome's Λέξεις -κλειδιά"
+
+#: ../miniwidgets.php:190
+#, fuzzy
+msgid "Bunny's Technorati Tags"
+msgstr "Εισαγωγή Ετικετών Bunny&#8217;s Technorati "
+
+#: ../miniwidgets.php:245
+msgid "Related Posts:"
+msgstr "Σχετικές Δημοσιεύσεις"
+
+#: ../miniwidgets.php:251
+#, fuzzy
+msgid "UTW Primary Tags"
+msgstr "Ανάγνωση UTW Tags&#8230;"
+
+#: ../miniwidgets.php:252
+#, fuzzy
+msgid "UTW Secondary Tags"
+msgstr "Ανάγνωση UTW Tags&#8230;"
+
+#: ../miniwidgets.php:253
+#, fuzzy
+msgid "UTW Related Posts"
+msgstr "Δεν βρέθηκαν δημοσιεύσεις."
+
+#: ../miniwidgets.php:266
+msgid "More From Google"
+msgstr "Περισσότερα από Google"
+
+#: ../miniwidgets.php:273
+msgid "WP-EMail"
+msgstr "WP-EMail"
+
+#: ../monosidebar.php:22
+#: ../quadsidebar.php:52
+msgid "Pages"
+msgstr "Σελίδες"
+
+#: ../search.php:20
+msgid "Posts related to"
+msgstr "Δημοσιεύσεις σχετικές με"
+
+#: ../search.php:40
+msgid "edit"
+msgstr "επεξεργασία"
+
+#: ../search.php:42
+msgid "Categories:"
+msgstr "Κατηγορίες:"
+
+#: ../search.php:53
+msgid "There are no posts relating to"
+msgstr "Δεν υπάρχουν δημοσιεύσεις σχετικές με"
+
+#: ../widgets.php:11
+#: ../widgets.php:22
+#: ../widgets.php:28
+msgid "You can leave a"
+msgstr "Μπορείτε να αφήσετε ένα"
+
+#: ../widgets.php:12
+#: ../widgets.php:23
+msgid "comment"
+msgstr "σχόλιο"
+
+#: ../widgets.php:13
+msgid "on or"
+msgstr "στο ή"
+
+#: ../widgets.php:14
+#: ../widgets.php:29
+msgid "Trackback to"
+msgstr "Παράθεση στο"
+
+#: ../widgets.php:15
+#: ../widgets.php:30
+msgid "trackback"
+msgstr "trackback"
+
+#: ../widgets.php:17
+#: ../widgets.php:32
+#, fuzzy
+msgid "to this"
+msgstr "Για την έγκριση αυτού του σχολίου, επισκεφθείτε: %s"
+
+#: ../widgets.php:24
+msgid "on this"
+msgstr "σε αυτό"
+
+#: ../widgets.php:45
+msgid "Home"
+msgstr "Αρχική"
+
+#: ../widgets.php:55
+msgid "Attachment"
+msgstr "Συνημμένο"
+
+#: ../widgets.php:59
+msgid "You are viewing the attachment"
+msgstr "Βλέπετε το συνημμένο"
+
+#: ../widgets.php:63
+msgid "attachment"
+msgstr "συνημμένο"
+
+#: ../widgets.php:69
+msgid "Post Information"
+msgstr "Πληροφορίες Δημοσίευσης"
+
+#: ../widgets.php:73
+#: ../widgets.php:118
+msgid "You are reading"
+msgstr "Διαβάζετε"
+
+#: ../widgets.php:83
+msgid "Oops!"
+msgstr "Oops!"
+
+#: ../widgets.php:94
+#: ../widgets.php:106
+#: ../widgets.php:130
+#: ../widgets.php:146
+#: ../widgets.php:173
+#: ../widgets.php:187
+msgid "You are looking at posts"
+msgstr "Βλέπετε δημοσιεύσεις"
+
+#: ../widgets.php:96
+msgid "that were written on"
+msgstr "γράψτηκε στο"
+
+#: ../widgets.php:108
+msgid "in the category"
+msgstr "στην κατηγορία"
+
+#: ../widgets.php:114
+msgid "Page Information"
+msgstr "Πληροφορίες Σελίδας"
+
+#: ../widgets.php:132
+#: ../widgets.php:148
+msgid "that were written"
+msgstr "γράψτηκαν"
+
+#: ../widgets.php:134
+msgid "in the month of"
+msgstr "στο μήνα"
+
+#: ../widgets.php:136
+#: ../widgets.php:150
+msgid "in the year"
+msgstr "στο έτος"
+
+#: ../widgets.php:156
+msgid "Search Results"
+msgstr "Αποτελέσματα Αναζήτησης"
+
+#: ../widgets.php:160
+msgid "You searched for"
+msgstr "Ψάχνετε για"
+
+#: ../widgets.php:166
+msgid "Author Archives"
+msgstr "Αρχείο Συγγραφέα"
+
+#: ../widgets.php:175
+msgid "written by"
+msgstr "γραμμένο από τον "
+
+#: ../widgets.php:183
+msgid "Tagged"
+msgstr "Με ετικέτα"
+
+#: ../widgets.php:189
+msgid "that have been tagged"
+msgstr "με ετικέτα"
+
+#: ../widgets.php:202
+msgid "Gallery"
+msgstr "Συλλογή"
+
+#: ../widgets.php:206
+msgid "You are looking at the "
+msgstr "Βλέπετε στο"
+
+#: ../widgets.php:228
+msgid "You came here from"
+msgstr "Φτάσατε εδώ από "
+
+#: ../widgets.php:230
+msgid "searching for"
+msgstr "αναζήτηση για"
+
+#: ../widgets.php:232
+msgid "These posts might also be of interest"
+msgstr ""
+
+#: ../widgets.php:242
+msgid "Archives"
+msgstr "Αρχεία"
+
+#: ../widgets.php:265
+msgid "Post Info"
+msgstr "Πληροφορίες Δημοσίευσης"
+
+#: ../widgets.php:279
+msgid "Wallpaper Selector"
+msgstr ""
+
+#: ../widgets.php:285
+#: ../widgets.php:311
+msgid "Site Meta"
+msgstr "Site Meta"
+
+#: ../widgets.php:289
+#: ../widgets.php:290
+#: ../widgets.php:315
+#: ../widgets.php:316
+msgid "Syndicate this site using RSS 2.0"
+msgstr "Οργανώστε αυτό τον ιστοχώρο χρησιμοποιώντας RSS 2.0"
+
+#: ../widgets.php:292
+#: ../widgets.php:293
+#: ../widgets.php:318
+#: ../widgets.php:319
+msgid "The latest comments to all posts in RSS 2.0"
+msgstr "Τα τελευταία σχόλια σε όλα τα άρθρα σε RSS 2.0"
+
+#: ../widgets.php:302
+msgid "Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr "Παραχωρήθηκε από το WordPress, προηγμένης τεχνολογίας πρωσωπική πλατφόρμα δημοσίευσης."
+
+#: ../widgets.php:332
+msgid "Download your own copy of"
+msgstr "Ανάκτηση αντιγράφου"
+
+#: ../widgets.php:349
+msgid "Title:"
+msgstr "Τίτλος:"
+
+#: ../widgets.php:385
+msgid "Links"
+msgstr "Σύνδεσμοι"
+
+#: ../widgets.php:416
+msgid "Sideblog"
+msgstr ""
+
+#: ../widgets.php:444
+msgid "Text"
+msgstr "Κείμενο"
+
+#~ msgid "Archive for the %s Category"
+#~ msgstr "Αρχείο της Κατηγορίας  %s"
+#~ msgid "Archive for %s"
+#~ msgstr "Αρχείο για %s"
+#~ msgid "F jS, Y"
+#~ msgstr "F jS, Y"
+#~ msgid "F, Y"
+#~ msgstr "F, Y"
+#~ msgid "Blog Archives"
+#~ msgstr "Ιστορικό ιστολογίου"
+#~ msgid "Next Entries"
+#~ msgstr "Επόμενες Δημοσιεύσεις"
+#~ msgid "Posted by: %s in %s"
+#~ msgstr "Δημοσιευμένο από τον : %s στην κατηγορία %s "
+#~ msgid "tags"
+#~ msgstr "ετικέτες"
+#~ msgid "No Comments"
+#~ msgstr "Δεν υπάρχουν σχόλια"
+#~ msgid "Sorry, but you are looking for something that isn't here"
+#~ msgstr "Συγγνώμη αυτό που ψάχνετε δεν είναι εδώ"
+#~ msgid "Archives by Month"
+#~ msgstr "Αρχείο μήνα"
+#~ msgid "Archives by Subject"
+#~ msgstr "Αρχείο θεμάτων"
+#~ msgid "Read the rest of this entry"
+#~ msgstr "Διαβάστε τη συνέχεια της δημοσίευσης"
+#~ msgid "This entry was posted on %s at %s and is filed under %s."
+#~ msgstr "Το άρθρο δημοσιεύτηκε στο %s στις %s στην κατηγορία  %s. "
+#~ msgid "l, F jS, Y"
+#~ msgstr "l, F jS, Y"
+#~ msgid "You can follow any responses to this entry through the %s feed."
+#~ msgstr "Μπορείς να παρακολουθείς τα σχόλια χρησιμοποιώντας το %s feed "
+#~ msgid ""
+#~ "You can <a href=\"#respond\">leave a response</a>, or <a href=\"%s\" rel="
+#~ "\"trackback\">trackback</a> from your own site."
+#~ msgstr ""
+#~ "Μπορείτε να <a href=\"#respond\">αφήσετε ένα σχόλιο</a>, ή <a href=\"%s\" "
+#~ "rel=\"trackback\">να το παραθέσετε</a> από το δικό σας site."
+#~ msgid ""
+#~ "Responses are currently closed, but you can <a href=\"%s\" rel=\"trackback"
+#~ "\">trackback</a> from your own site."
+#~ msgstr ""
+#~ "Τα σχόλια είναι κλειστά, αλλά μπορείς να κάνεις <a href=\"%s\" rel="
+#~ "\"trackback\">παράθεση</a>  από το δικό σου site."
+#~ msgid ""
+#~ "You can <a href=\"#respond\">skip to the end</a> and leave a response. "
+#~ "Pinging is currently not allowed."
+#~ msgstr ""
+#~ "Μπορείς <a href=\"#respond\">να πας στο τέλος </a> και να αφήσεις σχόλιο. "
+#~ "Το Pinging προσωρινά δεν επιτρέπεται."
+#~ msgid "Both comments and pings are currently closed."
+#~ msgstr "Τα σχόλια και τα pings δεν επιτρέπονται. "
+#~ msgid "Edit this entry."
+#~ msgstr "Επεξεργαστείτε τη δημοσίευση."
+#~ msgid "Sorry, no posts matched your criteria."
+#~ msgstr "Συγνώμη, καμία δημοσίευση δεν ταιριάζει στα κριτήρια σας."
+#~ msgid "No Responses to "
+#~ msgstr "Δεν υπάρχουν σχόλια"
+#~ msgid "One Response to "
+#~ msgstr "Μια απάντηση"
+#~ msgid "% Responses to "
+#~ msgstr "% απαντήσεις στο "
+#~ msgid "%s says:"
+#~ msgstr "%s είπε:"
+#~ msgid "%s at %s"
+#~ msgstr "%s στις %s"
+#~ msgid "Comments are closed."
+#~ msgstr "Σχόλια δεν επιτρέπονται."
+#~ msgid "You must be logged in to post a comment."
+#~ msgstr "Πρέπει να συνδεθείτε για να γράψετε ένα σχόλιο."
+#~ msgid "Login"
+#~ msgstr "Σύνδεση"
+#~ msgid "Log out of this account"
+#~ msgstr "Αποσυνδεθείτε από αυτόν το λογαριασμό"
+#~ msgid "required"
+#~ msgstr "απαιτείται"
+#~ msgid "will not be published"
+#~ msgstr "δεν δημοσιοποιείται"
+#~ msgid "Website"
+#~ msgstr "Δικτυακός Τόπος"
+#~ msgid "You can use these tags:"
+#~ msgstr "Μπορείτε να χρησιμοποιείτε τις εξής ετικέτες:"
+#~ msgid "Submit Comment"
+#~ msgstr "Υποβολή Σχολίου "
+#~ msgid "Powered by <a href=\"http://wordpress.org/\">WordPress</a>"
+#~ msgstr "Χρησιμοποιούμε <a href=\"http://wordpress.org/\">WordPress</a> "
+#~ msgid "Entries (RSS)"
+#~ msgstr "Δημοσιεύσεις (RSS)"
+#~ msgid "Comments (RSS)"
+#~ msgstr "Σχόλια (RSS)"
+#~ msgid "Posts by %s"
+#~ msgstr "Δημοσιεύσεις του %s"
+#~ msgid "Update Options &raquo;"
+#~ msgstr "Ενημέρωση Ρυθμίσεων &raquo;"
+#~ msgid "Update Inserts &raquo;"
+#~ msgstr "Ενημέρωση Εισαγωγών&raquo;"
+#~ msgid "Sorry, but you are looking for something that isn't here."
+#~ msgstr "Συγγνώμη ψάχνετε για κάτι που δεν είναι εδώ "
+#~ msgid "Read the rest of this page"
+#~ msgstr "Διαβάστε την συνέχεια της σελίδας"
+#~ msgid "Edit this page"
+#~ msgstr "Επεξεργαστείτε την σελίδα"
+#~ msgid "No posts found. Try a different search?"
+#~ msgstr "Δεν βρέθηκαν δημοσιεύσης. Άλλη αναζήτηση;"
+#~ msgid ""
+#~ "Sorry, no posts matched your search criteria. Please try and search again."
+#~ msgstr ""
+#~ "Δεν βρέθηκαν δημοσιεύσεις που να ταιριάζουν στα κριτήρια σας. Παρακαλούμε "
+#~ "δοκιμάστε αναζήτηση με άλλα κριτήρια."
+#~ msgid "You are currently browsing the archives for the '%s' category."
+#~ msgstr "Βλέπετε το αρχείο της κατηγορίας '%s'."
+#~ msgid ""
+#~ "You are currently browsing the %s weblog archives for posts tagged '%s'."
+#~ msgstr "Βλέπτει το αρχείο %s για δημοσιεύσεις με ετικέτα '%s'."
+#~ msgid "You are currently browsing the %s weblog archives for the day %s."
+#~ msgstr "Βλέπεις το αρχείο του %s για την ημέρα %s. "
+#~ msgid "You are currently browsing the %s weblog archives for %s."
+#~ msgstr "Βλέπεις το αρχείο του %s για την %s."
+#~ msgid "You are currently browsing the %s weblog archives for the year %s."
+#~ msgstr "Βλέπεις το αρχείο του %s για το έτος %s."
+#~ msgid ""
+#~ "You have searched the %s weblog archives for %s. If you are unable to "
+#~ "find anything in these search results, you can try one of these links."
+#~ msgstr ""
+#~ "Ψάξατε το αρχείο του %s για %s.Αν δε βρήκατε αυτό που αναζητήσατε "
+#~ "δοκιμάστε τους παρακάτω συνδέσμους."
+#~ msgid "You are currently browsing the %s weblog archives."
+#~ msgstr "Βλέπετε το αρχείο του %s. "
+#~ msgid "Error 404 - Not Found"
+#~ msgstr "Λάθος 404 - Δεν βρέθηκε"
+#~ msgid "Category"
+#~ msgstr "Κατηγορία "
+#~ msgid "Search results"
+#~ msgstr "Αποτελέσματα Αναζήτησης "
+#~ msgid "&laquo; Previous Page"
+#~ msgstr "&laquo; Προηγούμενη Σελίδα "
+#~ msgid "Next Page &raquo;"
+#~ msgstr "Επόμενη Σελίδα: &raquo; "
+#~ msgid "Filed under:"
+#~ msgstr "Κάτω από:"
+#~ msgid "Get your own gravatar for comments by visiting gravatar.com"
+#~ msgstr ""
+#~ "Αποκτήστε το δικό σας gravatar για τα σχόλια από το δικτυακό τόπο "
+#~ "gravatar.com"
+#~ msgid "Sorry, the comment form is closed at this time."
+#~ msgstr "Συγνώμη, η φόρμα σχολίων είναι απενεργοποιημένη αυτή τη στιγμή."
+#~ msgid "You must be"
+#~ msgstr "Θα πρέπει να είστε "
+#~ msgid "logged in"
+#~ msgstr "συνδεδεμένος"
+#~ msgid "<p><strong>Pages:</strong> "
+#~ msgstr "<p><strong>Σελίδες:</strong> "
+#~ msgid "number"
+#~ msgstr "Αριθμός:"
+#~ msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> 2.0"
+#~ msgstr "<abbr title=\"Really Simple Syndication\">RSS</abbr> 2.0"
+#~ msgid "This page validates as XHTML 1.0 Transitional"
+#~ msgstr "Αυτή η σελίδα έχει πιστοποιηθεί ως XHTML 1.0 Transitional"
+#~ msgid ""
+#~ "Valid <abbr title=\"eXtensible HyperText Markup Language\">XHTML</abbr>"
+#~ msgstr ""
+#~ "Έγκυρο <abbr title=\"eXtensible HyperText Markup Language\">XHTML</abbr> "
+#~ msgid "Valid <abbr title=\"Valid Css!\">CSS</abbr> "
+#~ msgstr "Έγκυρο <abbr title=\"Valid Css!\">CSS</abbr> "
+#~ msgid "This entry was posted"
+#~ msgstr "Αυτή η καταχώρηση δημοσιεύτηκε"
+#~ msgid "leave a response"
+#~ msgstr "αφήστε μια απάντηση "
+#~ msgid "or"
+#~ msgstr "ή "
+#~ msgid "from your own site."
+#~ msgstr "από το δικό σας δικτυακό τόπο."
+#~ msgid "Responses are currently closed, but you can"
+#~ msgstr "Οι απαντήσεις έχουν προσωρινά κλείσει, αλλά μπορείτε"
+
+#, fuzzy
+#~ msgid "Comments"
+#~ msgstr "Σχόλια"
+#~ msgid ""
+#~ "<abbr title=\"Really Simple Syndication\">RSS</abbr> feed for comments on "
+#~ "this post."
+#~ msgstr ""
+#~ "<abbr title=\"Really Simple Syndication\">RSS</abbr> κανάλι για τα σχόλια "
+#~ "αυτής της δημοσίευσης."
+
+#, fuzzy
+#~ msgid ""
+#~ "The <acronym title=\"Uniform Resource Identifier\">URI</acronym> to "
+#~ "TrackBack this entry is:"
+#~ msgstr ""
+#~ "Το <acronym title=\"Uniform Resource Identifier\">URI</acronym> γιατις "
+#~ "παραθέσεις σε αυτήν την καταχώρηση είναι:"
+#~ msgid "Pingback"
+#~ msgstr "Pingback"
+
+#, fuzzy
+#~ msgid ""
+#~ "Line and paragraph breaks automatic, e-mail address never displayed, "
+#~ "<acronym title=\"Hypertext Markup Language\">HTML</acronym> allowed:"
+#~ msgstr ""
+#~ "Οι αλλαγές γραμμών και παραγράφων γίνονται αυτόματα, η διεύθυνση ηλ. "
+#~ "αλληλογραφίας παραμένει απόρρητη, η επιτρεπόμενη <acronym title="
+#~ "\"Hypertext Markup Language\">HTML</acronym> είναι:"
+#~ msgid "Your Comment"
+#~ msgstr "Το Σχόλιο Σας"
+#~ msgid "Say It!"
+#~ msgstr "Πείτε Το!"
+
+#, fuzzy
+#~ msgid "Close this window."
+#~ msgstr "Κλείστε το παράθυρο αυτό."
+#~ msgid "TrackBack <abbr title=\"Uniform Resource Identifier\">URI</abbr>"
+#~ msgstr "<abbr title=\"Uniform Resource Identifier\">URI</abbr> Παράθεσης"
+#~ msgid "(more...)"
+#~ msgstr "(περισσότερα...)"
+
+#, fuzzy
+#~ msgid "Comments (1)"
+#~ msgstr "Σχόλιο (1)"
+
+#, fuzzy
+#~ msgid "Comments (%)"
+#~ msgstr "Σχόλια (%)"
+#~ msgid "Search:"
+#~ msgstr "Αναζήτηση:"
+
+#, fuzzy
+#~ msgid "Comments <abbr title=\"Really Simple Syndication\">RSS</abbr>"
+#~ msgstr "Σχόλια<abbr title=\"Really Simple Syndication\"></abbr>"
+#~ msgid "so far"
+#~ msgstr "μέχρι τώρα"
+#~ msgid "m.d.y"
+#~ msgstr "m.d.y"
+#~ msgid "theme by Theron Parlin."
+#~ msgstr "theme by Theron Parlin."
+#~ msgid "Syndicate entries using"
+#~ msgstr "Συγχρονιστός του δικτυακού τόπου με την χρήση"
+#~ msgid "This theme contains valid"
+#~ msgstr "Αυτό το Θέμα περιέχει έγκυρο"
+#~ msgid "GO"
+#~ msgstr "Πήγαινε"
+#~ msgid "Permanent Link:"
+#~ msgstr "Μόνιμος σύνδεσμος στo:"
+#~ msgid "0 Comments"
+#~ msgstr "0 Σχόλια"
+#~ msgid "&laquo; newer "
+#~ msgstr "&laquo; νεώτερο"
+#~ msgid "Search results for"
+#~ msgstr "Αποτελέσματα αναζήτησης για"
+#~ msgid " and"
+#~ msgstr " και "
+

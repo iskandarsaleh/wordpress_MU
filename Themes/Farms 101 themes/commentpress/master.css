@@ -1,0 +1,264 @@
+/* master.css for CommentPress, a WordPress theme  */
+
+/* 	There are other style sheets: 
+		reset.css : resets all browser defaults (http://meyerweb.com/eric/thoughts/2007/05/01/reset-reloaded/)
+		master.css : global formatting and layout of the container divs and major block elements (w/ margin/padding/width defaults)
+		style.css: typography, and colors, and more
+		style_ie.css: issues that come up during bug testing that require overriding styles for IE
+		
+*/
+
+/***** Global Settings *****/
+ 
+html, body {
+border:0;
+margin:0;
+padding:0;
+}
+ 
+body {
+font:100%/1.25 arial, helvetica, sans-serif;
+}
+ 
+/***** Common Formatting for tags *****/
+ 
+h1, h2, h3, h4, h5, h6 {
+margin:0;
+padding:0;
+font-weight:normal;
+}
+  
+p, ul, ol {
+margin:0;
+padding:0 0 18px 0;
+}
+ 
+ul, ol {
+margin: 0 0 0 15px;
+padding: 0 0 18px 10px;
+}
+
+blockquote {
+margin:25px 25px;
+padding:0;
+}
+ 
+small {
+font-size:0.85em;
+}
+ 
+img {
+border:0;
+}
+ 
+sup {
+position:relative;
+bottom:0.3em;
+vertical-align:baseline;
+}
+ 
+sub {
+position:relative;
+bottom:-0.2em;
+vertical-align:baseline;
+}
+ 
+acronym, abbr {
+cursor:help;
+letter-spacing:1px;
+border-bottom:1px dashed;
+}
+
+code {
+	font: 1em "Courier New", Courier, mono;
+	color: #009900;
+} 
+/***** Links *****/
+ 
+a { 
+	color: #6666FF;
+	text-decoration: none; 
+}
+a:hover, a:visited:hover { 
+	color: #dd0000;
+	text-decoration: underline; 
+}
+a:visited { 
+	color: #883388; 
+}
+a, a:visited {
+text-decoration:none;
+}
+a img {
+	border: 0px;
+} 
+ 
+/***** Forms *****/
+ 
+form {
+margin:0;
+padding:0;
+display:inline;
+}
+ 
+input, select, textarea {
+font:1em arial, helvetica, sans-serif;
+}
+ 
+textarea {
+line-height:1.25;
+}
+ 
+label {
+cursor:pointer;
+}
+ 
+/***** Tables *****/
+ 
+table {
+border:0;
+margin:0 0 18px 0;
+padding:0;
+}
+ 
+  table tr td {
+  padding:2px;
+  }
+ 
+
+/***** Global Classes *****/
+ 
+.clear { clear:both; }
+ 
+.floatLeft{ float:left; }
+.floatRight   { float:right; }
+ 
+.alignLeft { text-align:left; }
+.alignRight{ text-align:right; }
+.alignCenter   { text-align:center; }
+.alignJustify  { text-align:justify; }
+ 
+b, strong, .bold  { font-weight:bold; }
+i, em, .italic{ font-style:italic; }
+.underline { border-bottom:1px solid; }
+.highlight { background:#ffc; }
+ 
+.imgLeft  { float:left;margin:4px 10px 4px 0; }
+.imgRight { float:right;margin:4px 0 4px 10px; }
+ 
+.nopadding { padding:0; }
+.noindent  { margin-left:0;padding-left:0; }
+.nobullet  { list-style:none; list-style-image:none; margin-left: 0px;}
+
+
+/***** CONTAINER CLASSES *****/
+/* 	
+	this container sets the page's 
+	background color
+	width + left padding = 1000px
+*/
+#container{
+	background-color: #ffffff; 
+	padding: 5px 0 0 25px;
+	position: absolute;
+	min-height: 550px;	
+	width: 970px;
+}
+
+/* 	
+	this container holds the post content (and breadcrumbs, and post navigation [next/prev] if any). 
+	no left padding here, that's handled by the container_all div in this layout 
+	width
+	top padding
+*/
+
+#header {
+	width: 800px;
+}
+
+
+/* 	
+	search container
+	absolutely positioned
+	width + left padding = 200px
+*/
+
+#search {
+	position: absolute;
+	top: 0;
+	left: 821px;
+	width: 164px;
+	height: 25px;
+	padding: 10px 3px 10px 10px;
+	background-color: #808088;
+	white-space: nowrap;
+}
+#search #searchbox {
+	font-size: .7em;
+	width: 124px;
+}
+#search #searchbutton {
+	font-size: .7em;
+	padding: 0px;
+}
+
+#page {
+	background-color: #ffffff;
+	float: right;
+	width: 770px;
+}
+
+
+/* 	
+	this container holds the post content (and breadcrumbs, and post navigation [next/prev] if any). 
+	no left padding here, that's handled by the container_all div in this layout 
+*/
+#content {
+	width: 425px;
+	padding: 25px 0 0 0;
+	line-height: 1.2em;
+	/*border: 1px solid #eeeeee;  for testing*/
+}
+
+
+#comments {
+	position: fixed;
+	top: 30px;
+	left: 450px;
+	width: 350px;
+	padding: 50px 0 0 0;
+	/*border: 1px solid #eeeeee;  for testing*/
+}
+
+/* sidebar class is in style.css */
+
+#footer {
+	background-color: #eee;
+	padding: 0 0 25px 25px;
+	margin: 25px 0 0 -25px;
+	font-size: .8em;
+	line-height: 1.5em;
+}
+
+/* COLUMNS */
+#narrowcolumn{
+	float: left;
+	padding: 24px 0 0 0;
+	width: 350px;	
+}
+#widecolumn{
+	margin-left: 350px;
+	width: 410px;
+	padding: 24px 0 0 0;
+}
+#extrawidecolumn{
+	margin-left: 370px;
+	padding: 24px 0 0 0;
+	width: 600px;
+}
+
+
+/* TO HELP WITH FRIVOLOUS */
+#comment_read, #comment_index, #comment_help {
+	display: none;
+}

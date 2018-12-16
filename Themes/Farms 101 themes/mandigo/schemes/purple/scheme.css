@@ -1,0 +1,9 @@
+a, .posttitle a:hover, .entry p a:visited { color: #B53492; }
+a:hover { color: #7F2D66; }
+#wp-calendar a { font-weight: bold; }
+.cal { background: #B53492 url(images/cal_bg.jpg) repeat-x; }
+
+.calborder { 
+  background: #F4ABE9;
+  border: 1px solid #7F2D66;
+}

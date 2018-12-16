@@ -1,0 +1,832 @@
+# PO Template.
+# Copyright (C) 2007 windyroad.org
+# This file is distributed under the same license as the Vistered Little package.
+# Tom Howard <tom@windyroad.org>, 2007.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Vistered Little 1.7.5\n"
+"Report-Msgid-Bugs-To: tom@windyroad.org\n"
+"POT-Creation-Date: 2007-06-19 18:56+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../skins/default/functions.php:5
+msgid "Width"
+msgstr ""
+
+#: ../skins/default/functions.php:7
+msgid "Narrow"
+msgstr ""
+
+#: ../skins/default/functions.php:9
+msgid "Wide"
+msgstr ""
+
+#: ../skins/default/functions.php:11 ../skins/default/functions.php:20
+#: ../functions.php:35 ../functions.php:61 ../functions.php:70
+#: ../functions.php:81 ../functions.php:89 ../functions.php:99
+#: ../functions.php:109 ../functions.php:125 ../functions.php:149
+#: ../functions.php:161 ../functions.php:171 ../functions.php:181
+#: ../functions.php:203 ../functions.php:212
+msgid "default"
+msgstr ""
+
+#: ../skins/default/functions.php:13
+msgid "Flex"
+msgstr ""
+
+#: ../skins/default/functions.php:15
+msgid "Select the page width."
+msgstr ""
+
+#: ../skins/default/functions.php:16
+msgid "Tone"
+msgstr ""
+
+#: ../skins/default/functions.php:18
+msgid "Dark"
+msgstr ""
+
+#: ../skins/default/functions.php:22
+msgid "Light"
+msgstr ""
+
+#: ../skins/default/functions.php:24
+msgid "Select the tone."
+msgstr ""
+
+#: ../tags.php:27
+msgid ""
+"Well, you should be seeing a pretty nifty tag cloud here, however it looks "
+"like someone has disabled it and forgot to hide/delete this page."
+msgstr ""
+
+#: ../single-comment.php:57 ../comments.php:19
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#. if there's a password
+#. and it doesn't match the cookie
+#: ../yatcp_comments.php:26
+msgid ""
+"This post is password protected. To view it please enter your password below:"
+msgstr ""
+
+#. You can start editing here.
+#: ../404.php:12 ../header.php:36
+msgid "Page not found"
+msgstr ""
+
+#: ../404.php:13
+msgid ""
+"You have reached a non-existant url. This address is either outdated or "
+"incorrectly linked."
+msgstr ""
+
+#: ../comments-form.php:9
+msgid "Leave a comment"
+msgstr ""
+
+#: ../comments-form.php:11
+msgid ""
+"Names and email addresses are required (email addresses aren't displayed), "
+"url's are optional."
+msgstr ""
+
+#: ../comments-form.php:12
+msgid "Comments may contain the following xhtml tags:"
+msgstr ""
+
+#: ../comments-form.php:50
+msgid "Name"
+msgstr ""
+
+#: ../comments-form.php:54
+msgid "E-mail"
+msgstr ""
+
+#: ../comments-form.php:58
+msgid "Uniform Resource Identifier"
+msgstr ""
+
+#: ../comments-form.php:58
+msgid "URI"
+msgstr ""
+
+#: ../comments-form.php:66
+msgid "You are logged in as"
+msgstr ""
+
+#: ../comments-form.php:73
+msgid "I'm done, post it."
+msgstr ""
+
+#: ../footer.php:13 ../widgets.php:252 ../widgets.php:256
+msgid "Newer"
+msgstr ""
+
+#: ../footer.php:14 ../widgets.php:253 ../widgets.php:257
+msgid "Older"
+msgstr ""
+
+#: ../footer.php:23 ../widgets.php:332
+msgid "Theme"
+msgstr ""
+
+#: ../footer.php:24 ../index.php:66 ../search.php:36
+msgid "by"
+msgstr ""
+
+#: ../functions.php:35
+msgid "Random"
+msgstr ""
+
+#: ../functions.php:46
+msgid "Select a default wallpaper for your page."
+msgstr ""
+
+#: ../functions.php:48
+msgid "Enter the width of the logo in pixels. The default is 500."
+msgstr ""
+
+#: ../functions.php:49
+msgid "Enter the height of the logo in pixels. The default is 90."
+msgstr ""
+
+#: ../functions.php:52
+msgid "An attempt will be made to determine the logo width automatically."
+msgstr ""
+
+#: ../functions.php:53
+msgid "An attempt will be made to determine the logo height automatically."
+msgstr ""
+
+#: ../functions.php:57
+msgid "Sidebar Location"
+msgstr ""
+
+#: ../functions.php:59 ../functions.php:111
+msgid "Right"
+msgstr ""
+
+#: ../functions.php:63 ../functions.php:107
+msgid "Left"
+msgstr ""
+
+#: ../functions.php:65
+msgid "Select which side of the page you want your sidebar to be on."
+msgstr ""
+
+#: ../functions.php:67
+msgid "Side Bar Type"
+msgstr ""
+
+#: ../functions.php:69
+msgid "Single Position"
+msgstr ""
+
+#: ../functions.php:71
+msgid "Quad Position"
+msgstr ""
+
+#: ../functions.php:73
+msgid ""
+"A quad position sidebar allows you to configure widgets that are displayed "
+"in a wide section at the top of the side bar, on the left and right of the "
+"side bar and a wide sections at the bottom of the side bar."
+msgstr ""
+
+#: ../functions.php:75
+msgid "Header Position"
+msgstr ""
+
+#: ../functions.php:77
+msgid "Normal"
+msgstr ""
+
+#: ../functions.php:79
+msgid "Fixed"
+msgstr ""
+
+#: ../functions.php:83
+msgid "Select whether the header should have normal or Fixed positioning."
+msgstr ""
+
+#: ../functions.php:85
+msgid "Header Search Field"
+msgstr ""
+
+#: ../functions.php:87 ../functions.php:127 ../functions.php:159
+#: ../functions.php:169 ../functions.php:210
+msgid "Show"
+msgstr ""
+
+#: ../functions.php:91 ../functions.php:123 ../functions.php:163
+#: ../functions.php:173 ../functions.php:214
+msgid "Hide"
+msgstr ""
+
+#: ../functions.php:93
+msgid "Select whether to display a search box in the header."
+msgstr ""
+
+#: ../functions.php:95
+msgid "Thumbnail Frames"
+msgstr ""
+
+#: ../functions.php:97
+msgid "Use CSS Border"
+msgstr ""
+
+#: ../functions.php:101
+msgid "Use Image"
+msgstr ""
+
+#: ../functions.php:103
+msgid ""
+"Select whether to use a CSS border or an image to frame the wallpaper "
+"thumbnails."
+msgstr ""
+
+#: ../functions.php:105
+msgid "Thumbnail Location"
+msgstr ""
+
+#: ../functions.php:113 ../functions.php:329 ../monosidebar.php:11
+msgid "Sidebar"
+msgstr ""
+
+#: ../functions.php:115
+msgid "None"
+msgstr ""
+
+#: ../functions.php:117
+msgid "Select where you would like the thumbnails to be displayed."
+msgstr ""
+
+#: ../functions.php:121
+msgid "Random Wallpaper Option"
+msgstr ""
+
+#: ../functions.php:129
+msgid ""
+"Select if a thumbnail should be shown to the user to have random wallpapers."
+msgstr ""
+
+#: ../functions.php:131
+msgid "Logo Path"
+msgstr ""
+
+#: ../functions.php:133 ../functions.php:193
+msgid "Enter the path (relative to \""
+msgstr ""
+
+#: ../functions.php:135
+msgid ""
+"\") to the directory containing your site logos or the path to a single logo "
+"(leave blank to use \""
+msgstr ""
+
+#: ../functions.php:137
+msgid ""
+"\" instead).<br/>If a directory is specified, then every time the site is "
+"displayed, a random logo will be selected from this directory.<br/"
+">Recognised types: gif, png, jpeg and tiff"
+msgstr ""
+
+#: ../functions.php:139
+msgid "Logo Width"
+msgstr ""
+
+#: ../functions.php:142
+msgid "Logo Height"
+msgstr ""
+
+#: ../functions.php:145
+msgid "Archive Links"
+msgstr ""
+
+#: ../functions.php:147
+msgid "Older and Newer"
+msgstr ""
+
+#: ../functions.php:151
+msgid "Monthly"
+msgstr ""
+
+#: ../functions.php:153
+msgid "Both"
+msgstr ""
+
+#: ../functions.php:155
+msgid ""
+"Select if the Archived menu should display an Older/Newer link, Monthly "
+"links or both."
+msgstr ""
+
+#: ../functions.php:157
+msgid "Credits"
+msgstr ""
+
+#: ../functions.php:165
+msgid ""
+"If you like Vistered Little, then you can say thank you by showing me some "
+"link love.  Otherwise you can disable the link in the footer by selecting "
+"hide."
+msgstr ""
+
+#: ../functions.php:167
+msgid "Credits in Meta"
+msgstr ""
+
+#: ../functions.php:175
+msgid ""
+"You can also hide the link to Vistered Little in the Meta widget, by "
+"selecting hide here."
+msgstr ""
+
+#: ../functions.php:177
+msgid "Credits in Head"
+msgstr ""
+
+#: ../functions.php:179
+msgid "Include"
+msgstr ""
+
+#: ../functions.php:183
+msgid "Remove"
+msgstr ""
+
+#: ../functions.php:185
+msgid ""
+"There is one more link to Vistered Little, which is located in the xhtml "
+"head section (i.e. not visible).  Select remove to get rid of it as well."
+msgstr ""
+
+#: ../functions.php:187
+msgid "Comment Policy"
+msgstr ""
+
+#: ../functions.php:189
+msgid "Here you can specify the comment moderation policy for your site."
+msgstr ""
+
+#: ../functions.php:191
+msgid "Customization directory"
+msgstr ""
+
+#: ../functions.php:195
+msgid ""
+"\") to a directory containing custom stylesheets and/or custom php files.<br/"
+">Files ending with \".css\" or \".css.php\" will be included as "
+"stylesheets.  Files ending in \"-ie.css\" or \"-ie.css.php\" will also be "
+"included as stylesheets, but will only be visible to IE 6.  All other files "
+"ending in \".php\" will be included at the end of this themes \"functions.php"
+"\" file."
+msgstr ""
+
+#: ../functions.php:198
+msgid "Sideblog format"
+msgstr ""
+
+#: ../functions.php:200
+msgid "Combined"
+msgstr ""
+
+#: ../functions.php:202
+msgid "Separated ("
+msgstr ""
+
+#: ../functions.php:205
+msgid ""
+"If you want your sideblog to display in a single box, select \"Combined\" "
+"and set the sideblog display format to <pre><code>&lt;div&gt;&lt;h4&gt;%"
+"title_url%&lt;/h4&gt;%content%&lt;/div&gt;</code></pre>If you want the "
+"sideblog title and posts to appear in separate boxes, select \"Separated\" "
+"and set the sideblog display format to <pre><code>&lt;div class=\"menubefore"
+"\"&gt;&lt;/div&gt;&lt;div class=\"menu\"&gt;&lt;h4&gt;%title_url%&lt;/h4&gt;%"
+"content%&lt;/div&gt;&lt;div class=\"menuafter\"&gt;&lt;/div&gt;</code></pre>"
+msgstr ""
+
+#: ../functions.php:208
+msgid "Show Author"
+msgstr ""
+
+#: ../functions.php:216
+msgid ""
+"Select Hide if you don't want the author to be displayed at the top of posts."
+msgstr ""
+
+#: ../functions.php:218
+msgid "Font"
+msgstr ""
+
+#: ../functions.php:220
+msgid "Specify the font you want to use for the site."
+msgstr ""
+
+#: ../functions.php:221
+msgid "<br/>The default is <code>\"verdana\", sans-serif</code>"
+msgstr ""
+
+#: ../functions.php:223
+msgid "Title Font"
+msgstr ""
+
+#: ../functions.php:225
+msgid "Specify the font you want to use for the site's Title."
+msgstr ""
+
+#: ../functions.php:226
+msgid "<br/>The default is <code>\"Trebuchet MS\", sans-serif</code>"
+msgstr ""
+
+#: ../functions.php:228
+msgid "Font Size"
+msgstr ""
+
+#: ../functions.php:230
+msgid "Specify the font size you want to use for the site."
+msgstr ""
+
+#: ../functions.php:231
+msgid "<br/>The default is <code>22px</code>"
+msgstr ""
+
+#: ../functions.php:320 ../header.php:187 ../header.php:194
+msgid "Banner"
+msgstr ""
+
+#: ../functions.php:338 ../quadsidebar.php:19
+msgid "Quadbar - Top"
+msgstr ""
+
+#: ../functions.php:345 ../quadsidebar.php:32
+msgid "Quadbar - Left"
+msgstr ""
+
+#: ../functions.php:348 ../quadsidebar.php:50
+msgid "Quadbar - Right"
+msgstr ""
+
+#: ../functions.php:351 ../quadsidebar.php:71
+msgid "Quadbar - Bottom"
+msgstr ""
+
+#: ../functions.php:356
+msgid "Footer Bar"
+msgstr ""
+
+#: ../functions.php:365 ../index.php:92
+msgid "End Of Post"
+msgstr ""
+
+#: ../functions.php:373 ../index.php:12 ../index.php:18
+msgid "2nd Banner"
+msgstr ""
+
+#: ../functions.php:381 ../index.php:27 ../index.php:33
+msgid "3rd Banner"
+msgstr ""
+
+#: ../header.php:7 ../header.php:12 ../header.php:17 ../header.php:27
+#: ../header.php:32 ../header.php:37 ../header.php:57
+msgid "@"
+msgstr ""
+
+#: ../header.php:113 ../header.php:151
+msgid "Search"
+msgstr ""
+
+#: ../header.php:114
+msgid "Type and press enter."
+msgstr ""
+
+#: ../header.php:172
+msgid "Go home."
+msgstr ""
+
+#: ../index.php:53 ../index.php:58
+msgid "Permalink for"
+msgstr ""
+
+#: ../index.php:60 ../search.php:32
+msgid "Posted on"
+msgstr ""
+
+#: ../index.php:69
+msgid "edit."
+msgstr ""
+
+#: ../index.php:71 ../monosidebar.php:28 ../quadsidebar.php:58
+msgid "Categories"
+msgstr ""
+
+#: ../index.php:79
+msgid "Next"
+msgstr ""
+
+#: ../index.php:80
+msgid "Previous"
+msgstr ""
+
+#: ../index.php:86
+msgid "Pages:"
+msgstr ""
+
+#: ../index.php:123 ../index.php:128
+msgid "no comments yet."
+msgstr ""
+
+#: ../index.php:124 ../index.php:129
+msgid "1 comment."
+msgstr ""
+
+#: ../index.php:125 ../index.php:130
+#, php-format
+msgid "% comments."
+msgstr ""
+
+#: ../index.php:163
+msgid "There are no posts relating to your query."
+msgstr ""
+
+#: ../miniwidgets.php:84
+msgid "Style:"
+msgstr ""
+
+#: ../miniwidgets.php:85
+msgid "Class:"
+msgstr ""
+
+#: ../miniwidgets.php:86
+msgid "Hide on front page"
+msgstr ""
+
+#: ../miniwidgets.php:87
+msgid "Hide on individual posts"
+msgstr ""
+
+#: ../miniwidgets.php:88
+msgid "Hide on \"pages\""
+msgstr ""
+
+#: ../miniwidgets.php:89
+msgid "Hide on category archives"
+msgstr ""
+
+#: ../miniwidgets.php:90
+msgid "Hide on date based archives"
+msgstr ""
+
+#: ../miniwidgets.php:118 ../miniwidgets.php:124
+msgid "MW &raquo; "
+msgstr ""
+
+#: ../miniwidgets.php:139
+msgid "Print This Post"
+msgstr ""
+
+#: ../miniwidgets.php:170
+msgid "Sociable"
+msgstr ""
+
+#: ../miniwidgets.php:178
+msgid "Tags: "
+msgstr ""
+
+#: ../miniwidgets.php:182
+msgid "Jerome's Keywords"
+msgstr ""
+
+#: ../miniwidgets.php:190
+msgid "Bunny's Technorati Tags"
+msgstr ""
+
+#: ../miniwidgets.php:245
+msgid "Related Posts:"
+msgstr ""
+
+#: ../miniwidgets.php:251
+msgid "UTW Primary Tags"
+msgstr ""
+
+#: ../miniwidgets.php:252
+msgid "UTW Secondary Tags"
+msgstr ""
+
+#: ../miniwidgets.php:253
+msgid "UTW Related Posts"
+msgstr ""
+
+#: ../miniwidgets.php:266
+msgid "More From Google"
+msgstr ""
+
+#: ../miniwidgets.php:273
+msgid "WP-EMail"
+msgstr ""
+
+#: ../monosidebar.php:22 ../quadsidebar.php:52
+msgid "Pages"
+msgstr ""
+
+#: ../search.php:20
+msgid "Posts related to"
+msgstr ""
+
+#: ../search.php:40
+msgid "edit"
+msgstr ""
+
+#: ../search.php:42
+msgid "Categories:"
+msgstr ""
+
+#: ../search.php:53
+msgid "There are no posts relating to"
+msgstr ""
+
+#: ../widgets.php:11 ../widgets.php:22 ../widgets.php:28
+msgid "You can leave a"
+msgstr ""
+
+#: ../widgets.php:12 ../widgets.php:23
+msgid "comment"
+msgstr ""
+
+#: ../widgets.php:13
+msgid "on or"
+msgstr ""
+
+#: ../widgets.php:14 ../widgets.php:29
+msgid "Trackback to"
+msgstr ""
+
+#: ../widgets.php:15 ../widgets.php:30
+msgid "trackback"
+msgstr ""
+
+#: ../widgets.php:17 ../widgets.php:32
+msgid "to this"
+msgstr ""
+
+#: ../widgets.php:24
+msgid "on this"
+msgstr ""
+
+#: ../widgets.php:45
+msgid "Home"
+msgstr ""
+
+#: ../widgets.php:55
+msgid "Attachment"
+msgstr ""
+
+#: ../widgets.php:59
+msgid "You are viewing the attachment"
+msgstr ""
+
+#: ../widgets.php:63
+msgid "attachment"
+msgstr ""
+
+#: ../widgets.php:69
+msgid "Post Information"
+msgstr ""
+
+#: ../widgets.php:73 ../widgets.php:118
+msgid "You are reading"
+msgstr ""
+
+#: ../widgets.php:83
+msgid "Oops!"
+msgstr ""
+
+#: ../widgets.php:94 ../widgets.php:106 ../widgets.php:130 ../widgets.php:146
+#: ../widgets.php:173 ../widgets.php:187
+msgid "You are looking at posts"
+msgstr ""
+
+#: ../widgets.php:96
+msgid "that were written on"
+msgstr ""
+
+#: ../widgets.php:108
+msgid "in the category"
+msgstr ""
+
+#: ../widgets.php:114
+msgid "Page Information"
+msgstr ""
+
+#: ../widgets.php:132 ../widgets.php:148
+msgid "that were written"
+msgstr ""
+
+#: ../widgets.php:134
+msgid "in the month of"
+msgstr ""
+
+#: ../widgets.php:136 ../widgets.php:150
+msgid "in the year"
+msgstr ""
+
+#: ../widgets.php:156
+msgid "Search Results"
+msgstr ""
+
+#: ../widgets.php:160
+msgid "You searched for"
+msgstr ""
+
+#: ../widgets.php:166
+msgid "Author Archives"
+msgstr ""
+
+#: ../widgets.php:175
+msgid "written by"
+msgstr ""
+
+#: ../widgets.php:183
+msgid "Tagged"
+msgstr ""
+
+#: ../widgets.php:189
+msgid "that have been tagged"
+msgstr ""
+
+#: ../widgets.php:202
+msgid "Gallery"
+msgstr ""
+
+#: ../widgets.php:206
+msgid "You are looking at the "
+msgstr ""
+
+#: ../widgets.php:228
+msgid "You came here from"
+msgstr ""
+
+#: ../widgets.php:230
+msgid "searching for"
+msgstr ""
+
+#: ../widgets.php:232
+msgid "These posts might also be of interest"
+msgstr ""
+
+#: ../widgets.php:242
+msgid "Archives"
+msgstr ""
+
+#: ../widgets.php:265
+msgid "Post Info"
+msgstr ""
+
+#: ../widgets.php:279
+msgid "Wallpaper Selector"
+msgstr ""
+
+#: ../widgets.php:285 ../widgets.php:311
+msgid "Site Meta"
+msgstr ""
+
+#: ../widgets.php:289 ../widgets.php:290 ../widgets.php:315 ../widgets.php:316
+msgid "Syndicate this site using RSS 2.0"
+msgstr ""
+
+#: ../widgets.php:292 ../widgets.php:293 ../widgets.php:318 ../widgets.php:319
+msgid "The latest comments to all posts in RSS 2.0"
+msgstr ""
+
+#: ../widgets.php:302
+msgid ""
+"Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr ""
+
+#: ../widgets.php:332
+msgid "Download your own copy of"
+msgstr ""
+
+#: ../widgets.php:349
+msgid "Title:"
+msgstr ""
+
+#: ../widgets.php:385
+msgid "Links"
+msgstr ""
+
+#: ../widgets.php:416
+msgid "Sideblog"
+msgstr ""
+
+#: ../widgets.php:444
+msgid "Text"
+msgstr ""

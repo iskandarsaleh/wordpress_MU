@@ -1,0 +1,12 @@
+Plugin Name: Pay To Blog
+Author: Andrew Billits
+
+Files:
+----------------------------------------------------------------------
+pay-to-blog-paypal.php - goes in / <-- base directory where wp-config.php is
+pay-to-blog.php - goes in /wp-content/mu-plugins
+blog.php - goes in /wp-admin
+
+Instructions:
+----------------------------------------------------------------------
+1) Place the files in the specified directories

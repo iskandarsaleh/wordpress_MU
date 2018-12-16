@@ -1,0 +1,490 @@
+/*  
+Theme Name: Falling Dreams
+Theme URI: http://teo.esuper.ro/
+Description: Don't go breaking my heart.
+Version: 1.0
+Author: Razvan Teodorescu
+Author URI: http://teo.esuper.ro/
+
+This theme was designed and built by Razvan Teodorescu,
+whose blog you will find at http://teo.esuper.ro/
+The CSS, XHTML and design is released under GPL:
+http://www.opensource.org/licenses/gpl-license.php
+Feel free to contact me if you have questions,my email: razvan.teodorescu@gmail.com
+*/
+
+a:link {
+	color: #DE3A3A;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #DE3A3A;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #000000;
+}
+
+blockquote {
+	color: #336633;
+	font-style: italic;
+}
+
+body {
+	background-attachment: fixed;
+	background-color: #F3F4E6;
+	background-image: url(images/fundal.jpg);
+	color: #3D3D3D;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 11px;
+	margin: 0px auto;
+	padding: 0px;
+	text-align: center;
+}
+
+cite {
+	color: #333333;
+	font-size: 10px;
+	font-style: normal;
+	padding-bottom: 4px;
+}
+
+div.nicetitle {
+	background: url(images/background.png); /* Mozilla proprietary */
+	color: #FFFFFF;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	left: 0px;
+	-moz-border-radius: 12px;
+	padding: 4px;
+	position: absolute;
+	top: 0px;
+	width: 25em;
+}
+
+div.nicetitle p {
+	margin: 0;
+	padding: 0 3px;
+}
+
+div.nicetitle p.destination {
+	font-size: 9px;
+	padding-top: 3px;
+	text-align: left;
+}
+
+form {
+	color: #000000;
+	margin: 0px;
+	padding: 0px;
+}
+
+h2 {
+	font-size: 11px;
+	font-weight: normal;
+}
+
+h3 {
+	font-size: 21px;
+	margin: 0px;
+	padding: 0px 0px 3px;
+}
+
+h3 a {
+	color: #0066FF;
+}
+
+h4 {
+	color: #3D3D3D;
+	font-family: Georgia, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+input {
+	background: #F8F8F8;
+	border-color: #999999;
+	border-style: solid;
+	border-width: 1px;
+	color: #333333;
+	font-family: Georgia, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	margin: 5px;
+	padding: 3px;
+}
+
+li#about {
+	color: #666666;
+	font-size: 10px;
+}
+
+p.comment_meta {
+	font-size: .9em;
+	margin: 0 0 10px 10px;
+}
+
+select {
+	border: 1px solid #003300;
+	color: #333333;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 5px;
+	padding-left: 3px;
+}
+
+textarea {
+	background: #FFFFFF;
+	border: 1px solid #999999;
+	color: #333333;
+	font-family: Georgia, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-variant: normal;
+	margin: 5px;
+	margin: 5px;
+	padding: 3px;
+	padding: 3px;
+	width: 95%;
+}
+
+textarea:hover {
+	background: #FFFFFF;
+}
+
+.autor {
+	border-bottom: 1px dotted #999999;
+	color: #3D3D3D;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+
+.commentlist {
+	margin: 0;
+	padding: 0;
+}
+
+.commentlist li {
+	background: #F0F0F0;
+	border: 1px solid #CCCCCC;
+	color: #3D3D3D;
+	list-style: none;
+	margin: 10px;
+	padding: 10px 10px 0 10px;
+}
+
+.commentlist li:hover {
+	border: 1px solid #CCCCCC;
+}
+
+.data{
+	color: #3D3D3D;
+	font-family: Georgia, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	margin-top: 20px;
+	text-align: right;
+}
+
+.feedback {
+	background-color: #EEEEEE;
+	margin-bottom: 12px;
+	padding: 3px;
+}
+
+.image-align-left {
+	float: left;
+	padding: 4px;
+}
+
+.image-align-right {
+	float: right;
+	padding: 4px;
+}
+
+.meta {
+	color: #999999;
+	float: left;
+	font-size: 10px;
+}
+
+.storycontent {
+	line-height: 130%;
+	padding-top: 10px;
+}
+
+.storytitle {
+	background-image: url(images/titlu.gif);
+	background-position: left;
+	background-repeat: no-repeat;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 5px;
+	padding-left: 17px;
+	padding-top: 2px;
+	text-align: left;
+}
+
+.storytitle a:link, .storytitle a:visited {
+	color: #DE3A3A;
+	text-decoration: none;
+}
+
+.storytitle a:hover {
+	background-color: #DE3A3A;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#content {
+	color: #666666;
+	float: left;
+	height: auto;
+	margin: 0px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 0px;
+	padding-top: 0px;
+	text-align: justify;
+	width: 340px;
+}
+
+#footer {
+	background-color: #000000;
+	border-bottom-color: #000000;
+	border-bottom-style: outset;
+	border-bottom-width: 5px;
+	border-top-color: #000000;
+	border-top-style: solid;
+	border-top-width: 1px;
+	clear: both;
+	color: #666666;
+	font-size: 10px;
+	font-variant: normal;
+	font-weight: normal;
+	height: 15px;
+	line-height: 130%;
+	margin: 0px;
+	padding-bottom: 3px;
+	padding-left: 8px;
+	padding-right: 3px;
+	padding-top: 10px;
+	width: 515px;
+}
+
+#footer a:link, #footer a:visited {
+	color: #666666;
+	text-decoration: underline;
+}
+
+#footer a:hover {
+	color: #999999;
+	text-decoration: overline;
+}
+
+#header {
+	background-image: url(images/logo.jpg);
+	background-repeat: no-repeat;
+	font-family: "Trebuchet MS", verdana, arial, helvetica;
+	height: 264px;
+	margin: 0px;
+	padding-left: 15px;
+	padding-top: 1px;
+	text-align: left;
+	vertical-align: bottom;
+}
+
+#header a:link, #header a:visited {
+	color: #FFFFFF;
+	font-size: 24px;
+}
+
+#header a:hover {
+	color: #FFFFFF;
+}
+
+#menu {
+	width: 450px;
+}
+
+#menu ul {
+	list-style-type: none;
+}
+
+#menu ul li {
+	border-bottom-color: #CCCCCC;
+	border-bottom-style: dashed;
+	border-bottom-width: 1px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+#menu ul ul {
+	list-style-type: none;
+}
+
+#menu ul ul li {
+	border: none;
+	list-style-type: none;
+	margin: 0px 0px 0px -10px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+}
+
+#navmenu {
+	background-image: url(images/meniu.jpg);
+	background-repeat: no-repeat;
+	color: #FFFFFF;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 11px;
+	font-variant: small-caps;
+	font-weight: bold;
+	height: 30px;
+	letter-spacing: .1em;
+	margin: 0px;
+	padding-bottom: 3px;
+	padding-left: 25px;
+	padding-right: 3px;
+	padding-top: 2px;
+	text-align: left;
+	text-decoration: none;
+}
+
+#navmenu a:link, #navmenu a:visited {
+	color: #FFFFFF;
+	font-variant: normal;
+	font-weight: bold;
+	padding-bottom: 3px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	text-decoration: none;
+}
+
+#navmenu a:hover {
+	background-color: #DE3A3A;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#rap {
+	background-color: #F8F8F8;
+	border-left-color: #FFFFFF;
+	border-left-style: solid;
+	border-left-width: 5px;
+	border-right-color: #FFFFFF;
+	border-right-style: solid;
+	border-right-width: 5px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	padding: 0px;
+	text-align: center;
+	width: 526px;
+}
+
+#side {
+	float: right;
+	left: -10px;
+	margin: 0px -10px 0px 0px;
+	padding: 0px 0px 0px -50px;
+	position: relative;
+	text-align: left;
+	width: 160px;
+}
+
+#side h2 {
+	color: #666666;
+	font-family: Georgia, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	height: 30px;
+	margin: 0px;
+	padding-bottom: 2px;
+	padding-right: 10px;
+	padding-top: 12px;
+	text-align: right;
+}
+
+#side ul {
+	list-style-type: none;
+	margin: 0px 0px 0px -10px;
+	padding: 0px;
+	padding-right: 10px;
+	text-align: right;
+}
+
+#side ul li {
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	text-align: right;
+}
+
+#side ul ul {
+	list-style-type: none;
+	margin: 0px 0px 0px 5px;
+	padding: 0px;
+	text-align: right;
+}
+
+#side ul ul li {
+	border: none;
+	list-style-type: none;
+	margin: 0px 0px 0px -10px;
+	padding-bottom: 2px;
+	padding-right: 10px;
+	padding-top: 2px;
+	text-align: right;
+}
+
+#submit {
+	border-bottom-color: #999999;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-left-color: #999999;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right-color: #666666;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-top-color: #666666;
+	border-top-style: solid;
+	border-top-width: 1px;
+}
+
+#submit:hover {
+	border-bottom-color: #666666;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-left-color: #666666;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right-color: #999999;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-top-color: #999999;
+	border-top-style: solid;
+	border-top-width: 1px;
+	cursor: hand;
+}
+
+#subnav {
+	color: #999999;
+	float: right;
+	margin-right: 5px;
+	margin-top: -20px;
+}
+
+#subnav a:link, #subnav a:visited {
+	color: #666666;
+	font-size: 9px;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+#subnav a:hover {
+	color: #000000;
+}

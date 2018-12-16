@@ -1,0 +1,14 @@
+Plugin Name: Blog Types
+Author: Andrew Billits
+
+Files:
+----------------------------------------------------------------------
+blog-types.php - goes in wp-content/mu-plugins/
+blog-types-config-sample.php - goes in wp-content/
+
+Instructions:
+----------------------------------------------------------------------
+1) Place the files in the specified directories
+2) If the auto-install does not add the db table(s) for you then run the sql code in "sql.txt" on your wpmu db
+3) Rename blog-types-config-sample.php to blog-types-config.php
+4) Open blog-types-config.php and configure the options

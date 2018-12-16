@@ -1,0 +1,471 @@
+/*  
+Theme Name: CommentPress
+Theme URI: http://www.futureofthebook.org/commentpress
+Description: CommentPress allows readers to comment paragraph by paragraph in the margins of a text.
+Version: 1.4
+Author: Eddie Tejeda & Jesse Wilbur
+Author http://www.futureofthebook.org/commentpress/
+
+*/
+
+
+.html, body { 
+ overflow-x:hidden;
+}
+body {
+	background-color: #808088;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 11pt;
+}
+
+a.sidebarLink { 
+	color: #000000;
+	text-decoration: none; 
+}
+
+h1, h2, h3, h4 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: normal;
+	line-height: 120%;
+	margin: 0;
+}
+h1 {
+	color: #dd0000;
+	font-size: 2em;
+	letter-spacing: .08em;
+	text-transform: uppercase;
+}
+h2 {
+	font-size: 1.5em;
+	padding: .25em 0 .25em 0;
+	margin-bottom: .5em;
+}
+h3 {
+	color: #dd0000;
+	font-size: .9em;
+	letter-spacing: .12em;
+	padding: 1em 0 0 0;
+	text-transform: uppercase;
+}
+h4 {
+	font-size: .9em;
+	font-weight: bold;
+	margin-bottom: 3px;
+}
+
+p {
+	margin-top: 0em;
+}
+
+.clear {
+	clear: both;
+}
+
+/* ADDITIONAL FONT STYLES */
+h1 a, h1 a:visited, h2 a, h2 a:visited {
+	color: #000;
+}
+h2.content {
+	width: 365px;
+	border: 1px solid #fff;
+	padding: .25em 2px .25em 2px;	/* padding and margin to allow for highlighting and border */
+	margin: 0 0 .5em -2px;
+}
+code {
+	font: 1em "Courier New", Courier, mono;
+	color: #009900;
+} 
+.normalLight, .normalRed, .author_on_paragraph {
+	color: #808088;
+	font-weight: normal;
+	font-style: normal;
+	letter-spacing: 0;
+	text-transform: none;
+}
+.normalRed {
+	color: #d00;
+}
+.sansLight {
+	color: #808088;
+	font: 1em Arial, Helvetica, sans-serif;
+	letter-spacing: .15em;
+	text-transform: uppercase;
+}
+.sansRed, sansDark {
+	color: #CC0000;
+	font: 1em Arial, Helvetica, sans-serif;
+	letter-spacing: .15em;
+	text-transform: uppercase;
+}
+.smLight, .postmetadata {
+	color: #808088;
+	font: 11px Georgia, Times, "Times New Roman", serif;
+	line-height: 1.6em;
+}
+.smDark, .smRed {
+	color: #000000;
+	font: 11px Georgia, Times, "Times New Roman", serif;
+	line-height: 1.6em;
+}
+.smRed {
+	color: #d00;
+}
+
+.search-excerpt {
+	background-color: #ee0;
+}
+
+/* ADDITIONAL STYLES */
+.divider {
+	border-top: 1px solid #808088;
+	color: #ffffff;
+	margin-top: 2px;
+}
+
+#header h3 { 
+	margin-top: -10px;
+}
+
+/***** LEXIA *****/
+.lexia {
+	margin: 0 10px 0 0;
+}
+.lexia p {
+	font-size: .9em;
+	width: 365px;
+	padding: 5px 2px 5px 2px;		/* padding and margin to allow for highlighting and border */
+	margin: 10px 0px 10px -2px;
+	border: 1px solid #ffffff;
+	line-height: 1.4em;
+}
+.lexia blockquote {
+	margin-left: 1.5em;
+}
+.lexia blockquote p{
+	font-size: .8em;
+	width: 340px;
+}
+.lexia img {
+	max-width: 365px;		/* automatically resizes images */
+}
+.lexia .selected {
+	/* highlighting is controlled in ./javascript/frivolous.js */
+}
+
+.lexiaNumber { 
+	color: #a0a0aa;
+	float: left; 
+	font-size: .75em;
+	margin-left: -22px; 
+	padding: 0 0 0 5px; 
+	text-align: right;
+}
+
+.icons {
+	width: 42px;
+	padding: 0;
+	margin: 0;
+	float: right;
+	white-space: nowrap;
+	text-align: center;
+	font-size: .8em;
+}
+.icons a {
+	text-decoration: none;
+}
+
+#content h3 {
+	margin-bottom: .5em;
+}
+#content ol, #content ul {
+	margin-left: 20px;
+	padding-left: 10px;
+	font-size: .9em;
+	width: 330px;
+}
+ul.bulletList li {
+	list-style-type: disc;
+}
+ol li, ol.numberedList li {
+	list-style-type:decimal;
+	margin-left: 20px; 
+	padding-left: 0px;
+}
+/***** NEXT/PREV navigation *****/
+.navigation {
+	font-size: 11px;
+}
+.navigation table {
+	width: 395px;
+}
+.navigation td {
+	width: 50%;
+	padding: 0;
+	}
+td.alignLeft{
+	padding: 0 10px 0 0;
+}
+td.alignRight {
+	padding: 0 0 0 10px;
+	text-align: right;
+}
+
+
+
+/* COMMENTS */
+
+/* 	
+	this container holds the comment area
+	it is position: fixed
+	width + left padding = 350px;
+*/
+.activity_box {
+	padding-top: 24px;
+}
+
+#cp_commentsTotal {
+	position: absolute;
+	padding-top: 6px;
+	font-size: .75em;
+}
+#cp_showAll {
+	float: right;
+	margin-top: 13px;
+}
+#newcomment{
+	border: 1px solid #ff0000;
+	display: hidden;
+	height: 20px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 200px;
+
+}
+#cp_helpIcon {
+	content: "?";
+	float: right;
+	margin-top: 4px;
+}
+.cp_commentBody {
+	position: relative;
+	margin-left: 0px;
+}
+#comments h3 {
+	padding-left: 15px;
+}
+
+
+/* 	container for comments	*/
+#cp_comments {
+	background-color: #ffffff;
+	border: 1px solid #d5dfe5;
+	font-size: .9em;
+	height: 365px;
+	line-height: 1.35em;
+	margin: 0px;
+	margin-top: 3px;
+	overflow: scroll;
+	overflow-y:scroll;
+	overflow-x: hidden;
+	padding: 10px;
+	position: relative;
+	width: 330px;
+}	
+#cp_comments h4 {
+	font-size: 1em;
+}
+/* STYLES FOR COMMENT TEXT */
+.comment,.commentReference, .commentAuthor {
+	border-top: 1px solid #d5dfe5;
+	margin: 5px 0 0 0;
+	padding: 5px 0 ;
+}
+.comment .title, .comment .title cite, .commentReference, .commentAuthor {
+	font-weight: bold;
+	font-size: .8em;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+}
+.comment .title cite {
+	font-size: 1em;
+}
+#cp_comments p, #cp_indexList p {
+	margin: 0;	
+/*	text-indent: 1.75em; */
+}
+.cp_commentMeta {
+	display: block;
+	margin: -1em 0 1em 0;
+	font: 11px Arial, Helvetica, sans-serif;
+	color: #707077;
+}
+
+.cp_replyLink, .cp_goToText, .cp_goToText_noaction {
+	display: block;
+	float: right;
+	padding-right: 10px;
+	text-align: right;	
+	width: 55%;
+}
+.cp_datePosted {
+	text-align: left;
+}
+.author_on_paragraph {
+	font-size: 1.2em;
+	font-weight: normal;
+	text-transform: none;
+}
+
+/* STYLES FOR THREADED COMMENT */
+.comment .cp_commentBody .comment{
+ 	padding-left: 20px;
+}
+
+/*#cp_write_comment {
+	width: 325px;
+	height: 365px;
+	border: 1px solid #cfcfcc;
+	overflow: scroll;
+	overflow-y:scroll;
+	overflow-x: hidden;
+	padding-left: 15px; 
+	font-size: .8em;
+	margin-top: 3px;
+	line-height: 1.35em;
+}	*/
+
+
+
+
+/* COMMENT AREA: COMMENT OVERVIEW LIST */
+#comment_index #cp_comments .commentlist ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+#comment_index #cp_comments .commentlist ul li {
+	line-height: 1.5em;
+	border-top: 1px solid #d5dfe5;
+	padding: 0 0 1em 5px;
+}
+#comment_index #cp_comments .commentlist ul li a {
+	font-size: .8em;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+}
+#comment{
+	max-width: 400px;
+	width: 90%;
+}
+
+/* SIDEBAR */
+#widgetSidebar1 .section ul, #widgetSidebar1 .section div{
+	border-right: none;
+}
+.sidebar {
+	float: right;
+	background-color: #fff;
+	font-size: 1em;
+	width: 175px;
+}
+
+.section {
+	font-size: .9em;	
+/*	line-height: 1.75em; */
+	margin-bottom: 15px;
+	list-style-type: none;
+/*	width: 175px; */
+}
+.section h3
+{
+	color: #dd0000;
+	padding-left: 2px;
+	padding-bottom: 0px;
+}
+.section ul, .section div {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	line-height: 1.2em;
+	margin: 0px;
+	border: solid 1px #D0D0DD;
+	padding: 10px;
+	overflow: hidden;
+}
+
+.section ul li {
+	margin: .5em 5px .5em 0;
+	padding: 0;
+}
+.section ul li {
+	list-style-type: none;
+}
+.section ol li {
+	margin-left: 20px;
+	padding: 0;
+}
+
+.section div * {
+	border: none;
+}
+
+/* styles for the sidebar usage with widgets */
+.wideSidebar {
+	width: 600px;
+}
+.wideSidebar .section {
+	width: 175px;
+	float: right;
+	margin: 0 25px 0 0;
+}
+
+.wideSidebar .section ul.sidebarList {
+	border: solid 1px #D0D0DD;
+}
+
+
+/*#pages_leftCol{
+	float: left;
+	width: 335px;
+	padding: 24px 0 0 0;
+
+}
+*/
+
+/* STYLES FOR COMMENTPRESS PAGE: COMMENTS BY USER */
+.cp_indexList, .cp_indexListChild {
+	line-height: 1.4em;
+	position: relative;
+	margin-bottom: 40px; /*eddie*/
+}
+/*.cp_indexListChild {
+	padding-left: 20px;
+	border-left: 4px solid #efefef
+}
+*/
+.indexCommentsList {
+	line-height: 2em;
+	padding-right: 30px;
+}
+.cp_indexList p, .cp_indexListChild p {
+}
+.commentParentText {
+	padding-left: 20px;
+	color: #808088;
+}
+
+#no_comments_yet{
+ font-weight: bold;
+}
+
+
+.cp_highlight{
+ background: #D1D5D9;
+ border: 1px dotted #999;
+}
+
+.cp_nohighlight{
+ background: #fff;
+ border: 1px dotted #fff;
+}
+
+

@@ -1,0 +1,343 @@
+/*--------------------------------------------------
+  .tabber = before the tabber interface is set up
+  .tabberlive = after the tabber interface is set up
+  --------------------------------------------------*/
+
+.tabberlive .tabbertabhide {
+ display:none;
+}
+
+.tabber {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+.tabbertab img {
+	border-width: 0px;
+}
+
+.tabberlive {
+	float: left;
+	width: 455px;
+	padding: 0px;
+	margin-bottom: 15px;
+}
+
+/*--------------------------------------------------
+  ul.tabbernav = the tab navigation list
+  li.tabberactive = the active tab
+  --------------------------------------------------*/
+ul.tabbernav {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 455px;
+	list-style-type: none;
+	height: 33px;
+}
+
+ul.tabbernav li {
+	display: inline;
+	margin: 0px;
+	padding: 3px 0px 0px;
+	float: left;
+}
+ul.tabbernav  li a {
+	font-size: 1em;
+	line-height: 33px;
+	color: #333333;
+	display: inline;
+	margin: 0px;
+	float: left;
+	text-decoration: none;
+	padding: 0px 12px;
+	height: 33px;
+	background: #FBFEFF;
+	font-weight: bold;
+	border-top: 1px solid #D3E7F1;
+	border-right: 1px solid #D3E7F1;
+	border-left: 1px solid #D3E7F1;
+}
+
+ul.tabbernav li.tabberactive a {
+	font-size: 1em;
+	line-height: 33px;
+	color: #0066CC;
+	display: inline;
+	margin: 0px;
+	float: left;
+	text-decoration: none;
+	padding: 0px 12px;
+	background: #ECF4F9;
+	font-weight: bold;
+	height: 33px;
+	border-top: 1px solid #D3E7F1;
+	border-right: 1px solid #D3E7F1;
+	border-left: 1px solid #D3E7F1;
+}
+
+/*--------------------------------------------------
+  .tabbertab = the tab content
+  Add style only after the tabber interface is set up (.tabberlive)
+  --------------------------------------------------*/
+.tabberlive .tabbertab {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+
+.tabber .tabbertab {
+
+}
+.tabbertab p {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.rss-feeds {
+	margin: 0px;
+	padding: 10px;
+	float: left;
+	width: 430px;
+	list-style-type: none;
+	background: #ECF4F9;
+	border-right: 1px solid #D3E7F1;
+	border-bottom: 1px solid #D3E7F1;
+	border-left: 1px solid #D3E7F1;
+}
+.feed-pull {
+	float: left;
+	width: 100%;
+	border-bottom: 1px solid #CDECFC;
+	padding: 15px 0px;
+	margin: 0px;
+}
+
+.rss-feeds h1 {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 100%;
+	font-size: 1.35em;
+}
+.feed-pull h1 a {
+	color: #0066CC;
+	text-decoration: none;
+}
+.feed-pull h1 a:hover {
+	color: #000000;
+	text-decoration: none;
+}
+
+
+.rss-author {
+	margin: 0px;
+	padding: 0px 0px 0px 18px;
+	float: left;
+	width: 90%;
+	font-size: 0.9125em;
+	line-height: 1.4em;
+	background: url(images/authors.gif) no-repeat left center;
+	font-style: italic;
+}
+.rss-content {
+	margin: 0px;
+	padding: 8px 0px;
+	float: left;
+	width: 100%;
+	font-size: 1em;
+	line-height: 1.4em;
+}
+.rss-content a {
+	color: #0066CC;
+	text-decoration: underline;
+}
+.rss-content a:hover {
+	color: #0066CC;
+	text-decoration: none;
+}
+
+
+
+
+.tabbertab .list {
+	margin: 0px;
+	padding: 15px 0px 15px 10px;
+	float: left;
+	width: 435px;
+	list-style-type: none;
+	background: #edf8fe;
+	border: 1px solid #B7E3FB;
+}
+.tabbertab .list ul {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 425px;
+	list-style-type: none;
+	background: url(none);
+	border-width: 0px;
+	border-style: none;
+}
+.tabbertab .list li {
+	margin: 0px 0px 5px;
+	padding: 0px 0px 0px 28px;
+	float: left;
+	width: 395px;
+	list-style-type: none;
+	font-size: 11px;
+	line-height: 19px;
+	color: #333333;
+	background: url(images/list.gif) no-repeat left 1px;
+	font-weight: bold;
+}
+.tabbertab .list ul li {
+	margin: 6px 0px 0px;
+	padding: 0px;
+	float: left;
+	width: 395px;
+	list-style-type: none;
+	font-size: 11px;
+	line-height: 19px;
+	color: #333333;
+}
+.tabbertab .list li a {
+	margin: 0px;
+	color: #0066CC;
+	text-decoration: none;
+	font-weight: normal;
+}
+.tabbertab .list li a:hover {
+	margin: 0px;
+	color: #0066CC;
+	text-decoration: underline;
+}
+
+.tabbertab .list-alt {
+	margin: 0px;
+	padding: 15px 0px 15px 10px;
+	float: left;
+	width: 435px;
+	list-style-type: none;
+	background: #edf8fe;
+	border: 1px solid #B7E3FB;
+}
+.tabbertab .list-alt ul {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 425px;
+	list-style-type: none;
+	background: url(none);
+	border-width: 0px;
+	border-style: none;
+}
+.tabbertab .list-alt li {
+	margin: 0px 0px 5px;
+	padding: 0px 0px 0px 28px;
+	float: left;
+	width: 385px;
+	list-style-type: none;
+	font-size: 11px;
+	line-height: 19px;
+	color: #333333;
+	background: url(images/list-alt.gif) no-repeat left 1px;
+	font-weight: bold;
+}
+.tabbertab .list-alt ul li {
+	margin: 6px 0px 0px;
+	padding: 0px;
+	float: left;
+	width: 395px;
+	list-style-type: none;
+	font-size: 11px;
+	line-height: 19px;
+	color: #333333;
+}
+.tabbertab .list-alt li a {
+	margin: 0px;
+	color: #FF6600;
+	text-decoration: none;
+	font-weight: normal;
+}
+.tabbertab .list-alt li a:hover {
+	margin: 0px;
+	color: #FF3300;
+	text-decoration: underline;
+}
+
+
+
+
+.tabbertab .nolist {
+	margin: 0px;
+	padding: 15px 0px 15px 10px;
+	float: left;
+	width: 435px;
+	list-style-type: none;
+	background: #edf8fe;
+	border: 1px solid #B7E3FB;
+}
+.tabbertab .nolist ul {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 425px;
+	list-style-type: none;
+	background: url(none);
+}
+.tabbertab .nolist li {
+	margin: 0px 0px 5px;
+	padding: 0px 0px 0px 5px;
+	float: left;
+	width: 395px;
+	list-style-type: none;
+	font-size: 11px;
+	line-height: 19px;
+	color: #333333;
+	font-weight: bold;
+}
+.tabbertab .nolist ul li {
+	margin: 6px 0px 0px;
+	padding: 0px;
+	float: left;
+	width: 395px;
+	list-style-type: none;
+	font-size: 11px;
+	line-height: 19px;
+	color: #333333;
+}
+.tabbertab .nolist li a {
+	margin: 0px;
+	color: #006699;
+	text-decoration: none;
+	font-weight: normal;
+}
+.tabbertab .nolist li a:hover {
+	margin: 0px;
+	color: #990000;
+	text-decoration: underline;
+}
+
+/* If desired, hide the heading since a heading is provided by the tab */
+.tabberlive .tabbertab h2 {
+	display:none;
+	margin: 0px;
+	padding: 0px;
+}
+.tabberlive .tabbertab h3 {
+	display: none;
+	margin: 0px;
+	padding: 0px;
+}
+.tabber .tabbertab h2 {
+	margin: 0px;
+	padding: 0px;
+
+}
+.tabber .tabbertab h3 {
+	margin: 0px;
+	padding: 0px;
+
+}

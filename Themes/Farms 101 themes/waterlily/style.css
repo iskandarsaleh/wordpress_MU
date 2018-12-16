@@ -1,0 +1,420 @@
+/*
+-----------------------------------------------------------
+Theme Name: Waterlily
+Theme URI: http://www.ewebscapes.com
+Description: Messing about on the river.
+Version: 2.5
+Author: Lisa Sabin-Wilson
+Author URI: http://ewebscapes.com
+-----------------------------------------------------------
+*/
+
+
+
+BODY {
+ background: #304663 url(images/bg.jpg) repeat-x;
+ font-family: trebuchet ms;
+ font-size: 10pt;
+ margin: 0;
+}
+
+/* GENERIC STYLES */
+a img {border: 0px}
+abbr, acronym {border-bottom: 1px dashed #404040; cursor: help;}
+strong, b { font-weight:bold;}
+em, i { font-style:italic;}
+h1, h2, h3, h4 {margin: 0;  font-size: 16px; letter-spacing: 4px;}
+h1, h3, h4 {color: white; padding:0;}
+hr {color: #627082; margin: 15px 0 15px 0;}
+
+
+h2 {
+ font-family: trebuchet ms;
+ color: #8fa6c3;
+ padding: 10px 0 0 10px;
+ font-weight: bold;
+ list-style: none;
+}
+
+
+
+code, pre {
+ font: normal 1em "Courier New", Courier, mono;
+ color: #000;
+ background: white;
+ text-decoration: none;
+ text-align: left;
+}
+
+
+/* STRUCTURE */
+
+#page {
+ width: 800px;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+
+#frame {
+ background:url(images/frame.jpg) repeat-y;
+ float:left;
+ width: 786px;
+}
+
+#topbanner1 {
+ width: 786px;
+ height: 178px;
+ background: url(images/header1.jpg) no-repeat;
+}
+
+#topbanner2 {
+ width: 786px;
+ height: 177px;
+ background: url(images/header2.jpg) no-repeat;
+}
+
+.info {
+ text-align: right;
+ padding: 0 50px 0 0;
+ color: #8fa6c3;
+ font-size: 16px;
+ letter-spacing: 4px;
+ font-weight: bold;
+}
+
+.title {
+ color: #dce4ee;
+ font-size: 32px;
+ padding: 60px 50px 0 0;
+ text-align: right;
+}
+
+.title a, a:active, a:visited { color: #dce4ee; text-decoration: none;}
+.title a:hover {color: #fff; text-decoration: underline;}
+
+#main {
+ float: left;
+ margin: -80px 0 0 60px;
+ width: 480px; 
+ overflow:hidden;
+}
+
+#main a img {border:0px;}
+
+#menu li {list-style: none; margin:0; padding-bottom: 10px;}
+
+#menu {
+ float: left;
+ width:175px;
+ margin: -130px 0 0 22px;
+ font-size:11px; 
+ color: #c0c0c0;
+ overflow:hidden;
+}
+
+#menu form {
+ margin: 5px 0 5px 10px;
+}
+
+#menu input#s {
+ width: 80%;
+ background: #eee;
+ border: 1px solid #d1dae5;
+ color: #000;
+}
+
+#menu ul {
+ color: #c0c0c0;
+ font-weight: bold;
+ list-style-type: none;
+ margin: 0;
+ padding-left: 3px;
+}
+
+#menu ul li {
+ line-height: 130%;
+ letter-spacing: 0.1em;
+ margin-top: 10px;
+ padding-bottom: 2px; /*border-bottom: dotted 1px #ccc;*/
+}
+
+#menu ul ul {
+ font-variant: normal;
+ font-weight: normal;
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ text-align: left;
+}
+
+#menu ul ul li {
+ background: url(images/bullet.jpg) no-repeat;
+ padding-left: 20px;
+ border: 0;
+ letter-spacing: 0;
+ margin: 0 0 0 8px;
+}
+
+#menu ul ul li a { color: #d1dae5; text-decoration: none;}
+#menu ul ul li a:hover {border-bottom: 1px solid #d1dae5;}
+
+#menu ul ul ul.children {
+ font-size: 8pt;
+ padding-left: 2px; border:0px;
+}
+
+
+/* Formatting */
+
+.main_date {
+ margin: 0px 0px 8px 0px;
+ font-style: oblique;
+ text-align: left;
+ font-size: 12px; 
+ font-variant: small-caps;
+ font-family: trebuchet ms;
+ color: #808080; 
+}
+
+.main_title {
+ background: url(images/title.gif) no-repeat;
+ height: 60px;
+ padding: 6px 0 0 40px;
+ text-align: left;
+ font-size: 18px;
+ font-weight: bold; 
+ font-family: trebuchet ms;
+ color: #8fa6c3; 
+}
+
+.main_title a {color: #d1dae5; text-decoration: none;}
+.main_title a:active {color: #d1dae5; text-decoration: none;}
+.main_title a:visited {color: #d1dae5; text-decoration: none;}
+.main_title a:hover {color: #fff; text-decoration: none;}
+
+.archive_title  {
+ text-align: left;
+ font-size: 20px;
+ font-weight: bold; 
+ font-family: trebuchet ms;
+ color: #8fa6c3; 
+}
+
+.archive_title a {color: #d1dae5; text-decoration: none;}
+.archive_title a:active {color: #d1dae5; text-decoration: none;}
+.archive_title a:visited {color: #d1dae5; text-decoration: none;}
+.archive_title a:hover {color: #fff; text-decoration: none;}
+
+
+
+.main_post {
+ text-align: justify;
+ font-size: 10pt; 
+ line-height: 150%;
+ color: #d1dae5; 
+}
+
+.main_post img {
+  background: #A4B7D0;
+  border: 1px solid black;
+  padding:3px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.main_post ul, .post ol { margin: 0 0 1.5em 40px; }
+.main_post li { margin: 0 0 0.5em 0;}
+.main_post ul li ul, .post ul li ol, .post ol li ul, .post ol li ol { margin: 0.5em 0 0.5em 30px; }
+.main_post dl { margin: 0 0 1.5em 0; }
+.main_post dt { font-weight: bold; }
+.main_post dd { margin: 0 0 1.5em 20px; }
+
+.wp-smiley#main_post {border: none; padding: 0; margin: 0; background: transparent;}
+
+
+.main_post a { color: #d1dae5; text-decoration: underline;}
+.main_post a:active { color: #d1dae5; text-decoration: underline;}
+.main_post a:visited { color: #d1dae5; text-decoration: underline;}
+.main_post a:hover { color: #fff; text-decoration: underline;}
+
+.main_feedback {
+ font-size:9pt;
+ color: #fff;
+ text-align: center;
+ margin-bottom: 40px;
+ }
+
+.main_feedback a:link {color: #d1dae5; text-decoration: none;}
+.main_feedback a:visited {color: #d1dae5; text-decoration: none;}
+.main_feedback a:active {color: #d1dae5; text-decoration: none;}
+.main_feedback a:hover{color: #fff; text-decoration: underline; }
+
+
+.navi {
+ font-size:10pt;
+ color: #808080;
+ text-align: center;
+ font-weight: bold;
+ }
+
+.navi a:link {color: #d1dae5;text-decoration: none;}
+.navi a:visited {color: #d1dae5; text-decoration: none;}
+.navi a:active {color: #d1dae5;text-decoration: none;}
+.navi a:hover{color: #d1dae5; text-decoration: underline; }
+
+.pnavi {
+ font-size:10pt;
+ padding: 10px 70px; 0 0 0;
+ color: #808080;
+ text-align: right;
+ font-weight: bold;
+ }
+
+.pnavi a:link {color: #d1dae5;text-decoration: none;}
+.pnavi a:visited {color: #d1dae5; text-decoration: none;}
+.pnavi a:active {color: #d1dae5;text-decoration: none;}
+.pnavi a:hover{color: #d1dae5; text-decoration: underline; }
+
+blockquote {
+ color: #fff;
+ padding-left: 5px;
+ border-left: #bbc9db solid 2px;
+}
+
+
+<!-- /* Comments Form Styles */ -->
+.comment_content {
+ text-align: justify;
+ font-size: 9pt; 
+ font-family: "Lucida Sans Unicode", Arial, sans-serif;
+ color: #fff; 
+ line-height: 130%;
+}
+
+.comment_form a { color: #fff; font-weight:bold; text-decoration: none;}
+.comment_form a:active { color: #fff;font-weight:bold; text-decoration: none;}
+.comment_form a:visited { color: #fff;font-weight:bold; text-decoration: none;}
+.comment_form a:hover { color: #fff;font-weight:bold; text-decoration: underline;}
+
+
+.commentlist a { color: #173e69; font-weight:bold; text-decoration: none;}
+.commentlist a:active { color: #173e69;font-weight:bold; text-decoration: none;}
+.commentlist a:visited { color: #173e69;font-weight:bold; text-decoration: none;}
+.commentlist a:hover { color: #fff;font-weight:bold; text-decoration: underline;}
+
+
+.comments_header{
+ color: #173e69 ;
+ text-align: left;
+ font-weight: bold;
+ font-size: 14px;
+ width:350px;
+}
+
+
+
+.commentlist li {
+ margin: 15px 0 3px;
+ padding: 5px 10px 3px;
+ list-style: none; color: #000;
+ background-color: #99acc3;
+ border: 1px #173e69 solid;
+ -moz-border-radius: 7pt;
+}
+
+li.alt{
+ background-color: #d3dbe3;
+ border: 1px #173e69 solid;
+}
+
+.commentnumber {
+ font: italic normal 14px 'Times New Roman', Times, serif;
+ margin-top: -5px;
+ float:right;
+ color: #23344b;
+ font-size: 28pt;
+ font: italic;
+}
+
+#s {
+ border:1px solid #23344b;
+ background: #99acc3;
+ width:80%;
+}
+
+#b {
+ border:1px solid #23344b;
+ background: #99acc3;
+ color: #000;
+ font-family:verdana, arial, helvetica, sans-serif;
+ font-size:10px;
+ margin-top:5px;
+}
+
+#button {
+ border:1px solid #23344b;
+ background: #99acc3;
+ color: #000;
+ font-family:verdana, arial, helvetica, sans-serif;
+ font-size:10px;
+ margin-top:5px;
+}
+
+INPUT{
+ border:1px solid #23344b;
+ background: #99acc3;
+ color: #000;
+}
+
+TEXTAREA{
+ border:1px solid #23344b;
+ background: #99acc3;
+ width:480px;
+}
+
+
+#footer {
+ background: url(images/footer.jpg) no-repeat;
+ height: 133px;
+ width: 786px;
+}
+
+.footertext a { color: #c0c0c0; text-decoration:none;}
+.footertext a:visited { color: #c0c0c0; text-decoration:none;}
+.footertext a:active { color: #c0c0c0; text-decoration:none;}
+.footertext  a:hover {color: #fff; text-decoration: underline;}
+
+.footertext {
+ text-align: center;
+ padding: 60px 0 0 0;
+ font-size: 8pt; 
+ font-family: trebuchet MS;
+ color: #fff; 
+}
+
+#wp-calendar {empty-cells: show;font: 10px verdana, arial, helvetica, sans-serif;color: #fff; margin: 0;width: 175px;}
+#wp-calendar #next a{padding-right: 10px;text-align: right;color: #283953; background: #8FA6C3;}
+#wp-calendar #prev a{padding-left: 10px;text-align: left; color: #283953; background: #8FA6C3;}
+#wp-calendar a{	color: #8FA6C3; display: block;text-decoration: none;}
+#wp-calendar a:hover{color: #283953; background: #8FA6C3;text-decoration: none;border: none;}
+#wp-calendar caption{font-family:verdana, arial, helvetica, sans-serif; font-size: 11px; font-weight:bold; letter-spacing: 1px; color: #fff; }
+#wp-calendar td{color: #c0c0c0;font: 10px verdana, arial, helvetica, sans-serif;letter-spacing: normal;padding: 1px 0;text-align: center;}
+#wp-calendar td.pad:hover{color: #283953; background: #8FA6C3;text-decoration: none;border: none;}
+#wp-calendar #today{background: #283953;color: #fff;}
+#wp-calendar th{font-style: normal;text-transform: capitalize;}
+
+
+
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */

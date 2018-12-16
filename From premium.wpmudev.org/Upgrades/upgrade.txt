@@ -1,0 +1,29 @@
+Uprade from 'Premium Lite' to 'Upgrades'
+
+1) Rename Tables:
+
+Substitute 'PREFIX_' with your table prefix.
+
+PREFIX_premium_credits -> PREFIX_upgrades_credits
+PREFIX_premium_package_status -> PREFIX_upgrades_package_status
+PREFIX_premium_log -> PREFIX_upgrades_log
+PREFIX_premium_packages -> PREFIX_upgrades_packages
+PREFIX_premium_features -> PREFIX_upgrades_features
+
+2) Add Fields
+
+Add the following tables to PREFIX_upgrades_features
+
+`package_plugin_three` varchar(255) NOT NULL default '0',
+`package_plugin_four` varchar(255) NOT NULL default '0',
+`package_plugin_five` varchar(255) NOT NULL default '0',
+`package_plugin_six` varchar(255) NOT NULL default '0',
+`package_plugin_seven` varchar(255) NOT NULL default '0',
+`package_plugin_eight` varchar(255) NOT NULL default '0',
+`package_plugin_nine` varchar(255) NOT NULL default '0',
+`package_plugin_ten` varchar(255) NOT NULL default '0',
+`package_plugin_eleven` varchar(255) NOT NULL default '0',
+`package_plugin_twelve` varchar(255) NOT NULL default '0',
+`package_plugin_thirteen` varchar(255) NOT NULL default '0',
+`package_plugin_fourteen` varchar(255) NOT NULL default '0',
+`package_plugin_fifteen` varchar(255) NOT NULL default '0',

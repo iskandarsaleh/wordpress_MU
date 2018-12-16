@@ -1,0 +1,24 @@
+#navigation {
+	background: url(corporate-red/navs.png) no-repeat!important;
+}
+
+ul#nav li.selected, ul#nav li.current_page_item {
+	background: url(corporate-red/leftbar.png) no-repeat left center!important;
+}
+ul#nav li.selected a, ul#nav li.current_page_item a {
+	background: url(corporate-red/rightbar.png) no-repeat right center!important;
+}
+#post-entry h2.widgettitle {
+	background: url(corporate-red/longbar.png) no-repeat!important;
+}
+#center-column h2.widgettitle {
+	background: url(corporate-red/mediumbar.png) no-repeat!important;
+}
+#right-column h2.widgettitle {
+	background: url(corporate-red/shortbar.png) no-repeat!important;
+}
+
+#userbar #meprofile {
+    background: url(corporate-red/side.png) repeat-x!important;
+
+}

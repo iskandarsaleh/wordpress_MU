@@ -1,0 +1,16 @@
+CREATE TABLE `wp_blog_types` (
+  `blog_types_ID` bigint(20) unsigned NOT NULL auto_increment,
+  `blog_ID` bigint(20) NOT NULL,
+  `blog_types` TEXT NULL,
+  `blog_subtypes` TEXT NULL,
+  PRIMARY KEY  (`blog_types_ID`)
+) ENGINE=MyISAM;
+
+CREATE TABLE `wp_signup_blog_types` (
+  `blog_types_ID` bigint(20) unsigned NOT NULL auto_increment,
+  `blog_types_domain` varchar(255) NOT NULL,
+  `blog_types_path` varchar(255) NOT NULL,
+  `blog_types` TEXT NULL,
+  `blog_subtypes` TEXT NULL,
+  PRIMARY KEY  (`blog_types_ID`)
+) ENGINE=MyISAM;

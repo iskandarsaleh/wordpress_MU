@@ -1,0 +1,245 @@
+/*
+Theme Name: 72 Class
+Theme URI: http://wordpress.alanwho.com/72class
+Description: Minmalist yet modern and beautifully executed.
+Author: Alan Who
+Author URI: http://alanwho.com
+
+License: 
+72 class is released under a <a rel="license" href="http://creativecommons.org/licenses/by/2.5/scotland/">
+Attribution 2.5 License</a>
+By downloading and using this theme, you agree to the following terms:
+- You are free to to copy, distribute, display, and perform the work entitled "72 Class" for both non-commercial and commercial purposes.
+- You are also free to make derivative works.
+- You agree to maintain a link back to AlanWho.com in the footer (either modified or unmodified) as an act of attribution.
+*/
+
+/* >>>>>>>>>>>>>>>>>>>> 
+
+FOUNDATIONS
+
+<<<<<<<<<<<<<<<<<<<<  */
+
+
+
+/* ------------------ specials ------------------ */
+* { margin: 0em; padding: 0em; }
+
+
+/* ------------------ tags ------------------ */
+body { font-family: "Trebuchet MS", arial, helvetica, sans-serif; margin: 0em; background-color: rgb(250,250,250); }
+fieldset { border: none; }
+img { border: none; }
+
+
+/* ------------------ links ------------------ */
+a, a:link, a:visited { color: rgb(150,150,150); text-decoration: none; font-weight: bold; }
+a:visited:hover, a:link:hover { color: rgb(50,50,50); text-decoration:none; }
+
+
+
+/* ------------------ h1, h2, h3, h4, h5 ------------------ */
+h1 { font-family: "Trebuchet MS", "Lucida Grange", "Lucida Sans", Arial; }
+h2 { font-family: Helvetica, "Trebuchet MS", Arial; font-weight:normal; }
+h3 { font-family: Helvetica, "Trebuchet MS", Arial; font-weight:normal; }
+
+
+/* ------------------ classe ------------------ */
+.clearing { clear: both; height: 0em; overflow: hidden; }
+.off { display: none; visibility:hidden; }
+.count { background-color: rgb(0,0,163); color: rgb(255,255,255); border: .1em solid rgb(0,0,163); padding:.15em .5em; margin-right: .25em; text-align:center; }
+.float-left { float: left; margin-right: 1em; }
+img.float-left { padding: .25em; background-color: rgb(230,230,230); } 
+h1.pagetitle { text-align: center; margin: 0em auto 1em auto; }
+
+/* ------------------ .navigation ------------------ */
+.navigation { clear: both; padding-bottom: 35px; margin-top: .25em; font-size: 95%; }
+.navigation a, .post-nav a:visited { color: #999999; text-decoration: none; }
+.navigation a:hover { color: #000000; text-decoration: none; }
+.navigation .alignleft a { float: left; padding-left: 20px; background: url(images/post-nav-previous.gif) no-repeat left center; }
+.navigation .alignright a { float: right; padding-right: 20px; text-align: right; background: url(images/post-nav-next.gif) no-repeat right center; }
+
+
+/* >>>>>>>>>>>>>>>>>>>> 
+
+HEADER
+
+<<<<<<<<<<<<<<<<<<<<  */
+
+
+/* ------------------ #page ------------------ */
+#page { width: 750px; margin: 0 auto;  }
+
+
+/* ------------------ #header ------------------ */
+#header { width: 100%; font-family: "Trebuchet MS", arial, helvetica, sans-serif; margin: 2em 0em 0em 0em; padding: .1em 0em; }
+#header h1 { font-size: 500%; text-align: center; padding: 0em; margin: .25em 0em 0em 0em; }
+#header h1 a:link, #header h1 a:visited { color: rgb(0,0,0); background-color: transparent; text-decoration: none; }
+#header h1 a:hover, #header h1 a:active { background-color: rgb(0,0,0); color: rgb(255,255,255); }
+#header p { color: rgb(0,0,0); background-color: transparent; font-size: 160%; text-align: center; margin: 0em 0em 1em 0em; padding: 0em;  }
+
+
+/* ------------------ #top ------------------ */
+#top { position: absolute; top: 0em; left: 0em; width: 100%; background-color: rgb(0,0,0); color: rgb(255,255,255); }
+#top a:link, #top a:visited { color: rgb(255,255,255); }
+#top a:hover, #top a:active { background-color: rgb(255,255,255); color: rgb(0,0,0); }
+#top p { text-align: left; width: 30%; float: left; margin: 0; padding: .5em; font-size: 110%; font-weight: bold; }
+#top ul { width: 30%; text-align: right;list-style: none; float: right; margin: 0; padding: .7em; font-size: 95%; }
+#top li { list-style: none; display: inline; margin: 0; }
+
+
+/* >>>>>>>>>>>>>>>>>>>> 
+
+CONTENT
+
+<<<<<<<<<<<<<<<<<<<<  */
+
+
+/* ------------------ #wrapper ------------------ */
+#wrapper { width: 100%; margin-top: 1em;  }
+
+
+/* ------------------ #content ------------------ */
+#content { width: 760px; margin: .5em auto; }
+
+
+/* ------------------ .post-nav ------------------ */
+.post-nav { clear: both; padding: .5em .5em .75em .5em; height: 15px; margin: -1em 0em .5em 0em;  font-size: 95%; }
+.post-nav .previous a { float: left;  }
+.post-nav .next a { float: right;text-align: right; }
+
+
+/* ------------------ .post ------------------ */
+.post { clear: both; overflow: hidden; margin: 0em 0em 1em 0em }
+
+
+/* ------------------ .post .title ------------------ */
+.post .title { float: left; width: 85%; margin: 0em 0em 0em 1em; padding: 0em;  }
+.post .title h2 { font: normal 300% Georgia, "Times New Roman", Times, serif; font-size: 1.8em; letter-spacing:-1px; padding-bottom: .25em;  }
+.post .title h2 a, .post .title h2 a:link, .post .title h2 a:visited { color: rgb(0,0,0); font-weight: normal; }
+.post .title h2 a:visited:hover, .post .title h2 a:hover, .post .title h2 a:active { background-color: rgb(0,0,0); color: rgb(255,255,255);  text-decoration: none; }
+
+
+/* ------------------ .post .date ------------------ */
+.post .date { height: 50px; width: 45px; background: url(images/calendar.gif) no-repeat; font: normal 22px Arial, Helvetica, sans-serif; color: #666666; text-align: center; padding: 0px 2px 0 0; line-height: 100%; float: left; }
+.post .date span { height: 16px; display: block; font: normal 11px Arial, Helvetica, sans-serif;	color: #ffffff; text-align: center; padding-top: 5px; }
+
+
+/* ------------------ .postdata ------------------ */
+.postdata { font-size: 90%; color: rgb(0,0,0); overflow: auto; }
+.postdata a, .postdata a:visited { text-decoration: none; }
+.postdata .category { float: left; }
+.postdata .comments{ float: right; }
+
+
+/* ------------------ .post .mini-add-comment ------------------ */
+.mini-add-comment { background: url() no-repeat left center; padding-left: 12px; float: right; }
+
+
+/* ------------------ start .entry ------------------ */
+.entry { }
+.entry p { font-family: helvetica, verdana, arial, sans-serif; line-height: 1.5em; padding: 1em 0em; }
+.entry ol { list-style: none; margin: 0em; padding: .5em 0em; }
+.entry h2 { font: normal 300% Georgia, "Times New Roman", Times, serif;  font-size:1.8em; letter-spacing:-1px;   padding-bottom: .25em; margin-left: .25em;  }
+.entry h2 a, .post h2 a:visited { color: rgb(0,0,0); font-weight: normal; }
+.entry h2 a:hover { background-color: rgb(0,0,0); color: rgb(255,255,255);  text-decoration: none; }
+.entry h3 { color:#000000; border-bottom: .1em solid rgb(0,0,0);  }
+.entry h3 .board { background-color: rgb(0,0,0); color: #ffffff; margin-right: .5em; padding:.15em .5em; text-align:center;  }
+
+
+/* ------------------ .postmetadata ------------------ */
+.postmetadata { margin: 0em; padding: 1em; background-color: rgb(248,248,248); border: .15em solid rgb(221,221,221); }
+
+
+/* >>>>>>>>>>>>>>>>>>>> 
+
+COMMENTS
+
+<<<<<<<<<<<<<<<<<<<<  */
+
+/* ------------------ .comments-wrapper ------------------ */
+.comments-wrapper { background-color: rgb(0,0,0); color: rgb(255,255,255); }
+
+
+/* ------------------ .comments ------------------ */
+.comments { width: 750px; margin: 0 auto; padding: 1em 0em;  }
+.comments p { margin: 1em 0em; }
+.comments a { color: rgb(255,255,255); }
+.comments a:hover { color: rgb(255,255,255); }
+.comments h2 { margin: .25em 0em .5em 0em; padding-bottom: .25em; }
+.comments .count { background-color: rgb(0,0,0); color: rgb(255,255,255); }
+
+
+/* ------------------ .metalinks ------------------ */
+.metalinks { padding: .15em; }
+.metalinks .commentsrsslink { background: url('images/feed.png') left center no-repeat; padding: 2px 0 2px 17px; margin-right: 6px; height: 16px;  }
+.metalinks .trackbacklink { background: url('images/arrow_refresh.png') left center no-repeat; padding: 2px 0 2px 17px; height: 16px; }
+
+
+/* ------------------ ol.commentlist ------------------ */
+ol.commentlist { margin: 1em 0em; }
+.commentlist li { background-color: rgb(51,51,51); color: rgb(255,255,255); margin: 0em; padding: 1em; list-style: none; margin-bottom: .5em; overflow: hidden; }
+.commentlist li .count { background-color: rgb(0,0,0); color: rgb(255,255,255); }
+
+.commentlist li.alt { background-color: rgb(0,0,0); color: rgb(255,255,255); overflow: hidden; }
+.commentlist li.alt .count { background-color: rgb(51,51,51); color: rgb(255,255,255); }
+
+.commentlist li img.gravatar { float: left; margin-right: 1em; background: rgb(230,230,230); border: .25em solid rgb(241,241,241); padding: .25em; width:40px; height:40px; }
+.commentlist li a:hover img.gravatar { background: rgb(0,0,153); border: .25em solid rgb(0,0,153); text-decoration:none }
+
+.commentlist li.commentOfficialUser { background-color: rgb(209,182,114); color: rgb(255,255,255); background-image: url(_images/internet_income_tactics/grad-gold.png); background-repeat: repeat-x; background-attachment: scroll; overflow: hidden; }
+.commentlist .count { float: right; margin-left: 1em; border: .1em solid rgb(255,255,255); color: rgb(255,255,255); font-size:26px;  } 
+.comment-content { padding: .6em 0em 0em 0em; }
+.comment-content .cc { border-left: 1px solid rgb(255,255,255); line-height: 20px; padding-left: 12px; margin: 0px 230px; margin-top:-50px; margin-right:18px; }
+.comment-content .cc p { padding-right: 50px; }
+#commentlist li .comment-meta { padding-left: 20px; font-size:10px; color:#CCCCCC; display: block;	}
+#commentlist li .commentauthor { font-size: 20px; letter-spacing: -1px; color: #333333; width:200px; }
+#commentlist li .commentauthor a { font-size: 20px; letter-spacing: -1px; color:#333; }
+
+
+/* ------------------ .comment_form ------------------ */
+.comment_form { text-align: left; margin-top: 1em; }
+.comment_form form { margin: 0em; }
+
+.comment_form fieldset, .comment_form fieldset fieldset  { border: none; }
+.comment_form legend { display: none; }
+
+.comment_form label { font-size: 1em; padding: 1em 0em; }
+.comment_form input.med, .comment_form select.med, .comment_form textarea.textbox { width: 300px; border: .05em solid rgb(0,0,153); color : rgb(51,51,51); padding: .25em; margin: 1em 0em; font-family: Trebuchet MS, Arial, sans-serif; font-size: 1.25em; }
+.comment_form textarea.textbox { width: 95%; margin: 1em auto; }
+
+.comment_form input.submit-button { margin : .5em 0em; padding: .25em; width: 11em; 
+cursor: pointer; background-color: rgb(51,51,51); color: rgb(255,255,255); text-align : center; font-size: 1.25em;  }
+.comment_form input.submit-button:hover, .comment_form input.submit-button:focus { background-color : rgb(0,0,0); color : rgb(255,255,255); background-image:none; text-decoration:underline; }
+
+
+/* >>>>>>>>>>>>>>>>>>>> 
+
+FOOTER
+
+<<<<<<<<<<<<<<<<<<<< */
+
+
+/* >>>>>>>>>>>>>>>>>>>> #footer <<<<<<<<<<<<<<<<<<<< */
+#footer { clear: both; background-color: rgb(0,0,0); color: rgb(255,255,255); padding: .25em; text-align: center; }
+#footer a:link, #footer a:visited, #sidebar a:link, #sidebar a:visited { color: rgb(255,255,255); }
+#footer a:hover,#footer a:active, #sidebar a:hover, #sidebar a:active { background-color: rgb(255,255,255); color: rgb(0,0,0); }
+#footer-wrapper { background-color: rgb(0,0,0); color: rgb(255,255,255); }
+#footer p { margin: 1em 0em; }
+#about { width: 750px; margin: 0em auto; text-align: left; }
+
+
+/* >>>>>>>>>>>>>>>>>>>> 
+
+SIDEBAR
+
+<<<<<<<<<<<<<<<<<<<< */
+
+#sidebar-wrapper { background-color: rgb(0,0,0); color: rgb(255,255,255); }
+
+/* >>>>>>>>>>>>>>>>>>>> #sidebar  <<<<<<<<<<<<<<<<<<<< */
+#sidebar { padding: 1em 0em; margin: 0em auto; width: 750px; overflow: hidden; }
+#sidebar .block { float: left; width: 30%; margin: 0em 0em 0em 1em; display: inline; }
+#sidebar .block h2, #sidebar .block h3 { margin: 0em 0em 1em 0em; font-family: Helvetica, "Trebuchet MS", Arial; font-weight:normal; }
+#sidebar ul { margin: 0em; padding: 0em; }
+#sidebar ul li { list-style-type: none; margin: 0em; padding: 0em; }

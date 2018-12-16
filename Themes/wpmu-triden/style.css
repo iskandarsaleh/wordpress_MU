@@ -1,0 +1,1186 @@
+/*
+
+Theme Name: WPMU-triden
+Theme Date: 10082009
+Version: 2.1
+Theme URI: http://www.incsub.com/
+Description: A customized CMS backend with custom galleries and all sorts of other good stuff.
+Author: incsub
+Author URI: http://www.incsub.com/
+
+Tags: Three Columns, Right Sidebar, Fixed Width, Custom Colors, Custom Header, Theme Options, Threaded Comments
+
+The CSS, XHTML and design is released under GPL:
+http://www.opensource.org/licenses/gpl-license.php
+
+*/
+
+body {
+	font-family: Helvetica, Arial, Tahoma;
+	font-size: 100%;
+	color: #333333;
+	background: #CDCDCD;
+	margin: 0px;
+	padding: 0px;
+}
+:-moz-any-link:active {
+  outline: none;
+}
+#wp-calendar {
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 100%;
+}
+img {
+	border-width: 0px;
+	border-style: none;
+}
+h3 a {
+	color: #000000;
+	text-decoration: none;
+}
+#wrapper {
+	margin: 0px auto;
+	width: 940px;
+	font-size: 0.785em;
+	padding-top: 15px;
+}
+#container {
+	margin: 0px auto;
+	width: 900px;
+	padding: 20px 20px 10px;
+	float: left;
+	background: #FFF;
+}
+#top-header {
+	padding-bottom: 1em;
+	padding-top: 10px;
+	margin: 0px;
+	float: left;
+	width: 100%;
+}
+#top-header h1 {
+	font-size: 2.5em;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 100%;
+}
+#top-header a {
+	color: #000000;
+	text-decoration: none;
+}
+#top-header p {
+	font-size: 1.025em;
+	line-height: 20px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 100%;
+}
+
+
+#custom-img-header {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 150px;
+	width: 900px;
+	overflow: hidden;
+}
+
+#navigation {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 100%;
+	background: #252525;
+}
+
+/* -----------------------------------*/
+/* >> Dropdown Navigations <<<-----*/
+/* -----------------------------------*/
+
+
+#nav {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	float: left;
+	width: 790px;
+	position: relative;
+}
+#nav ul {
+	background: transparent;
+}
+
+
+#nav li {
+	position: relative;
+	display: inline-block;
+	float: left;
+	color: #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+	}
+#nav li:hover {
+	position: relative;
+	display: inline-block;
+	float: left;
+	color: #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+	background: #454545;
+	}
+	
+#nav li li{
+	background: url(none)!important;
+	padding: 0px!important;
+	}
+
+#nav li ul {
+	position: absolute;
+	left: 0px; /* Set 1px less than menu width */
+	top: 27px;
+	display: none;
+	margin: 0px;
+	padding: 0px;
+	width: 250px;
+	border-right: 0px none;
+	border-bottom: 0px none;
+	border-left: 0px none;
+	border-top-width: 0px;
+	border-top-style: none;
+	list-style-type: none;
+	}
+
+/* Styles for Menu Items */
+#nav li a {
+	text-decoration: none;
+	color: #FFFFFF;
+	display: inline-block;
+	padding: 0px 15px;
+	margin: 0px;
+	float: left;
+	font-size: 1em;
+	line-height: 28px;
+	}
+#nav li a:hover {
+	text-decoration: none;
+	color: #FFFFFF;
+	display: inline-block;
+	padding: 0px 15px;
+	margin: 0px;
+	float: left;
+	font-size: 1em;
+	line-height: 28px;
+	background: #454545;
+	}
+	
+#nav ul li a {
+	text-decoration: none;
+	color: #EEE;
+	display: inline-block;
+	padding: 8px 12px 8px 17px;
+	margin: 0px;
+	float: left;
+	background: #454545!important;
+	border-bottom: 0px none;
+	width: 215px;
+	font-size: 1em;
+	line-height: 18px;
+	border-left: 0px none;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	}
+#nav ul li a:hover {
+	text-decoration: underline;
+	color: #FFFFFF;
+	display: inline-block;
+	background: #454545!important;
+	padding: 8px 12px 8px 17px;
+	margin: 0px;
+	float: left;
+	border-bottom: 0px none;
+	width: 215px;
+	font-size: 1em;
+	line-height: 18px;
+	border-left: 0px none;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	}
+
+/* Holly Hack. IE Requirement \*/
+* html ul li { float: left; height: 1%; }
+* html ul li a { height: 1%; }
+/* End */
+
+#nav li:hover ul, #nav li.over ul { display: block; } /* The magic */
+
+/* -----------------------------------*/
+/* >> End Dropdown Navigations <<<-----*/
+/* -----------------------------------*/
+#navigation .rss-feeds {
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	height: 28px;
+	width: 100px;
+	line-height: 28px;
+	font-size: 1em;
+	color: #FFFFFF;
+}
+#navigation .rss-feeds a {
+	display: inline-block;
+	margin: 0px;
+	padding: 0px 0px 0px 16px;
+	color: #FFFFFF;
+	text-decoration: none;
+	background: url(images/rss.png) no-repeat left center;
+}
+
+#content {
+	margin: 0px;
+	padding: 30px 0px 0px;
+	float: left;
+	width: 100%;
+}
+#content a {
+	color: #660000;
+	text-decoration: underline;
+}
+#content a:hover {
+	color: #970000;
+	text-decoration: none;
+}
+#top-content {
+	margin: 0px;
+	padding: 0px 0px 15px;
+	float: left;
+	width: 100%;
+}
+
+#top-content .box {
+	margin: 0px;
+	float: left;
+	width: 278px;
+	padding-right: 10px;
+	padding-left: 10px;
+	overflow: hidden;
+}
+#center-box {
+	margin: 0px!important;
+	padding: 0px;
+	border-right: 1px solid #eeeeee;
+	border-left: 1px solid #EEEEEE;
+}
+#top-content h3 {
+	font-size: 1.25em;
+	margin: 0px 0px 15px;
+	padding: 0px;
+	float: left;
+	width: 100%;
+}
+
+#top-content .list {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 100%;
+	list-style-type: none;
+}
+#top-content .list ul {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 100%;
+	list-style-type: none;
+}
+#top-content .list li {
+	margin: 0px 0px 25px;
+	padding: 0px;
+	float: left;
+	width: 100%;
+	list-style-type: none;
+	line-height: 135%;
+}
+#top-content .list ul li {
+	margin: 0px 0px 10px;
+	padding: 0px;
+	float: left;
+	width: 100%;
+	list-style-type: none;
+	line-height: 135%;
+}
+#top-content .list ul li ul li {
+	margin: 10px 0px 0px;
+	padding: 0px;
+	float: left;
+	width: 100%;
+	list-style-type: none;
+	line-height: 135%;
+}
+#bottom-content {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 100%;
+	border-top: 1px solid #eee;
+}
+#bottom-content .list {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 100%;
+	list-style-type: none;
+}
+#bottom-content .list ul {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 100%;
+	list-style-type: none;
+}
+#bottom-content .list li {
+	margin: 0px 0px 25px;
+	padding: 0px;
+	float: left;
+	width: 100%;
+	list-style-type: none;
+	line-height: 18px;
+}
+#bottom-content .list ul li {
+	margin: 0px 0px 10px;
+	padding: 0px;
+	float: left;
+	width: 100%;
+	list-style-type: none;
+	line-height: 18px;
+}
+#bottom-content .list ul li ul li {
+	margin: 10px 0px 0px;
+	padding: 0px;
+	float: left;
+	width: 100%;
+	list-style-type: none;
+	line-height: 18px;
+}
+
+
+#tab-content {
+	float: left;
+	width: 430px;
+	border-right: 1px solid #eee;
+	padding-right: 19px;
+	padding-top: 25px;
+}
+#bottom-content h3 {
+	font-size: 1.35em;
+	margin: 0px 0px 15px;
+	padding: 0px;
+	float: left;
+	width: 100%;
+}
+#editor-content .editor {
+	margin: 0px;
+	padding: 10px 0px 20px;
+	float: left;
+	width: 100%;
+	list-style-type: none;
+}
+#editor-content .editor li {
+	display: inline;
+	margin: 0px 15px 15px 0px;
+	padding: 0px;
+	float: left;
+}
+#editor-content .editor img {
+	padding: 5px;
+	border: 1px solid #E4E4E4;
+}
+
+#editor-content {
+	float: right;
+	width: 430px;
+	padding-left: 20px;
+	padding-top: 25px;
+}
+
+#footer-end {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 20px;
+	width: 100%;
+}
+
+
+#footer {
+	background: #252525;
+	margin: 0px;
+	padding: 1%;
+	float: left;
+	width: 98%;
+	color: #FFFFFF;
+	font-size: 0.85em;
+}
+#container #footer a {
+	color: #FFFFFF!important;
+	text-decoration: none;
+}
+#content #footer a:hover {
+	color: #FFFFFF!important;
+	text-decoration: underline!important;
+}
+
+#footer .fleft {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 600px;
+}
+#footer .fright {
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	width: 280px;
+	text-align: right;
+}
+#post-entry {
+	margin: 0px;
+	padding: 0px 15px 3em 0px;
+	float: left;
+	width: 578px;
+	border-right: 1px solid #ededed;
+}
+#post-entry h2 {
+	font-size: 1.35em;
+	margin: 0px 0px 1em;
+	padding: 0px;
+	float: left;
+	width: 100%;
+}
+#post-entry h2 a {
+	color: #660000;
+	text-decoration: underline;
+}
+#sidebar {
+	margin: 0px;
+	padding: 0px 0px 0px 10px;
+	float: right;
+	width: 285px;
+}
+#sidebar .list {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 100%;
+	list-style-type: none;
+}
+#sidebar .list ul {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 100%;
+	list-style-type: none;
+}
+#sidebar h3 {
+	font-size: 1.5em;
+	margin: 0px 0px 15px;
+	padding: 0px;
+	float: left;
+	width: 100%;
+}
+#sidebar .list li {
+	font-size: 1em;
+	line-height: 18px;
+	margin: 0px 0px 25px;
+	padding: 0px;
+	float: left;
+	width: 100%;
+}
+#sidebar .list ul li {
+	margin: 0px 0px 10px;
+	padding: 0px;
+	float: left;
+	width: 100%;
+}
+#sidebar .list ul li ul li {
+	margin: 10px 0px 0px;
+	padding: 0px;
+	float: left;
+	width: 100%;
+}
+.list li select {
+	margin: 0px;
+	padding: 2px;
+	width: 90%;
+	border: 1px solid #aaa;
+}
+
+#sidebar a {
+	color: #660000;
+	text-decoration: underline;
+}
+#sidebar a:hover {
+	color: #000000;
+	text-decoration: none;
+}
+#sidebar object {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: auto;
+	width: 100%;
+}
+#sidebar embed {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: auto;
+	width: 100%;
+}
+#sidebar table {
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+.list form {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 100%;
+}
+.list label {
+	font-size: 12px;
+	font-weight: bold;
+}
+.list input {
+	font-family: Arial, Tahoma, "Lucida Sans";
+}
+.list p {
+	margin: 0px;
+	padding: 0px;
+}
+p#profile-avatar {
+	margin: 0px 10px 0px 0px;
+	padding: 0px;
+	float: left!important;
+}
+p#profile-avatar img {
+	float: left!important;
+	padding-right: 10px;
+}
+#profile-stuff {
+	margin: 0px;
+	padding: 0px;
+	float: left!important;
+	line-height: 20px;
+}
+
+
+.list object {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: auto;
+	width: 100%;
+}
+.list embed {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: auto;
+	width: 100%;
+}
+.list table {
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+
+
+#content a:hover {
+	color: #000033!important;
+	text-decoration: none!important;
+}
+
+.post, .page {
+	margin: 0px 0px 2em;
+	padding: 0px 0px 2em;
+	float: left;
+	width: 100%;
+	border-bottom: 1px solid #eee;
+}
+.post a, .page a {
+	color: #990000;
+	text-decoration: underline;
+}
+.post a:hover, .page a:hover {
+	color: #CC0033;
+	text-decoration: none;
+}
+h1.post-title {
+	font-size: 2em;
+	line-height: 1.3em;
+	margin: 0px 0px 10px;
+	padding: 0px;
+	float: left;
+	width: 100%;
+}
+h1.post-title a {
+	color: #000000;
+	text-decoration: none!important;
+}
+h1.post-title a:hover {
+	color: #990000;
+	text-decoration: none;
+}
+.post-author {
+	font-size: 0.85em;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 100%;
+	line-height: 18px;
+}
+.post-content {
+	font-size: 1em;
+	margin: 0px;
+	padding: 2em 0px;
+	float: left;
+	width: 100%;
+	line-height: 1.5em;
+}
+.post-content img {
+	border-width: 0px;
+	border-style: none;
+    max-width: 100%;
+}
+
+.post-category {
+	margin: 0px;
+	padding: 0px 0px 5px;
+	float: left;
+	width: 100%;
+	font-weight: bold;
+	font-size: 0.85em;
+}
+.post-tag {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 100%;
+	font-weight: bold;
+	font-size: 0.85em;
+}
+.post-category a {
+	font-weight: normal;
+	text-decoration: underline;
+}
+.post-tag a {
+	font-weight: normal;
+	text-decoration: underline;
+}
+#comments-template {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 100%;
+}
+#comments-template h4 {
+	font-size: 1.65em;
+	line-height: 1.8em;
+	margin: 0px 0px 10px;
+	padding: 0px;
+	float: left;
+	width: 100%;
+	text-transform: capitalize;
+}
+#comments-template blockquote {
+	text-decoration: none;
+	margin: 10px 0px 10px 15px;
+	padding: 10px 0px 0px 5px;
+	clear: both;
+	background: url(none);
+	font-size: 1em;
+	line-height: 18px;
+	font-family: Georgia, "Times New Roman", Helvetica, sans-serif;
+	font-weight: normal;
+}
+
+.com {
+	margin: 0px 0px 20px;
+	padding: 0px 0px 20px;
+	float: left;
+	width: 98%;
+	border-bottom: 1px solid #eee;
+}
+.com-avatar {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+.com-avatar img {
+	padding: 3px;
+	border: 1px solid #efefef;
+}
+
+.com-block {
+	margin: 0px;
+	padding: 0px 0px 0px 10px;
+	float: left;
+	overflow: hidden;
+	width: 490px;
+}
+.com-author {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 100%;
+	font-weight: bold;
+	font-size: 1em;
+	line-height: 18px;
+}
+.com-block a {
+	font-weight: normal;
+	color: #660000;
+	text-decoration: underline;
+}
+.com-block a:hover {
+	font-weight: normal;
+	color: #990000;
+	text-decoration: none;
+}
+.com-text {
+	margin: 0px;
+	padding: 1em 0px;
+	float: left;
+	width: 100%;
+	font-size: 1em;
+	line-height: 18px;
+}
+.com-alt {
+	margin: 0px 0px 20px;
+	padding: 10px 0px;
+	float: left;
+	width: 98%;
+	border-bottom: 1px solid #eee;
+}
+h4#pingback {
+	margin: 25px 0px 20px;
+	padding: 0px;
+}
+.ping {
+	float: left;
+	width: 90%;
+	margin: 0px 0px 3em;
+	padding: 0px;
+	list-style-type: none;
+}
+.ping li {
+	margin: 0px 0px 10px;
+	padding: 0px;
+}
+.ping a {
+	color: #660000;
+	text-decoration: underline;
+}
+.ping a:hover {
+	color: #990000;
+	text-decoration: none;
+}
+h4#feedback {
+	margin: 30px 0px 0px;
+	padding: 0px;
+}
+h4#respond {
+	margin: 30px 0px 0px;
+	padding: 0px;
+}
+.notify {
+	margin: 0px 0px 25px;
+	padding: 0px;
+	float: left;
+	width: 100%;
+}
+.notify a {
+	color: #660000;
+	text-decoration: underline;
+}
+.notify a:hover {
+	color: #990000;
+	text-decoration: none;
+}
+#comment-form {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 100%;
+}
+#comment-form label {
+	font-size: 1em;
+	font-weight: 500;
+	margin: 0px;
+	padding: 0px;
+}
+#comment-form label a {
+	color: #660000;
+	text-decoration: underline;
+}
+
+#comment-form label span {
+	color: #990000;
+	font-weight: normal;
+}
+#comment-form p {
+	margin: 0px 0px 10px;
+	padding: 0px;
+}
+#comment-form .intext {
+	padding: 3px 2px;
+	width: 300px;
+	background: #FFFFFF;
+	border: 1px solid #C5C5C5;
+	font-family: Arial, Geneva, Helvetica, Verdana;
+	color: #333333;
+	margin: 0px 0px 15px;
+}
+#comment-form .inarea {
+	margin: 5px 0px 0px;
+	padding: 0px;
+	width: 400px;
+	height: 200px;
+	background: #FFFFFF;
+	border: 1px solid #C5C5C5;
+	font-family: Arial, Tahoma, "Lucida Sans";
+	font-size: 1em;
+	color: #333333;
+}
+#comment-form .inbutton {
+	font-family: Arial, Tahoma, "Lucida Sans";
+	font-size: 1.025em;
+	color: #000000;
+	padding-right: 7px;
+	padding-left: 7px;
+}
+
+
+.post-social {
+	margin: 0px;
+	padding: 8px 0px;
+	float: left;
+	width: 100%;
+}
+.addthis-blk {
+	margin: 0px;
+	padding: 8px 0px;
+	float: left;
+	width: 100%;
+}
+
+
+
+
+
+
+
+.post-social p {
+	margin: 0px 5px 0px 0px;
+	float: left;
+	display: block;
+	height: 22px;
+	text-decoration: none;
+	text-align: center;
+	width: 24px;
+}
+.post-social p a {
+	color: #FFFFFF;
+	text-decoration: none;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 22px;
+	width: 24px;
+}
+
+.digg {
+background: url(images/socials/social.gif) -77px;
+}
+.delicious {
+background: url(images/socials/social.gif) -50px;
+}
+.stumble {
+background: url(images/socials/social.gif) -23px;
+}
+.tech {
+background: url(images/socials/social.gif) -1px;
+}
+.blinklist {
+background: url(images/socials/blinklist.png) no-repeat center;
+}
+.blogmark {
+background: url(images/socials/blogmarks.png) no-repeat center;
+}
+.bumpzee {
+background: url(images/socials/bumpzee.png) no-repeat center;
+}
+.dzone {
+background: url(images/socials/dzone.png) no-repeat center;
+}
+.furl {
+background: url(images/socials/furl.png) no-repeat center;
+}
+.netscape {
+background: url(images/socials/netscape.gif) no-repeat center;
+}
+.netvouz {
+background: url(images/socials/netvouz.png) no-repeat center;
+}
+.reddit {
+background: url(images/socials/reddit.png) no-repeat center;
+}
+.scopeo {
+background: url(images/socials/scoopeo.png) no-repeat center;
+}
+.scuttle {
+background: url(images/socials/scuttle.png) no-repeat center;
+}
+.spurl {
+background: url(images/socials/spurl.png) no-repeat center;
+}
+.taggly{
+background: url(images/socials/taggly.png) no-repeat center;
+}
+.thisnext {
+background: url(images/socials/thisnext.png) no-repeat center;
+}
+.wists {
+background: url(images/socials/wists.png) no-repeat center;
+}
+.yahooweb {
+background: url(images/socials/yahoomyweb.png) no-repeat center;
+}
+
+.post-mail {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 26px;
+	width: 100%;
+	font-size: 11px!important;
+}
+
+.post-mail ul {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 100%;
+	list-style-type: none;
+}
+.post-mail ul li {
+	margin: 0px 15px 0px 0px;
+	float: left;
+	list-style-type: none;
+	line-height: 26px;
+	display: inline-block;
+	height: 26px;
+}
+.post-mail a {
+	color: #212121;
+	text-decoration: none;
+	font-weight: 400;
+}
+.post-mail a:hover {
+	color: #CC0033;
+    font-weight: normal!important;
+	text-decoration: underline;
+}
+.mycomment {
+	background: url(images/socials/comment.png) no-repeat left center;
+	padding-left: 16px;
+}
+.myemail {
+	background: url(images/socials/email.png) no-repeat left center;
+	padding-left: 20px;
+}
+.myblogit {
+	background: url(images/socials/feed-n.png) no-repeat left center;
+	padding-left: 18px;
+}
+.myupdate {
+	background: url(images/socials/feed-n.png) no-repeat left center;
+	padding-left: 16px;
+}
+
+
+
+
+
+
+/*--------------------------------------------------
+  .tabber = before the tabber interface is set up
+  .tabberlive = after the tabber interface is set up
+  --------------------------------------------------*/
+
+.tabberlive .tabbertabhide {
+ display:none;
+}
+
+.tabber {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+.tabberlive {
+	float: left;
+	width: 430px;
+	margin-bottom: 15px;
+}
+.tabbertab {
+	margin: 0px;
+	float: left;
+	width: 430px;
+}
+
+
+/*--------------------------------------------------
+  ul.tabbernav = the tab navigation list
+  li.tabberactive = the active tab
+  --------------------------------------------------*/
+ul.tabbernav {
+	margin: 0px;
+	padding: 0px 0px 5px;
+	float: left;
+	width: 420px;
+	list-style-type: none;
+}
+
+ul.tabbernav li {
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	font-weight: bold;
+}
+
+#bottom-content .tabbernav li a {
+	display: inline;
+	margin: 0px;
+	float: left;
+	text-decoration: none;
+	padding: 2px 12px;
+	line-height: 25px;
+}
+
+#bottom-content .tabbernav li a:hover {
+	line-height: 25px;
+	color: #FFFFFF!important;
+	display: inline;
+	margin: 0px;
+	float: left;
+	text-decoration: underline;
+	padding: 2px 12px;
+	background: #660000;
+}
+
+#bottom-content .tabbernav li.tabberactive a {
+	line-height: 25px;
+	color: #FFFFFF!important;
+	display: inline;
+	margin: 0px;
+	float: left;
+	text-decoration: none;
+	padding: 2px 12px;
+	background: #660000;
+}
+/* If desired, hide the heading since a heading is provided by the tab */
+.tabberlive .tabbertab h2 {
+	display:none;
+	margin: 0px;
+	padding: 0px;
+}
+#bottom-content .tabberlive .tabbertab h3 {
+	display: none;
+	margin: 0px;
+	padding: 0px;
+}
+.tabber .tabbertab h2 {
+	margin: 0px;
+	padding: 0px;
+
+}
+#bottom-content .tabber .tabbertab h3 {
+	margin: 0px;
+	padding: 0px;
+
+}
+#bottom-content .tabbertab .list {
+	margin: 0px;
+	padding: 10px;
+	float: left;
+	width: 400px;
+	border: 1px solid #E2E2E2;
+}
+#bottom-content .tabbertab .list ul {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 400px;
+}
+#bottom-content .tabbertab .feed-pull {
+	margin: 0px;
+	padding: 10px;
+	float: left;
+	width: 400px;
+	border: 1px solid #E2E2E2;
+}
+.feed-pull h1 {
+	font-size: 17px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 100%;
+	line-height: 22px;
+}
+
+
+.feed-pull .rss-author {
+	font-size: 11px;
+	line-height: 22px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 100%;
+	font-weight: bold;
+}
+.feed-pull .rss-content {
+	font-size: 1em;
+	line-height: 125%;
+	margin: 0px;
+	padding: 8px 0px 15px;
+	float: left;
+	width: 100%;
+}
+.list .textf {
+	padding: 3px 0px 1px;
+	width: 90%;
+	background: #FFFFFF;
+	margin: 0px 0px 10px;
+	border-top: 2px solid #999999;
+	border-right: 2px solid #999999;
+	border-bottom: 1px solid #CCCCCC;
+	border-left: 1px solid #CCCCCC;
+	text-indent: 4px;
+}

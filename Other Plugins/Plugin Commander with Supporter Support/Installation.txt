@@ -1,0 +1,1 @@
+Copy into the mu-plugins folder. If the WPMUdev Premium Supporter plugin is enabled it will detect that. Make sure the plugins menu is enabled under site options. For WPMU 2.7.1+ only! Might work for 2.7, but before that the hooks were not in plugins.php yet.

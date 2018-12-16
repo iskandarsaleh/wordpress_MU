@@ -1,0 +1,39 @@
+Plugin Name: Upgrades
+Author: Andrew Billits
+
+Change Log:
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+
+1.4.2 - 06/29/2009
+----------------------------------------------------------------------
+- Fixed bug that results in the PayPal Mode option not saving
+
+1.4.1 - 03/25/2009
+----------------------------------------------------------------------
+- Removed admin bar menu item
+
+1.4.0 - 03/02/2009
+----------------------------------------------------------------------
+- Added site admin check
+- Fixed bug that redirected users to premium.php after paying
+
+1.3.0 - 05/12/2008
+----------------------------------------------------------------------
+- 1.5+ compatibility update
+- Renames to "Upgrades" from "Premium"
+
+1.2.0 - 01/02/2008
+----------------------------------------------------------------------
+- Added the ability to give users credits at signup
+- Added "manage credits" area - send user credits, etc
+- Better 1.3 compatibility
+- New version of the Quota feature (now 1.3 compatible)
+
+1.1.0 - 12/14/2007
+----------------------------------------------------------------------
+- Increased the number of plugins(features) per package to fifteen
+
+1.0.0 - 09/16/2007
+----------------------------------------------------------------------
+- Initial Release.

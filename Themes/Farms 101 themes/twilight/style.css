@@ -1,0 +1,355 @@
+/*  
+Theme Name: Twilight
+Theme URI: http://themes.star-shaped.org
+Description: Purpley-blue mellowness.
+Author: Aubrey Brown
+Version: 1.0
+Author URI: http://star-shaped.org
+
+*/
+
+a, a:link, a:active, a:visited {
+	color: #712796;
+}
+
+blockquote {
+	font-size: 9px;
+	background: #FAF7FD;
+	margin: 10px 30px 10px 30px;
+	padding: 10px 0 10px 0;
+	border: solid 1px #ddd;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #999;
+	font: 11px verdana, helvetica, sans-serif;
+}
+
+cite {
+	font: normal 13px verdana, helvetica, sans-serif;
+}
+
+code {
+	margin-left: 15px;
+}
+
+#container {
+	margin: auto;
+	width: 760px;
+}
+
+#container img.imgheader {
+	margin-left: 15px;
+	border: 0;
+}
+
+.date {
+	font-size: 11px;
+	float: right;
+	clear: right;
+	height: 60px;
+	width: 70px;
+	margin: 5px;
+	border-left: solid 1px #ddd;
+	border-bottom: solid 1px #ddd;
+	background: #FAF7FD;
+}
+
+.date span.day, .date span.month, .date span.year {
+	display: block;
+	margin: 0 auto 0 auto;
+	text-align: center;
+}
+
+.date span.day {
+	font: bold 20px georgia, times, serif;
+	color: #ccc;
+}
+
+.date span.month {
+	margin-top: -10px;
+}
+
+
+.date span.year {
+	margin-top: -10px;
+}
+
+.entry {
+	margin-left: 24px;
+	margin-bottom: 12px;
+	width: 500px;
+	background: #F4EBFA;
+	border: solid 1px #ddd;
+}
+
+.entry div#commentform {
+	padding-left: 10px;
+}
+
+.entry img {
+	display: block;
+	margin: auto;
+	border: solid 1px #ccc;
+	padding: 5px;
+	background: #FAF7FD;
+}
+
+.entry ol li, .entry ul li {
+	margin: 5px 20px 10px 10px;
+	line-height: 15px;
+}
+
+.entry p {
+	margin: 5px 25px 10px 25px;
+	line-height: 18px;
+}
+
+.entry p.entrymeta {
+	border-top: solid 1px #ccc;
+	padding-top: 5px;
+	font-size: 9px;
+	text-align: right;
+}
+
+.entry p.entrymeta a, .entry p.entrymeta a:link, .entry p.entrymeta a:active, .entry p.entrymeta a:visited {
+	font-size: 9px;
+	color: #999;
+}
+
+.entry ul.links {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.entry ul.links li {
+	margin: 0;
+	padding:0;
+	list-style-type: none;
+}
+
+.entry ul.links li ul {
+	margin: 10px 0 10px 0;
+	padding: 0;
+	list-style-type: disc;
+}
+
+.entry ul.links li ul li {
+	margin-left: 40px;
+	line-height: 20px;
+	list-style-type: disc;
+}
+
+#footer {
+	background: #ccc;
+	width: 710px;
+	border-top: solid 1px #aaa;
+	text-align: center;
+	margin: 0 0 0 15px;
+	padding: 3px 0 3px 0;
+	font-size: 9px;
+}
+
+#footer a, #footer a:link, #footer a:active, #footer a:visited {
+	color: #666;
+}
+
+#footer p {
+	padding: 0;
+	margin: 0;
+	line-height: 18px;
+}
+
+form p {
+	margin-left: 15px;
+}
+
+h1	{
+	text-align: right;
+	letter-spacing: 1px;
+	margin: 0 65px 0 0;
+	padding-top: 60px;
+	font: 28px verdana, helvetica, sans-serif;
+	color: #fff;
+}
+
+h1 a:link, h1 a:active, h1 a:visited, h1 a {
+	font-variant: small-caps;
+	text-decoration: none;
+	color: #fff;
+}
+
+h1#comments {
+	margin-bottom: 10px;
+}
+
+h2 {
+	margin: 0 0 0 15px;
+	padding-top: 5px;
+	font: normal 18px verdana, helvetica, sans-serif;
+	color: #000;
+}
+
+h2 a:link, h2 a:active, h2 a:visited, h2 a {
+	color: #000;
+	text-decoration: none;
+}
+
+h2#comments, h2#respond {
+	padding-left: 10px;
+}
+
+h2 span.comments {
+	margin-left: 15px;
+}
+
+h2 span.comments, h2 span.comments a:link, h2 span.comments a:active, h2 span.comments a:visited, h2 span.comments a {
+	color: #aaa;
+	text-decoration: none;
+}
+
+#header {
+	margin-left: 15px;
+	height: 200px;
+}
+
+#header div#description {
+	color: #fff;
+	font-size: 12px;
+	text-align: right;
+	margin-right: 75px;
+}
+
+input#s {
+	border: 0;
+	border-bottom: solid 1px #ccc;
+	background: #fff;
+	margin-left: 15px;
+	margin-top: 15px;
+}
+
+input#searchsubmit {
+	font: 9px verdana, helvetica, sans-serif;
+}
+
+input, textarea {
+	background: #FAFAFA;
+	border-bottom: solid 1px #ddd;
+	border-right: solid 1px #ddd;
+	border-top: solid 1px #666;
+	border-left: solid 1px #666;
+}
+
+#main {
+	width: 520px;
+	float: left;
+	margin-top: 12px;
+}
+
+.navigation {
+	padding: 0;
+	margin-left: 0;
+	margin-bottom: 15px;
+}
+
+.navigation .alignleft {
+	float: left;
+	text-align: left;
+	padding-left: 25px;
+	margin: 0;
+}
+
+
+.navigation .alignright {
+	float: right;
+	text-align: right;
+	padding: 0;
+}
+
+ol.commentlist {
+	margin: 10px 0 0 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+ol.commentlist li {
+	width: 490px;
+	margin: 0 0 15px 25px;
+	padding: 5px;
+	list-style-type: none;
+}
+
+ol.commentlist li.alt {
+	background: #F4EBFA;
+	border: solid 1px #ddd;
+}
+
+ol.commentlist li.normal p, ol.commentlist li.alt p {
+	margin: 3px 10px 10px 10px;
+}
+
+#sidebar {
+	width: 230px;
+	float: right;
+	margin-top: 10px;
+	font-size: 12px;
+}
+
+#sidebar ul, #sidebar ul li, #sidebar ul li ul, #sidebar ul li ul li {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#sidebar ul li h2 {
+	font: italic normal normal 15px verdana, helvetica, sans-serif;
+	color: #999;
+	padding: 0 0 0 10px;
+	margin: 0;
+}
+
+#sidebar ul li p {
+	font: 9px/16px verdana, helvetica, sans-serif;
+	margin: 0 40px 10px 10px;
+}
+
+#sidebar ul li ul {
+	background: #eee;
+	border-top: solid 1px #ddd;
+	border-left: solid 1px #ddd;
+	border-right: solid 1px #ddd;
+	font-size: 11px;
+	margin: 0 45px 15px 10px;
+}
+
+#sidebar ul li ul li {
+	background: #eee;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	color: #999;
+	border-bottom: solid 1px #ddd;
+}
+
+#sidebar ul li ul li a:link, #sidebar ul li ul li a:active, #sidebar ul li ul li a:visited, #sidebar ul li ul li a {
+	background: #eee;
+	color: #999;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	padding: 5px;
+}
+
+#sidebar ul li ul li a:hover {
+	background: #ddd;
+}
+
+.entry img.wp-smiley {
+	display: inline;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}

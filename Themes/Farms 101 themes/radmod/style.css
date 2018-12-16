@@ -1,0 +1,720 @@
+/*   
+Theme Name: RadMod
+Theme URI: http://www.radicalgeorgiamoderate.org/downloads/
+Description: Radical Georgia Moderate, so there.
+Author: Russell Tanton
+Author URI: http://www.radicalgeorgiamoderate.org/
+Version: 1.5
+
+RadMod 1.5 by Russell Tanton
+You can email me at rusty@radicalgeorgiamoderate.org
+
+The CSS, XHTML and design is released under GPL:
+http://www.opensource.org/licenses/gpl-license.php
+
+The Radical Georgia Moderate logo image (which is NOT included in this theme pack, but
+appears in the black header on my personal website) is copyright 2005 Russell Tanton
+
+All other images are released under the GPL:
+http://www.opensource.org/licenses/gpl-license.php
+
+Caviats, instructions, and what-have-you...
+
+	1. To install, copy the entire radmod folder to your wp-content/themes/ folder. Activate the
+	   theme in Presentation -> Themes.
+	   
+	2. While not mandatory, I'd recommend downloading and installing these plug-ins (you
+	   shouldn't have to modify any PHP for these to work. Just download, install, and
+	   activate in the admin panel).
+	
+		Get Recent Comments by  Krischan Jodies
+		http://blog.jodies.de/archiv/2004/11/13/recent-comments/
+		
+		Content with show/hide javascript for "more" by Scriptygoddess
+		http://www.scriptygoddess.com/archives/2004/05/20/show-hide-more-with-wordpress/
+		
+		Theme Switcher by Mr Peer
+		http://386a.net/wordpress/theme-switcher/
+	
+	3. There are modified versions of the code contained in these three plug-ins in my code, but commented
+	   out and somewhat documented so as not to conflict if someone already has them installed.
+	   
+	   	Live Preview: Admin Panel, Comments by Chris Davis
+		http://chrisjdavis.org/index/category/wp-hacks/
+		
+		Comment Quicktags by Owen Winkler
+		http://www.asymptomatic.net/wp-hacks
+		
+		Forget User Info hack/plug-in
+		http://www.scriptygoddess.com/archives/2004/06/29/forget-user-info/
+	
+	4. The theme defaults to a text header with no line breaks between words. There are instructions
+	   on how to insert line breaks between words in header.php if you want to do that. Scroll down to
+	   #header in this style sheet for instructions on how to substitute an image header for the text
+	   header.
+	 
+	5. The one really quirky layout aspect of this theme is the spacer I put on bottom of the sidebar.
+	   If you want a sidebar with a border, you'll have to mess with both the .filler pseudo class and
+	   the #sidebar class
+	
+	6. I didn't build this to use anything in the footer file at all, and don't ever plan on adding that feature.
+	   So don't ask. :P
+	   
+	7. The theme is totally useable in Internet Explorer, but has some slight visual imperfections compared to a
+	   standards-compliant browser like Mozilla Firefox
+	   
+	8. I'd also strongly suggest downloading my quicktags.js file and putting it in your wp-admin
+	   folder (after backing up your old one, of course). It gives you lots of extra tags to use in
+	   your posts.
+	   
+	   Get it here:
+	   http://www.radicalgeorgiamoderate.org/wp-content/downloads/quicktags.js.txt
+	   
+	   You'll need to rename that, obviously.
+
+Credits
+
+	See number 2 in the install instructions for the three plug-ins I lifted code from.
+	To my knowledge, the rest is either mine or lifted from the default 1.5 template,
+	whose credit goes like this:
+	
+	Kubrick v1.5 by Michael Heilemann
+	http://binarybonsai.com/kubrick/
+
+	If you see something in here you know to be yours but wasn't credited here, let me
+	know. I promise it was an accident, and I'll be happy to update this file with
+	a proper acknowledgement.	
+*/
+
+body {
+ margin: 0px;
+ padding: 0px;
+ background-color: #ead148;
+}
+h3 {
+ font-family: arial;
+ text-transform:uppercase;
+ font-size: 30px;
+ font-weight: bold;
+ color: white;
+ margin: 0px 0px 15px 0px;
+ padding: 0px;
+}
+h4 {
+ font-family: arial;
+ text-transform:uppercase;
+ font-size: 20px;
+ font-weight: bold;
+ color: white;
+ margin: 0px 0px 15px -5px;
+ padding: 0px;
+}
+p {
+ font-size: 12px;
+ line-height: 20px;
+ font-family: verdana, helvetica, arial;
+}
+p#searchForm {
+ font-size: 12px;
+ line-height: 14px;
+ font-family: verdana, helvetica, arial;
+}
+blockquote {
+ margin: 15px;
+ font-size: 12px;
+ font-style: italic;
+ font-family: verdana, helvetica, arial;
+}
+a {
+ color: white;
+ text-decoration: none;
+}
+a:hover {
+ text-decoration: underline;
+}
+
+/* Header */
+
+/*
+
+You'll need an image in your theme directory named banner.jpg. Mine happened to
+be 314px wide by 181px tall. Width shouldn't matter, but I'd recommend not making
+your header banner much taller than mine was unless you feel like messing with
+the CSS positioning of this, the sidebar, the content, and maybe a few other places
+
+*/
+
+/*
+body h1#header {
+	background-image: url('banner.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: black;
+	height: 225px;
+	padding: 0px;
+	margin: 0px;
+}
+
+body h1#header a {
+	text-transform: uppercase;
+	text-indent:-500em;
+	height:100%;
+	display: block;
+}
+*/
+
+/*
+If you want a text header, uncomment these two sections and comment
+out the two sections before these two
+*/
+
+body h1#header {
+	background-color: black;
+	height: 140px;
+	padding: 85px 0px 0px 0px;
+	margin: 0px;
+	text-align: center;	
+}
+body h1#header a {
+	color: #fff;
+	text-decoration: none;	
+	font: bold 48px arial;
+	text-transform: uppercase;
+}
+
+/* Post formatting */
+
+#content {
+ top: 225px;
+ left: 50px;
+ right: 300px;
+ position: absolute;
+ padding: 30px; 
+}
+
+#content input#submit {
+ background-color: #d9d9d9;
+ border: 1px solid #a38f23;
+ margin: 0px 0px 0px 0px;
+ clear: both;
+}
+#content textarea {
+ border: 1px solid #a38f23;
+ padding: 2px;
+}
+#content ul {
+ list-style: square;
+}
+#content ul li, #content ol li {
+ font-size: 12px;
+ line-height: 20px;
+ font-family: verdana, helvetica, arial;
+}
+#content h2 {
+ font-family: Palatino, Georgia, Times;
+ font-size: 20px;
+ font-weight: normal;
+ color: #a38f23;
+ margin: 0px 0px 15px -10px;
+ padding: 0px;
+}
+#content div.postbyline {
+ font-size: 13px;
+ padding-left: 15px;
+ color: #a38f23;
+ margin-top: -10px;
+ font-weight: bold;
+ font-family: Georgia, Times, Sans-serif;
+}
+#content div.postfooter {
+ font-family: verdana, helvetica, arial;
+ font-size: 11px;
+ margin: 25px 0px 45px 0px;
+ padding: 5px 0px 0px 0px;
+ color: #a38f23;
+ border-top: 1px solid #a38f23;
+ clear: both;
+ text-align: center;
+ line-height: 16px;
+}
+#content span.dropcap {
+ font-family: Georgia, Palatino, Times;
+ font-weight: bold;
+ font-style: normal;
+ font-size: 64px;
+ margin: 6px 5px 5px 0px;
+ position: relative;
+ float: left;
+ line-height: 45px;
+}
+#content span.floatLeft {
+ position: relative;
+ float: left;
+ margin: 0px 15px 15px 0px;
+ padding-right: 15px;
+ font-family: verdana, helvetica, arial;
+ font-size: 10px;
+ font-weight: bold;
+ font-weight: bold;
+ line-height: 12px;
+ color: #a38f23;
+ clear: both;
+}
+#content span.floatLeft img {
+ margin: 15px 0px 5px 0px;
+}
+#content span.floatRight {
+ position: relative;
+ float: right;
+ margin: 0px 15px 15px 15px;
+ font-family: verdana, helvetica, arial;
+ font-size: 10px;
+ font-weight: bold;
+ line-height: 12px;
+ color: #a38f23;
+ clear: both;
+}
+#content span.floatRight img {
+ margin: 15px 0px 5px 0px;
+}
+
+/* 
+You can comment this out if you use my quicktags.js file.
+My quicktags defaults to using the imgWhiteBorder class. In that case,
+if you have a transparent gif you just erase the imgWhiteBorder class
+*/
+#content img {
+ border: 1px solid #a38f23;
+ background-color: white;
+ padding: 5px;
+}
+
+#content img.imgWhiteBorder {
+ border: 1px solid #a38f23;
+ background-color: white;
+ padding: 5px;
+}
+#content table.ncaaPicks {
+ margin: 10px;
+ font-size: 11px;
+ font-family: verdana, arial, sans-serif;
+}
+#content table.ncaaPicks td {
+ border-bottom: 1px solid #a38f23;
+ padding-right: 3px;
+}
+#content div#announcement {
+ margin: 0px 0px 15px -10px;
+ padding: 15px;
+ background-color: #e5cd46;
+ border: 1px solid #d8c13f;
+ font-size: 12px;
+ font-family: verdana, arial, sans-serif;
+}
+
+/* Audioblog images */
+
+.audblog {
+ margin-top: 15px;
+}
+.audImg {
+ padding: 5px;
+ background-color: white;
+ border: 1px solid #a38f23;
+}
+
+/* Page navigation buttons */
+
+.navNext {
+ float: right;
+ padding: 0px;
+ margin: 0px;
+ display: block;
+ background-image: url('next.gif');
+ background-repeat: no-repeat;
+ width: 50px;
+ height: 20px;
+}
+.navLast {
+ float: left;
+ padding: 0px;
+ margin: 0px;
+ display: block;
+ background-image: url('last.gif');
+ background-repeat: no-repeat;
+ width: 50px;
+ height: 20px;
+}
+
+/* Since on nearly any sub-page the sidebar is going to extend further down
+   than the content, this puts a space between it and the bottom of the page.
+   If you want to give the sidebar a border, define top, right and left borders
+   in the sidebar and a top border for the filler
+*/
+
+.filler {
+ height: 100px;
+ background-color: #ead148;
+ margin: 30px -11px -30px -11px;
+ /* border-top: 1px solid black; */
+}
+
+/* Sidebar formatting */
+
+#sidebar {
+ position: absolute;
+ top: 225px;
+ right: 50px;
+ background-color: #a38f23;
+ margin: 30px;
+ padding: 10px;
+ font-family: verdana, helvetica, arial;
+ width: 195px;
+ /*
+ border-top: 1px solid black;
+ border-right: 1px solid black;
+ border-left: 1px solid black;
+ */
+}
+#sidebar a {
+ color: white;
+ text-decoration: none;
+}
+#sidebar a:hover {
+ text-decoration: underline;
+}
+#sidebar ul {
+ padding: 0px;
+ margin: 15px 15px 15px 20px; 
+ color: white;
+ font-size: 11px;
+}
+#sidebar ul li {
+ list-style: none;
+}
+#sidebar ul li#poweredByWordpress {
+ margin-top: 25px;
+ text-align: center;
+}
+#sidebar ul li#poweredByWordpress a {
+ font-weight: bold; 
+}
+#sidebar ul li h2 {
+ font-family: arial;
+ text-transform:uppercase;
+ font-size: 18px;
+ font-weight: bold;
+ color: white;
+ margin-left: -8px;
+}
+#sidebar ul li ul {
+ margin: 0px 0px 15px 10px;
+}
+#sidebar ul li ul li {
+ list-style: square;
+}
+#sidebar ul#categories li {
+ font-weight: bold;
+}
+#sidebar ul#categories li ul {
+ margin: 0px 0px 0px 10px;
+}
+#sidebar ul#categories li ul li {
+ font-weight: normal;
+}
+#sidebar ul li ul#links li {
+ list-style: square;
+}
+#sidebar ul li ul#links li ul li {
+ list-style: square;
+}
+#sidebar ul li ul#links li h2 {
+ text-transform: none;
+ font-size: 11px;
+ font-family: arial;
+ margin: 3px 0px 3px 0px;
+}
+#sidebar ul li ul#recentComments {
+
+}
+#sidebar ul li ul#recentComments li {
+
+}
+#sidebar input {
+ border: 1px solid #ead148;
+}
+#sidebar input#searchsubmit {
+ background-color: #d9d9d9;
+ margin-top: 5px;
+}
+
+/* Live comment preview box */
+
+.commentPreview {
+ margin: 0px 0px 15px 0px;
+ background-color: #e5cd46;
+ padding: 15px 15px 0px 15px;
+ border: 1px solid #d8c13f;
+}
+
+#content p#TextDisplay {
+ color: black;
+ font-size: 12px;
+ line-height: 20px;
+ font-family: verdana, helvetica, arial;
+ margin-left: 115px;
+}
+
+#content p#TextDisplay blockquote {
+ margin: 0px;
+ padding: 0px 15px 0px 15px;
+}
+
+/* Comments page */
+
+/* buttons that appear above comment form */
+#ed_toolbar input {
+ border: 1px solid #a38f23;
+ color: black;
+ margin: 0px 2px 2px 0px;
+ background-color: #d9d9d9;
+ font-weight: bold;
+ font-family: Palatino, serif, times;
+}
+textarea#comment {
+ height: 125px;
+ width: 350px;
+ margin: 0px 0px 0px 0px;
+ border: 1px solid #a38f23;
+ padding: 2px;
+}
+label {
+ font-size: 10px;
+ color: #a38f23;
+}
+.gravatar {
+ border: 1px solid #a38f23;
+ background-color: white;
+ padding: 5px;
+ margin: 0px 20px 10px 0px;
+ width: 80px;
+ height: 80px;
+ float: left;
+}
+.commentlist {
+ list-style: none;
+ color: #a38f23;
+ margin: 25px 15px 15px 0px;
+ padding: 0px 0px 0px 15px;
+}
+.commentlist li {
+ padding: 10px 15px 10px 10px;
+ margin: 15px 0px 0px 0px;
+ clear: both;
+ color: black;
+}
+.commentlist li.alt {
+ background-color: #e5cd46;
+ border: 1px solid #d8c13f;
+}
+.commentlist cite {
+ color: #a38f23;
+}
+.commentlist li p {
+ margin: 0px 0px 10px 117px;
+ color: black;
+}
+.commentlist li blockquote {
+ margin: 0px 15px 15px 15px;
+}
+.commentAuthor {
+ font-weight: bold;
+ font-size: 12px;
+ color: #a38f23;
+ margin: 0px 0px 10px 0px;
+ padding: 0px;
+}
+.commentWelcome {
+ color: #a38f23;
+ font-size: 10px;
+ font-family: verdana, helvetica, arial;
+ margin: 0px 0px 15px 0px;
+ line-height: 12px;
+}
+.commentmetadata {
+ font-size: 10px;
+ margin: 10px 0px 13px 20px;
+}
+.commentsFooter {
+ color: #a38f23;
+ border-top: 1px solid #a38f23;
+ margin: 45px 0px 0px 0px;
+ text-align: center;
+}
+.commentsFooter a {
+ font-size: 10px;
+}
+.commentNoResult {
+ margin: 0px 0px 25px 15px;
+ color: #a38f23;
+}
+.commentPreviewSpacer {
+ clear: both;
+ width: 0px;
+ height: 0px;
+ padding: 0px;
+ margin: 0px;
+}
+.commentPreviewUsername {
+ margin: 0px 0px 0px -3px;
+ color: #a38f23;
+ font-weight: bold;
+ font-size: 12px;
+ font-family: verdana, helvetica, arial;
+}
+#content h4#respond {
+ clear: both;
+ padding-top: 35px;
+}
+.commentTimestamp {
+ font-size: 10px;
+ margin: 10px 0px 13px 110px;
+}
+.statcounter {
+ display: none;
+}
+
+/* for the comments pop-up page */
+
+body#commentspopup h1#header {
+	background-color: black;
+	padding: 45px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	text-align: center;
+}
+body#commentspopup h1#header a {
+	color: #fff;
+	text-decoration: none;	
+	font: bold 36px arial;
+	text-transform: uppercase;
+	margin: 0px;
+	padding: 0px;
+}
+/*
+body#commentspopup h1#header {
+	background-image: url('popup-banner.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: black;
+	height: 120px;
+	padding: 0px;
+	margin: 0px;
+}
+
+body#commentspopup h1#header a {
+	text-transform: uppercase;
+	text-indent:-500em;
+	height:100%;
+	display: block;
+}
+*/
+
+body#commentspopup a {
+ font-family: verdana, helvetica, arial;
+}
+
+body#commentspopup div#popupContainer {
+	padding: 25px;
+}
+
+body#commentspopup textarea#comment {
+ height: 125px;
+ width: 325px;
+ margin: 0px 0px 0px 0px;
+ border: 1px solid #a38f23;
+ padding: 2px;
+}
+
+body#commentspopup .commentlist {
+ list-style: none;
+ color: #a38f23;
+ margin: 25px 15px 15px 0px;
+ padding: 0px 0px 0px 15px;
+}
+body#commentspopup .commentlist li {
+ padding: 10px 15px 10px 10px;
+ margin: 15px 0px 0px 0px;
+ clear: both;
+ color: black;
+}
+body#commentspopup .commentlist li.alt {
+ background-color: #e5cd46;
+ border: 1px solid #d8c13f;
+}
+body#commentspopup .commentlist cite {
+ color: #a38f23;
+}
+body#commentspopup .commentlist li p {
+ margin: 0px 0px 10px 117px;
+ color: black;
+}
+body#commentspopup .commentlist li blockquote {
+ margin: 0px 15px 15px 15px;
+}
+body#commentspopup .commentAuthor {
+ font-family: verdana, helvetica, arial;
+}
+
+/* book reviews */
+
+.star {
+ float: left;
+ width: 20px;
+ height: 19px;
+ background-image: url('star-filled.gif');
+ background-repeat: no-repeat;
+ background-position: center;
+}
+.halfstar {
+ float: left;
+ width: 20px;
+ height: 19px;
+ background-image: url('star-half.gif');
+ background-repeat: no-repeat;
+ background-position: center;
+}
+.emptystar {
+ float: left;
+ width: 20px;
+ height: 19px;
+ background-image: url('star-empty.gif');
+ background-repeat: no-repeat;
+ background-position: center;
+}
+.bookinfo {
+ clear: both;
+ padding-top: 8px;
+ font-size: 10px;
+ line-height: 14px;
+ font-family: verdana, helvetica, arial;
+}
+
+/* photo galleries */
+
+.ex_thumb_preview {
+ font-size: 12px;
+ line-height: 20px;
+ font-family: verdana, helvetica, arial;
+ margin: 20px 0px 0px 0px;
+}
+.ex_thumb_preview img, .ex_thumb img {
+ border: 1px solid #a38f23;
+ background-color: white;
+ padding: 5px;
+}
+.ex_caption {
+ font-size: 12px;
+ line-height: 20px;
+ font-family: verdana, helvetica, arial;
+ margin: 5px 0px 30px 0px; 
+}

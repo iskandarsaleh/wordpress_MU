@@ -1,0 +1,117 @@
+/*
+Theme Name: Tarski
+Theme URI: http://ionfish.co.uk/tarski/
+Description: A relaxing two-column theme, with two spots for widgets and a custom header.
+Author: Benedict Eastaugh and Chris Sternal-Johnson
+Author URI: http://ionfish.co.uk
+Version: 1.1.3
+*/
+
+
+/*
+Persian Editors: Bahman & Sorush
+Persian Editors URI: http://bahman.wordpress.com/ & http://sshrdp.wordpress.com/
+*/
+
+
+
+body {
+	direction: rtl;
+	font-family: 'Tahoma', Verdana, Helvetica, Arial, sans-serif; font-size: 76%;
+	text-align: justify;
+	color: #000;
+}
+#secondary {
+	font-size: 0.9em;
+}
+#wrapper {
+	text-align: right;
+}
+#content {
+	text-align: justify;
+}
+.post-content {
+	font-size: 1.1em;
+}
+#nav-2 {
+	margin: 0 0 0 -6.5em;
+}
+.feed {
+	padding: 5px 20px 5px 0;
+}
+blockquote {
+	font-family: 'Tahoma', Times New Roman, Times, serif;
+	font-size: 1em;
+}
+code {
+	font-family: 'Tahoma', Courier New, Courier, monospace;
+}
+h1, h2, .post-title {
+	padding: 0 0.1em 0 0;
+}
+h3 {
+	font-size: 1em;
+	font-weight: bold;
+	color: #80b060;
+	letter-spacing: 0em;
+	margin: 1.2em 0 0.8em 0;
+}
+h4 {
+	font-family: 'Tahoma', Times New Roman, Times, serif;
+}
+.post-metadata {
+	font-size: 0.9em;
+}
+body a.download {
+	padding: 5px 36px 5px 5px;
+}
+a img {
+	border: 0px;
+}
+a:hover img {
+	border: 0px;
+}
+h2.comments-title {
+	float: right;
+}
+.comments-feed {
+	float: left; text-align: left;
+}
+.comments-feed a {
+	padding: 5px 0 5px 24px;
+	}
+.comment-metadata {
+	float: right;
+	}
+body.janus .avatar {
+	float: right;
+	}
+.trackback-time {
+	float: right;
+}
+.trackback-data {
+	float: left;
+}
+.comments-info {
+	margin: 0.6em 220px 1em 0;
+	}
+input {
+	font-family: Tahoma, Verdana, Helvetica, Arial, sans-serif; font-size: 100%;
+	}
+#secondary ul {
+	margin: 0 1em 0 0;
+	line-height: 1em;
+	color: gray;
+}
+.textwidget {
+	margin: 0 1em 0 0;
+}
+.textwidget a {
+	line-height: 1.3em;
+}
+#secondary input {
+	margin: -1em 0 0.5em 0;
+	padding: 1px 5px 4px 6px;
+	font-family: Tahoma;
+	font-size: 1.1em;
+}

@@ -1,0 +1,15 @@
+#header
+{
+background: #FF7800 url(images/fish1.jpg) repeat top;
+width:200px;
+}
+#splash
+{
+background: #EAEAE2 url(images/fish2.jpg) no-repeat;
+}
+
+#menu
+{
+	background: #FF7800 url(images/fish3.jpg) repeat-x bottom;
+	height:60px;
+}

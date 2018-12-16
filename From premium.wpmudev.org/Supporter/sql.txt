@@ -1,0 +1,27 @@
+CREATE TABLE `wp_supporters` (
+  `supporter_ID` bigint(20) unsigned NOT NULL auto_increment,
+  `blog_ID` bigint(20) NOT NULL default '0',
+  `expire` bigint(20) NOT NULL default '0',
+  `note` TEXT,
+  PRIMARY KEY  (`supporter_ID`)
+) ENGINE=InnoDB;
+
+CREATE TABLE `wp_supporter_transactions` (
+  `supporter_transaction_ID` bigint(20) unsigned NOT NULL auto_increment,
+  `blog_ID` bigint(20) NOT NULL default '0',
+  `paypal_ID` varchar(20),
+  `payment_type` varchar(20),
+  `stamp` bigint(35) NOT NULL default '0',
+  `amount` varchar(35),
+  `currency` varchar(35),
+  `status` varchar(35),
+  PRIMARY KEY  (`supporter_transaction_ID`)
+) ENGINE=InnoDB;
+
+CREATE TABLE `wp_supporter_ads` (
+  `supporter_ads_ID` bigint(20) unsigned NOT NULL auto_increment,
+  `supporter_blog_ID` bigint(20) NOT NULL default '0',
+  `blog_ID` bigint(20) NOT NULL default '0',
+  `expire` bigint(20) NOT NULL default '0',
+  PRIMARY KEY  (`supporter_ads_ID`)
+) ENGINE=InnoDB;

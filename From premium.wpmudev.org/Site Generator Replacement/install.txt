@@ -1,0 +1,27 @@
+Plugin Name: Site Generator Replacement
+Author: Luke Poland (Incsub)
+Copyright: © Copyright 2008, Luke Poland, Incsub. All rights reserved.
+Content may not be redistributed in whole or in part.
+
+
+Files:
+----------------------------------------------------------------------
+site-generator.php - goes in /wp-content/mu-plugins/
+
+
+Instructions:
+----------------------------------------------------------------------
+1) Place the file in the specified directory
+2) Visit Site Admin -> Options
+    2a) If you have the admin-footer plugin from WPMU DEV Premium, 
+        then look under the "Premium Admin Options" area for
+        Site Generator Options
+
+    2b) Else, look under Site Generator Options
+
+3) You will see default values, which you can edit to your liking.
+
+
+Additional Options:
+----------------------------------------------------------------------
+None

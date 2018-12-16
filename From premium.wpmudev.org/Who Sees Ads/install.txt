@@ -1,0 +1,13 @@
+Plugin Name: Ozh' Who Sees Ads
+Author: Ozh
+
+Files:
+----------------------------------------------------------------------
+wp_ozh_whoseesads_admin.php - goes in /wp-content/mu-plugins
+wp_ozh_whoseesads.php - goes in /wp-content/mu-plugins
+my_options.php - goes in /wp-content/mu-plugins
+/images/ - goes in /wp-content/mu-plugins
+
+Instructions:
+----------------------------------------------------------------------
+1) Place the files in the specified directories

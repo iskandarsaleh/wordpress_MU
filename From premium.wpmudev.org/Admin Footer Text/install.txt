@@ -1,0 +1,10 @@
+Plugin Name: Admin Footer Text
+Author: Andrew Billits
+
+Files:
+----------------------------------------------------------------------
+admin-footer-text.php - goes in /wp-content/mu-plugins
+
+Instructions:
+----------------------------------------------------------------------
+1) Place the files in the specified directories

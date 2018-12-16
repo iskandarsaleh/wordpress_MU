@@ -1,0 +1,11 @@
+compatible wpmu 2.8.3/2.8.4a and buddypress 1.0.3
+
+
+upload  bpcfun_member  > to wp-content/bp-themes/
+
+upload  buddypress-fun  > to wp-content/themes/
+
+
+activate buddytheme in > appearence > themes
+
+activate or choose your buddypress member/profile theme in > buddypress > general setting in Select theme to use for BuddyPress generated pages:

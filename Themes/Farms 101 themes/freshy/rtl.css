@@ -1,0 +1,117 @@
+/*
+Theme Name : Freshy
+Editors : Mahyar Abasppor,Navid Kashani
+Persian Wordpress Project :  wp-persian.com
+*/
+
+* {
+      direction: rtl;
+      text-align: justify;
+}
+
+body {
+    font-family: Tahoma, Arila, "Lucida Grande", Verdana, Sans-Serif;
+    font-size: 12px;
+    color:#595959;
+}
+
+#page {
+    text-align: right;
+}
+
+#sidebar {
+    text-align: right;
+    font-size: 10px;
+    line-height: 1.75em;
+}
+
+#sidebar ul, ol {
+    list-style-type: square;
+    padding: 5px 15px;
+}
+
+#content ul li, #content ol li {
+      background-position: right 0.4em;
+      padding-right: 15px;
+}
+
+h2 {  
+    font-family: Arila, Tahoma, "Lucida Grande", Verdana, Sans-Serif;
+    text-align: right;
+    font-size: 14px;
+}
+
+h1, h3, h4, h5, h6 {
+    font-family: Arial, Tahoma, "Lucida Grande", Verdana, Sans-Serif;
+    direction: rtl;
+    text-align: right;
+}
+
+#sidebar h2 {
+    font-family: Arial, Tahoma, "Lucida Grande", Verdana, Sans-Serif;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.post h2, .post h3, .post h4, .post h5 {
+      font-size: medium;
+}
+
+.entry {
+    line-height: 1.5em;
+}
+
+.postmetadata {
+    font-size: .85em;
+    display: block;
+    direction: rtl;
+    text-align: right;
+}
+
+#sidebar input {
+    font-family: tahoma;
+    font-size: 12px;
+}
+
+.description {
+    direction: rtl;
+    text-align: right;
+}
+
+img {
+    padding: 4px;
+}
+
+#frame {
+    text-align:right;
+    direction:rtl;
+}
+
+input.btn,
+#searchform input,
+input#submit {
+	font-family:tahoma, Arial, sans-serif;
+}
+
+blockquote {
+      background-color: #F5F5F5;
+      padding: 2% 4%;
+      font-size: .95em;
+}
+
+#content .commentlist dd {
+      font-size: 12px;
+}
+
+#content textarea#comment {
+      font-family: Tahoma, Arila, "Lucida Grande", Verdana, Sans-Serif;
+      font-size: 13px;
+}
+
+input.btn, #searchform input, input#submit  {
+      font-family: Tahoma, Arila, "Lucida Grande", Verdana, Sans-Serif;
+}
+
+#title h1 a {
+      letter-spacing: normal;
+}

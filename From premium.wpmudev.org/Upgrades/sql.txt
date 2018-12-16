@@ -1,0 +1,55 @@
+CREATE TABLE IF NOT EXISTS `wp_upgrades_credits` (
+  `user_ID` int(11) NOT NULL default '0',
+  `credits` int(11) NOT NULL default '0',
+  PRIMARY KEY  (`user_ID`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=17 ;
+
+CREATE TABLE IF NOT EXISTS `wp_upgrades_package_status` (
+  `package_status_ID` bigint(20) unsigned NOT NULL auto_increment,
+  `package_ID` int(11) NOT NULL default '0',
+  `blog_ID` int(11) NOT NULL default '0',
+  `package_expire` int(11) NOT NULL default '0',
+  PRIMARY KEY  (`package_status_ID`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=17 ;
+
+CREATE TABLE IF NOT EXISTS `wp_upgrades_log` (
+  `msg_ID` bigint(20) unsigned NOT NULL auto_increment,
+  `user_ID` int(11) NOT NULL default '0',
+  `msg_text` varchar(255) NOT NULL default '0',
+  PRIMARY KEY  (`msg_ID`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=43 ;
+
+CREATE TABLE IF NOT EXISTS `wp_upgrades_packages` (
+  `package_ID` bigint(20) unsigned NOT NULL auto_increment,
+  `package_name` varchar(255) NOT NULL default '0',
+  `package_active` int(20) NOT NULL default '0',
+  `package_description` TEXT,
+  `package_cost_one` int(20) NOT NULL default '1',
+  `package_cost_three` int(20) NOT NULL default '1',
+  `package_cost_twelve` int(20) NOT NULL default '1',
+  `package_plugin_one` varchar(255) NOT NULL default '0',
+  `package_plugin_two` varchar(255) NOT NULL default '0',
+  `package_plugin_three` varchar(255) NOT NULL default '0',
+  `package_plugin_four` varchar(255) NOT NULL default '0',
+  `package_plugin_five` varchar(255) NOT NULL default '0',
+  `package_plugin_six` varchar(255) NOT NULL default '0',
+  `package_plugin_seven` varchar(255) NOT NULL default '0',
+  `package_plugin_eight` varchar(255) NOT NULL default '0',
+  `package_plugin_nine` varchar(255) NOT NULL default '0',
+  `package_plugin_ten` varchar(255) NOT NULL default '0',
+  `package_plugin_eleven` varchar(255) NOT NULL default '0',
+  `package_plugin_twelve` varchar(255) NOT NULL default '0',
+  `package_plugin_thirteen` varchar(255) NOT NULL default '0',
+  `package_plugin_fourteen` varchar(255) NOT NULL default '0',
+  `package_plugin_fifteen` varchar(255) NOT NULL default '0',
+  PRIMARY KEY  (`package_ID`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=43 ;
+
+CREATE TABLE IF NOT EXISTS `wp_upgrades_features` (
+  `feature_ID` bigint(20) unsigned NOT NULL auto_increment,
+  `feature_hash` varchar(255),
+  `feature_name` varchar(255),
+  `feature_description` TEXT,
+  `feature_last_active` bigint(50),
+  PRIMARY KEY  (`feature_ID`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=43 ;

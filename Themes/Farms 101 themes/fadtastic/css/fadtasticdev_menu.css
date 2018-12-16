@@ -1,0 +1,68 @@
+/* MAIN MENU */
+
+div#navcontainer
+{
+	background-color: #f4f8ea;
+	border-top: solid 1px #92b43f;
+	border-bottom: solid 3px #F8F8F8;
+	background-image: url(../images/bg_menu.gif);
+	background-repeat: repeat-x;
+	background-position: left top;
+	
+}
+
+div#navcontainer ul
+{
+text-align: center;
+margin: 0;
+padding-bottom: 5px;
+padding-top: 5px;
+}
+
+div#navcontainer ul li
+{
+display: inline;
+margin-left: -5px;
+}
+
+div#navcontainer ul li a
+{
+font-family: Georgia, "Times New Roman", Times, serif;
+font-weight: bold;
+font-size:1em;
+padding: 5px 10px 5px 10px;
+color: #FFFFFF;
+text-decoration: none;
+border-right: 2px solid #cbe392;
+}
+
+div#navcontainer ul li a:hover,
+div#navcontainer ul li.current_page_item a
+
+{
+background-color: #F8F8F8;
+color: #92b43f;
+border-right-color: #588E03;
+}
+
+div#navcontainer ul li a.last {
+border-right: 0px none;
+}
+
+/* TOP MENU */
+
+#top_navlist li {
+display: inline;
+list-style-type: none;
+margin-left: 8px;
+}
+
+#top_navlist li a, #top_navlist li a:visited, #top_navlist li a:active {
+color:#999999;
+text-decoration:none;
+}
+
+#top_navlist li a:hover {
+color:#000000;
+text-decoration:underline;
+}

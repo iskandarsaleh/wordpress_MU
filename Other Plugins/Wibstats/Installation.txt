@@ -1,0 +1,21 @@
+Just put it in /wp-content/mu-plugins/, no configuration should be necessary. Please ensure the database user your WPMU system uses has "create table" rights. If the statistics table isn't created automatically you will need to run this script, inserting your database table prefix and the blog ID in the correct places:
+
+CREATE TABLE [base_prefix]_[blog_id]_wibstats (
+id mediumint(9) NOT NULL AUTO_INCREMENT,
+timestamp bigint(11),
+page VARCHAR(255),
+title varchar(255),
+ipaddress VARCHAR(24),
+sessionid VARCHAR(24),
+colordepth VARCHAR(3),
+screensize VARCHAR(12),
+browser VARCHAR(50),
+version VARCHAR(12),
+platform VARCHAR(50),
+referrer VARCHAR(255),
+terms VARCHAR(255),
+city VARCHAR(50),
+country VARCHAR(50),
+countrycode VARCHAR(3),
+PRIMARY KEY  (id)
+);

@@ -1,0 +1,509 @@
+/*  
+Theme Name: Anubis
+Theme URI: http://www.jauhari.net/themes/Anubis
+Description: Very flexible, 3 column, custom header theme.
+Version: 1.0
+Author: Nurudin Jauhari
+Author URI: http://www.jauhari.net/
+
+	This theme was designed and built by Nurudin Jauhari,
+	whose blog you will find at http://jauhari.net/themes/anubis
+	Crafted on 26 April 2007
+	Last Edit: 26 April 2007 04.00  +7 GMT
+
+	The CSS, XHTML and design is released under a Creative Commons Attribution 3.0 License:
+	http://creativecommons.org/licenses/by/3.0/
+
+*/
+
+/* Social Style 
+********************* */
+
+html
+{
+	height: 100%;
+	margin-bottom: 0.1em;
+}
+*
+{
+	margin: 0;
+	padding: 0;
+}
+img
+{
+	border: 0;
+}
+p
+{
+	line-height: 1.6em;
+	margin: 0.7em 0;
+}
+dl
+{
+	margin: 1em 0;
+}
+dt
+{
+	font-weight: bold;
+}
+dd
+{
+	margin: 0.5em;
+	padding: 0;
+}
+img.right
+{
+	float: right;
+	margin: 10px 0 0 10px;
+}
+img.left
+{
+	float: left;
+	margin: 0 10px 10px 0;
+}
+hr
+{
+	display: none;
+}
+body
+{
+	background: #053C42 url(images/bgr.png) 0 bottom repeat-x fixed;
+	color: #444;
+	font: 74%/1.6em verdana, tahoma, arial, sans-serif; 
+	margin: 0 0 30px;
+	padding: 0;
+	text-align: center;
+}
+a
+{
+	text-decoration: none;
+}
+a:link, a:visited
+{
+	color: #666;
+}
+a:hover, a:active
+{
+}
+h1, h2, h3, h4, h5, h6
+{
+	font-family: Georgia, Verdana, Arial, Serif;
+}
+
+/* Etc
+******************** */
+br.clear {
+	clear: both;
+}
+
+/* Design 
+******************** */
+#page {
+	text-align: left;
+	width: 970px;
+	padding: 0;
+	margin: 0 auto;
+}
+#top {
+	width: 970px;
+	padding: 0;
+	margin: 10px auto;
+}
+#pager {
+	height: 150px;
+	border-top: 2px solid #BDE701;
+	border-bottom: 4px solid #BDE701;
+	border-left: none;
+	border-right: none;
+}
+#headr {
+	margin: 104px auto 0;
+	text-align: right;
+	text-transform: uppercase;
+}
+
+#left {
+	float: left;
+	width: 750px;
+}
+#right {
+	float: right;
+	width: 200px;
+	color: #F7E6D4;
+}
+
+#content {
+	width: 495px;
+	float: right;
+	background: #fff url(images/bgcontr.gif) 0 0 repeat-x;
+	padding: 20px;
+	border: 3px solid #fff;
+}
+.post {
+	margin-bottom: 20px;
+}
+.post .entry {
+	border-bottom: 2px solid #efefef;
+}
+.postmetadata {
+	font-size: .9em;
+	color: #999;
+	text-align: right;
+}
+.postmetadata  a{
+	color: #666;
+}
+
+#sidebar {
+	width: 195px;
+	float: left;
+	color: #F7E6D4;
+}
+.side1 {
+}
+.side2 {
+}
+
+
+
+#footer {
+	width: 745px;
+	text-align: left;
+	margin: 0 auto;
+	padding-left: 205px;
+	
+
+}
+#footer div {
+	padding: 10px 0;
+	border-bottom: none;
+}
+
+#footer {
+	color: #E0FF3A;
+	font-size: 0.95em;
+}
+#footer a {
+	color: #AFA621;
+}
+#footer a:hover {
+	color: #AFA621;
+	text-decoration: underline
+}
+
+/* Design 
+******************** */
+#right ul, #sidebar  ul{
+	list-style: none;
+}
+
+.blockr,.pagenav,#sidebar .categories, .about,.linkcat, .widget {
+	margin-bottom: 10px; 
+	padding-top: 0;
+}
+#sidebar ul li ul li ul{
+	margin-left: 16px;
+}
+
+/* Design  Typo
+********************* */
+#headr  h1 {
+	font: 4.5em Garamond, Georgia, "Times New Roman", times, serif;
+	margin: 0;
+	color: #fff;
+	margin-top:-150px;
+}
+#headr h1 a {
+	color: #BDE701;
+	}
+#headr h1 a:hover {
+	color: #fff;
+}
+.description {
+	display: none;
+}
+
+#sidebar  .side1 h2{
+	font: 1.4em "Trebuchet MS", Verdana, sans-serif;
+	color: #07515A;
+	background: #BDE701 url(images/bg_h2_nav.gif) right bottom no-repeat;
+	padding: 2px 5px;
+	margin-bottom: 5px;
+}
+#right  .side2 h2{
+	font: 1.4em "Trebuchet MS", Verdana, sans-serif;
+	color: #07515A;
+	background: #BDE701 url(images/bg_h2_nav.gif) right bottom no-repeat;
+	padding: 2px 5px;
+	margin-bottom: 5px;
+}
+#sidebar a {
+	color: #FFC382;
+}
+#sidebar a:hover {
+	text-decoration: underline;
+}
+#right .side2 a {
+	color: #FFC382;
+	
+}
+#right .side2 ul li a,#sidebar .side1 ul li a  {
+	background: url(images/yellow_star.png) 0 50% no-repeat;
+	padding-left: 18px;
+}
+#sidebar .side1 ul li.current_page_item a {
+	background: url(images/pink_star.png) 0 50% no-repeat;
+	color: #FFF200;
+	}
+
+#right .side2 ul li a:hover,#sidebar .side1 ul li a:hover  {
+	background: url(images/pink_star.png) 0 50% no-repeat;
+	padding-left: 18px;
+}
+#right .side2 a:hover {
+	text-decoration: underline;
+}
+#sidebar #avatr {
+	border: 1px solid #EAECFB;
+}
+h2.pagetitle {
+	text-align: right;
+	border-bottom: 1px solid #ccc;
+	padding: 5px;
+	color: #053C42;
+	margin-bottom: 10px;
+}
+.post h2 {
+	font: 1.8em Aria,verdana; 
+}
+.post h2 a {	
+	color: #07515A;
+	background: #BDE701;
+	display: block;
+	padding: 4px;
+}
+.post h2 a:hover {
+	color: #000;
+}
+.post ul {
+	margin-left: 35px;
+}
+.post ol {
+	margin-left: 40px;
+}
+p.postmetadata
+{
+	color: #999;
+	font-size: 85%;
+	margin-bottom: 10px;
+}
+p.postmetadata a
+{
+	color: #666;
+	text-decoration: none;
+}
+span.timr
+{
+	background: url(images/timr.png) 0 0 no-repeat;
+	padding-left: 15px;
+}
+span.catr
+{
+	background: url(images/catr.png) 0 0 no-repeat;
+	padding-left: 15px;
+}
+span.editr
+{
+	background: url(images/editr.png) 0 0 no-repeat;
+	padding-left: 15px;
+}
+span.commr
+{
+	background: url(images/commr.png) 0 0 no-repeat;
+	padding-left: 15px;
+}
+.post ul.postspermonth{
+	list-style:none;
+	padding: 0;
+	margin: 0;
+}
+.post p a {
+	border-bottom: 1px solid #ccc;
+}
+.post p a:hover {
+	border: none;
+}
+/*
+.post a img, .post img {
+	border: none;
+	float: right;
+	padding-left: 5px;
+}	
+*/
+.categr, .monthr {
+	margin-bottom: 20px;
+}
+.categr h2, .monthr h2{
+	border-bottom: 1px solid #ccc;
+}
+
+.rss {
+	background: url(images/feed-icon-10x10.png) left center no-repeat;
+	padding-left: 12px;
+}
+#avatr {
+	float: left;
+	margin-right: 5px;
+}
+/* Comment Etc
+********************* */
+.navigation a
+{
+	color: #666;
+}
+.alignleft
+{
+	float: left;
+	width: 50%;
+}
+.alignright
+{
+	float: right;
+	text-align: right;
+	width: 50%;
+}
+
+.ileft {
+	float: left;
+	margin-right: 5px;
+}
+p.stats {
+	color: #999;
+	font-size: .8em;
+	border: 1px solid #ccc;
+	border-left: none;
+	border-right: none;
+}
+blockquote
+{
+	background: url(images/blockquote.gif) no-repeat left top;
+	color: #666;
+	margin: 1em;
+	padding: 0 0 10px 50px;
+}
+
+
+#content .commentsfeedr
+{
+	background: url(images/feed.png) no-repeat left center;
+	padding-left: 20px;
+}
+#content .trackbackr
+{
+	background: url(images/arrow_refresh.png) no-repeat left center;
+	padding-left: 20px;
+}
+h3#respond {
+	border-bottom: 1px solid #ccc;
+}
+
+input.textbox, textarea
+{
+	background: #fff url(images/shadow_top.gif) repeat-x top;
+	border: #ccc 1px solid;
+	font: 1em Verdana, Arial, Serif;
+	padding: 2px;
+}
+input.textbox:focus, textarea:focus
+{
+	background: #fff url(images/shadow_top.gif) repeat-x top;
+	border: #999 1px solid;
+}
+#submit
+{
+	padding: 3px 5px;
+}
+.comment
+{
+	background: #fff url(images/shadow_top.gif) repeat-x top;
+	border-bottom: #ddd 1px solid;
+	list-style: none;
+	margin: 0;
+	padding: 1em 0.5em;
+}
+.alt
+{
+	background: #f9f9f9;
+}
+.MyAvatars
+{
+	border: 1px solid #ccc;
+	border-bottom: 1px solid #999;
+	border-right: 1px solid #999;
+	float: right;
+	margin-left: 5px;
+	margin-right: 10px;
+	padding: 3px;
+}
+#comment {
+	width: 100%;
+}
+
+input#s {
+	width: 140px;
+	padding: 5px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	background: #E0FF3A;
+	border: 2px solid #859E00;
+}
+input#s:focus {
+	padding: 5px;
+	margin-bottom: 10px;
+	background: #999;
+	color: #fff;
+	border: 2px solid #fff;
+}
+
+input#searchsubmit
+{
+	background: #141132 url(images/search.gif) 0 0 no-repeat;
+	height: 30px;
+	margin: 0;
+	position: absolute;
+	width: 40px;
+	font-weight: bold;
+	border: none;
+	color: #053C42;
+}
+
+
+fieldset {
+	border: none;
+}
+textarea#cp_message {
+	width: 100%;
+}
+
+pre {
+	width: 95%;
+	overflow:auto;
+	font: 13px 'Courier New', Courier, Verdana, Arial, sans-serif;
+	color: #666;
+	max-height: 350px;
+	line-height: 18px;
+	margin: 10px 0;
+	border: 1px solid #ccc;
+	padding: 5px;
+	background: #efefef;
+}
+
+code {
+font: 13px 'Courier New', Courier, Verdana, Arial, sans-serif;
+color: #666;
+padding: 2px;
+}
+
+/* Change Log *** 
+1.0	: Public Releaed
+*** */

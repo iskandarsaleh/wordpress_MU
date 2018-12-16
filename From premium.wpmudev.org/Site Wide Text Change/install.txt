@@ -1,0 +1,11 @@
+Plugin Name: Site Wide Text Change
+Author: Andrew Billits
+
+Files:
+----------------------------------------------------------------------
+site-wide-text-change - goes in /wp-content/mu-plugins
+/sitewidetextincludes/ - goes in /wp-content/mu-plugins
+
+Instructions:
+----------------------------------------------------------------------
+1) Place the files in the specified directories

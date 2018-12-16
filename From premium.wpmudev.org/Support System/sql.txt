@@ -1,0 +1,83 @@
+Plugin Name: MU Support System
+Author: Luke Poland (Incsub)
+Copyright: © Copyright 2008, Luke Poland, Incsub. All rights reserved.
+Content may not be redistributed in whole or in part.
+
+
+If the auto-install does not add the db table(s) for you then run the sql code in "sql.txt" on your wpmu db. You may need to change the table prefixes and/or character set/collation as the below assumes a default setup.
+
+The below queries may not be compatible with versions of MySQL prior to 4.1, and possibly 5.0. If you're not running MySQL 5.0.x, you may wish to consider upgrading for improved reliability, stability, and resource usage. :)
+
+
+-- --------------------------------------------------------
+
+
+CREATE TABLE IF NOT EXISTS `wp_support_faq` (
+  `faq_id` bigint(20) unsigned NOT NULL auto_increment,
+  `site_id` bigint(20) unsigned NOT NULL,
+  `cat_id` bigint(20) unsigned NOT NULL,
+  `question` varchar(255) NOT NULL,
+  `answer` mediumtext NOT NULL,
+  `help_views` bigint(20) unsigned NOT NULL default '0',
+  `help_count` bigint(20) unsigned NOT NULL default '0',
+  `help_yes` int(12) unsigned NOT NULL default '0',
+  `help_no` int(12) unsigned NOT NULL default '0',
+  PRIMARY KEY  (`faq_id`),
+  KEY `site_id` (`site_id`,`cat_id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8;
+
+CREATE TABLE IF NOT EXISTS `wp_support_faq_cats` (
+  `cat_id` bigint(20) unsigned NOT NULL auto_increment,
+  `site_id` bigint(20) unsigned NOT NULL,
+  `cat_name` varchar(255) NOT NULL,
+  `qcount` smallint(3) unsigned NOT NULL,
+  `defcat` enum('0','1') NOT NULL default '0',
+  PRIMARY KEY  (`cat_id`),
+  KEY `site_id` (`site_id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8;
+
+CREATE TABLE IF NOT EXISTS `wp_support_tickets` (
+  `ticket_id` bigint(20) unsigned NOT NULL auto_increment,
+  `site_id` bigint(20) unsigned NOT NULL,
+  `blog_id` bigint(20) unsigned NOT NULL,
+  `cat_id` bigint(20) unsigned NOT NULL,
+  `user_id` bigint(20) unsigned NOT NULL,
+  `admin_id` bigint(20) unsigned NOT NULL default '0',
+  `last_reply_id` bigint(20) unsigned NOT NULL default '0',
+  `ticket_type` tinyint(1) unsigned NOT NULL default '1',
+  `ticket_priority` tinyint(1) unsigned NOT NULL default '1',
+  `ticket_status` tinyint(1) unsigned NOT NULL default '0',
+  `ticket_opened` timestamp NOT NULL default '0000-00-00 00:00:00',
+  `ticket_updated` timestamp NOT NULL default CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP,
+  `num_replies` smallint(3) unsigned NOT NULL default '0',
+  `title` varchar(120) character set utf8 NOT NULL,
+  PRIMARY KEY  (`ticket_id`),
+  KEY `site_id` (`site_id`),
+  KEY `blog_id` (`blog_id`),
+  KEY `user_id` (`user_id`),
+  KEY `admin_id` (`admin_id`),
+  KEY `ticket_status` (`ticket_status`),
+  KEY `ticket_updated` (`ticket_updated`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8;
+
+CREATE TABLE IF NOT EXISTS `wp_support_tickets_cats` (
+  `cat_id` bigint(20) unsigned NOT NULL auto_increment,
+  `site_id` bigint(20) unsigned NOT NULL,
+  `cat_name` varchar(100) NOT NULL,
+  `defcat` enum('0','1') NOT NULL default '0',
+  PRIMARY KEY  (`cat_id`),
+  KEY `site_id` (`site_id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8;
+
+CREATE TABLE IF NOT EXISTS `wp_support_tickets_messages` (
+  `message_id` bigint(20) unsigned NOT NULL auto_increment,
+  `site_id` bigint(20) unsigned NOT NULL,
+  `ticket_id` bigint(20) unsigned NOT NULL,
+  `user_id` bigint(20) unsigned NOT NULL,
+  `admin_id` bigint(20) unsigned NOT NULL,
+  `message_date` timestamp NOT NULL default CURRENT_TIMESTAMP,
+  `subject` varchar(255) character set utf8 NOT NULL,
+  `message` mediumtext character set utf8 NOT NULL,
+  PRIMARY KEY  (`message_id`),
+  KEY `ticket_id` (`ticket_id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8;

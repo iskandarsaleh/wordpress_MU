@@ -1,0 +1,25 @@
+#menucontainer
+{
+	float: left;
+	margin-left: 0px;
+	margin-right: -233px;
+}
+
+	
+#contentcontainer
+{
+	margin-left: 233px;
+	margin-right: 0px;
+	float: right;
+}
+
+* html #contentcontainer {
+padding-left: 233px;
+padding-right: 0px;
+}
+
+* html #menucontainer {
+float: left;
+margin-left: 0;
+margin-right: -233px;
+}

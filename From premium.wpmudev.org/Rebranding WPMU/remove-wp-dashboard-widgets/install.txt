@@ -1,0 +1,10 @@
+Plugin Name: Remove Dashboard Widgets
+Author: Andrew Billits
+
+Files:
+----------------------------------------------------------------------
+remove-wp-dashboard-widgets.php - goes in /wp-content/mu-plugins
+
+Instructions:
+----------------------------------------------------------------------
+1) Place the files in the specified directories

@@ -1,0 +1,81 @@
+Plugin Name: Supporter
+Author: Andrew Billits (Incsub)
+
+Files:
+----------------------------------------------------------------------
+supporter-paypal.php - goes in / <-- root directory
+supporter.php - goes in /wp-admin
+supporter-framework.php - goes in /wp-content/mu-plugins
+
+Optional:
+supporter-quota.php - goes in /wp-content/mu-plugins
+supporter-ads.php - goes in /wp-content/mu-plugins
+supporter-write.php - goes in /wp-content/mu-plugins
+widget-supporter-badge.php - goes in /wp-content/mu-plugins
+widget-supporter.php - goes in /wp-content/mu-plugins
+supporter-plugins.php - goes in /wp-content/mu-plugins
+supporter-bulk-upgrades.php - goes in /wp-content/mu-plugins
+supporter-bulk-upgrades-paypal.php - goes in / <-- root directory
+
+Instructions:
+----------------------------------------------------------------------
+1) Place the files in the specified directories
+2) If the auto-install does not add the db table(s) for you then run the sql code in "sql.txt" on your wpmu db
+
+Optional plugins:
+----------------------------------------------------------------------
+supporter-quota.php - Allows you to increase storage space for supporter blogs
+supporter-ads.php - Allows you to display ads on non-supporter blogs - Usage examples for ad functions below
+supporter-write.php - Disables the "Write Post" and "Write Page" pages on non-supporter blogs - Note that the pages are never disabled for Site Admins
+widget-supporter-badge.php - Provides a widget supporter blogs can display. Open the file and edit the image path at the top.
+widget-supporter.php - Allows you to display supporter blogs on the main blog
+supporter-plugins.php - Disables plugins (/plugins/) on non-supporter blogs.
+supporter-bulk-upgrades.php - Allows for "Bulk Upgrades"
+supporter-bulk-upgrades-paypal.php - Required if using the "Bulk Upgrades" feature
+
+Ad Functions:
+----------------------------------------------------------------------
+supporter_show_ads:
+
+ex:
+<?php
+if (supporter_show_ads()) {
+	//show ads
+	?>
+	ad content goes here
+	<?php
+} else {
+	//do not show ads
+}
+?>
+
+----------------------
+
+supporter_hide_ads:
+
+ex:
+<?php
+if (supporter_hide_ads()) {
+	//do not show ads
+} else {
+	//show ads
+	?>
+	ad content goes here
+	<?php
+}
+?>
+
+Supporter Status Function:
+----------------------------------------------------------------------
+is_supporter:
+
+ex:
+<?php
+if (is_supporter()) {
+	//blog has been upgraded to a supporter
+	//code or content goes here
+} else {
+	//blog has not been upgraded to a supporter
+	//code or content goes here
+}
+?>

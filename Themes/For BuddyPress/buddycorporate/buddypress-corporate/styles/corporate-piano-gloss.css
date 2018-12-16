@@ -1,0 +1,25 @@
+#navigation {
+	background: url(corporate-piano-gloss/navs.png) no-repeat!important;
+}
+
+ul#nav li.selected, ul#nav li.current_page_item {
+	background: url(corporate-piano-gloss/leftbar.png) no-repeat left center!important;
+}
+ul#nav li.selected a, ul#nav li.current_page_item a {
+	background: url(corporate-piano-gloss/rightbar.png) no-repeat right center!important;
+}
+#post-entry h2.widgettitle {
+	background: url(corporate-piano-gloss/longbar.png) no-repeat!important;
+}
+#center-column h2.widgettitle {
+	background: url(corporate-piano-gloss/mediumbar.png) no-repeat!important;
+}
+#right-column h2.widgettitle {
+	background: url(corporate-piano-gloss/shortbar.png) no-repeat!important;
+}
+
+
+#userbar #meprofile {
+    background: url(corporate-piano-gloss/side.png) repeat-x!important;
+
+}

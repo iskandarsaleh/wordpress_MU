@@ -1,0 +1,12 @@
+The plugin uses the ‘stylesheet_directory_uri‘ filter to set the stylesheet uri (css file). In turn, the stylesheet uses the ‘url‘ method to call the image files of the theme so they get the same base url as the stylesheet. Most themes uses the ‘stylesheet_directory‘ call correctly so you will not run into trouble but if a theme uses it to call a php file you should change the call to use ‘template_directory‘.
+
+
+Usage:
+
+   1. Signup for an Amazon-S3 account.
+   2. Create a bucket for your files. Since you have to select a globally unique name for your buckets I call it s3.domain.com were domain.com is my wpmu installation.
+   3. To point s3 to your bucket setup a CNAME record: s3 -> s3.domain.com.s3.amazonaws.com. (don’t forget that extra dot at the end).
+   4. Load your themes css and image files to your bucket keeping the exact directory structure for each theme (/wp-contents/themes/… ). You can use the excellent S3 FireFox Organizer to mange your files.
+   5. Edit the plugin to include your bucket name.
+   6. Place the plugin in the mu-plugins directory.
+   7. Test, test and test all your themes!

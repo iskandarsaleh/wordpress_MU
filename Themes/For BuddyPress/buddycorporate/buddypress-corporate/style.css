@@ -1,0 +1,15 @@
+/*
+Theme Name: BuddyPress-Corporate
+Theme URI: http://premium.wpmudev.org/
+Description: A massively customizable BuddyPress theme that might be suitable for a more corporate look and feel - 8 preset variations to choose from.
+Version: 1.0.3 
+Author: Incsub
+Author URI: http://incsub.com
+*/
+
+/* Load the base styles */
+
+@import url(css/base.css);
+@import url(css/custom.css);
+@import url(css/global.css);
+@import url(css/wp-comments.css);

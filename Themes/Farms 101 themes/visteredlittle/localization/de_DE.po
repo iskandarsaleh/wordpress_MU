@@ -1,0 +1,901 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: vistered little\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2007-06-19 19:02+1000\n"
+"Last-Translator: Tom Howard <tom@windyroad.org>\n"
+"Language-Team: frank haensel <game@mister-einstein.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Language: german\n"
+"X-Poedit-Country: germany\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: ../skins/default/functions.php:5
+msgid "Width"
+msgstr "Breite"
+
+#: ../skins/default/functions.php:7
+msgid "Narrow"
+msgstr "schmal"
+
+#: ../skins/default/functions.php:9
+msgid "Wide"
+msgstr "breit"
+
+#: ../skins/default/functions.php:11
+#: ../skins/default/functions.php:20
+#: ../functions.php:35
+#: ../functions.php:61
+#: ../functions.php:70
+#: ../functions.php:81
+#: ../functions.php:89
+#: ../functions.php:99
+#: ../functions.php:109
+#: ../functions.php:125
+#: ../functions.php:149
+#: ../functions.php:161
+#: ../functions.php:171
+#: ../functions.php:181
+#: ../functions.php:203
+#: ../functions.php:212
+msgid "default"
+msgstr "Standard"
+
+#: ../skins/default/functions.php:13
+msgid "Flex"
+msgstr "flexibel"
+
+#: ../skins/default/functions.php:15
+msgid "Select the page width."
+msgstr "Seitenbreite auswählen"
+
+#: ../skins/default/functions.php:16
+msgid "Tone"
+msgstr "Farbton"
+
+#: ../skins/default/functions.php:18
+msgid "Dark"
+msgstr "dunkel"
+
+#: ../skins/default/functions.php:22
+msgid "Light"
+msgstr "hell"
+
+#: ../skins/default/functions.php:24
+msgid "Select the tone."
+msgstr "Wähle einen Farbton"
+
+#: ../tags.php:27
+#, fuzzy
+msgid "Well, you should be seeing a pretty nifty tag cloud here, however it looks like someone has disabled it and forgot to hide/delete this page."
+msgstr "Nun, eigentlich solltest Du hier eine hübsche Wolke mit Tags sehen; wie auch immer, es sieht aus als ob irgendwer diese Funktion abgeschaltet hat und dabei vergaß diese Seite zu löschen oder auszublenden "
+
+#: ../single-comment.php:57
+#: ../comments.php:19
+msgid "Your comment is awaiting moderation."
+msgstr "Der Kommentar muß erst noch freigegeben werden."
+
+#. if there's a password
+#. and it doesn't match the cookie
+#: ../yatcp_comments.php:26
+#, fuzzy
+msgid "This post is password protected. To view it please enter your password below:"
+msgstr "Dieser Beitrag ist  Passwort gesch&#252;tzt. Bitte gib das Passwort ein um die Kommentare lesen zu können."
+
+#. You can start editing here.
+#: ../404.php:12
+#: ../header.php:36
+msgid "Page not found"
+msgstr "Seite nicht gefunden."
+
+#: ../404.php:13
+msgid "You have reached a non-existant url. This address is either outdated or incorrectly linked."
+msgstr "Die eingegebene Adresse existiert nicht. Entweder ist sie veraltet oder falsch verknüpft."
+
+#: ../comments-form.php:9
+#, fuzzy
+msgid "Leave a comment"
+msgstr "Einen Kommentar hinterlassen"
+
+#: ../comments-form.php:11
+msgid "Names and email addresses are required (email addresses aren't displayed), url's are optional."
+msgstr "Die Angabe von Name und Email (wird nicht veröffentlicht)  ist erforderlich!"
+
+#: ../comments-form.php:12
+msgid "Comments may contain the following xhtml tags:"
+msgstr "Kommentare dürfen die fogenden XHTML Tags enthalten:"
+
+#: ../comments-form.php:50
+msgid "Name"
+msgstr "Name"
+
+#: ../comments-form.php:54
+msgid "E-mail"
+msgstr "E-Mail"
+
+#: ../comments-form.php:58
+msgid "Uniform Resource Identifier"
+msgstr "URI"
+
+#: ../comments-form.php:58
+msgid "URI"
+msgstr "URI"
+
+#: ../comments-form.php:66
+msgid "You are logged in as"
+msgstr "Du bist angemeldet als"
+
+#: ../comments-form.php:73
+msgid "I'm done, post it."
+msgstr "Fertig, ab damit!"
+
+#: ../footer.php:13
+#: ../widgets.php:252
+#: ../widgets.php:256
+msgid "Newer"
+msgstr "Neuere"
+
+#: ../footer.php:14
+#: ../widgets.php:253
+#: ../widgets.php:257
+msgid "Older"
+msgstr "Ältere"
+
+#: ../footer.php:23
+#: ../widgets.php:332
+msgid "Theme"
+msgstr "Theme"
+
+#: ../footer.php:24
+#: ../index.php:66
+#: ../search.php:36
+msgid "by"
+msgstr " von"
+
+#: ../functions.php:35
+msgid "Random"
+msgstr ""
+
+#: ../functions.php:46
+msgid "Select a default wallpaper for your page."
+msgstr "Wähle einen Hintergrund für Deine Seite aus"
+
+#: ../functions.php:48
+msgid "Enter the width of the logo in pixels. The default is 500."
+msgstr "Gib die Breite des Logos in Pixeln an. Standard is 500."
+
+#: ../functions.php:49
+msgid "Enter the height of the logo in pixels. The default is 90."
+msgstr "Gib die Höhe des Logos in Pixeln an. Standard ist 90."
+
+#: ../functions.php:52
+msgid "An attempt will be made to determine the logo width automatically."
+msgstr "Es wird versucht die Breite des Logos automatisch festzustellen."
+
+#: ../functions.php:53
+msgid "An attempt will be made to determine the logo height automatically."
+msgstr "Es wird versucht die Höhe des Logos automatisch festzustellen."
+
+#: ../functions.php:57
+msgid "Sidebar Location"
+msgstr "Platzierung der Sidebar"
+
+#: ../functions.php:59
+#: ../functions.php:111
+msgid "Right"
+msgstr "Rechts"
+
+#: ../functions.php:63
+#: ../functions.php:107
+msgid "Left"
+msgstr "Links"
+
+#: ../functions.php:65
+msgid "Select which side of the page you want your sidebar to be on."
+msgstr "Auf welcher Seite soll die Sidebar erscheinen?"
+
+#: ../functions.php:67
+msgid "Side Bar Type"
+msgstr "Art der Sidebar"
+
+#: ../functions.php:69
+msgid "Single Position"
+msgstr "Einzeln"
+
+#: ../functions.php:71
+msgid "Quad Position"
+msgstr "Vierer Darstellung"
+
+#: ../functions.php:73
+msgid "A quad position sidebar allows you to configure widgets that are displayed in a wide section at the top of the side bar, on the left and right of the side bar and a wide sections at the bottom of the side bar."
+msgstr "In der Vierer Darstellung kannst Du Widgets in quadratischer Form darstellen: Eines breit oben in der Sidebar, eines breit unten in der Sidebar, zwei weitere dazwischen."
+
+#: ../functions.php:75
+msgid "Header Position"
+msgstr "Header Position (Oben)"
+
+#: ../functions.php:77
+msgid "Normal"
+msgstr "Normal"
+
+#: ../functions.php:79
+msgid "Fixed"
+msgstr "Fest eingestellt"
+
+#: ../functions.php:83
+msgid "Select whether the header should have normal or Fixed positioning."
+msgstr "Wähle ob der Header (Kopfzeile) normal oder mit fest eingestellter Position dargestellt werden soll."
+
+#: ../functions.php:85
+msgid "Header Search Field"
+msgstr "Suchfeld im Header"
+
+#: ../functions.php:87
+#: ../functions.php:127
+#: ../functions.php:159
+#: ../functions.php:169
+#: ../functions.php:210
+msgid "Show"
+msgstr "Anzeigen"
+
+#: ../functions.php:91
+#: ../functions.php:123
+#: ../functions.php:163
+#: ../functions.php:173
+#: ../functions.php:214
+msgid "Hide"
+msgstr "ausblenden"
+
+#: ../functions.php:93
+msgid "Select whether to display a search box in the header."
+msgstr "Bitte wähle wo die Suchbox im Header angezeigt werden soll"
+
+#: ../functions.php:95
+msgid "Thumbnail Frames"
+msgstr "Vorschaubild Rahmen"
+
+#: ../functions.php:97
+msgid "Use CSS Border"
+msgstr "Benutze einen CSS Rahmen"
+
+#: ../functions.php:101
+msgid "Use Image"
+msgstr "Zeige nur das Bild"
+
+#: ../functions.php:103
+#, fuzzy
+msgid "Select whether to use a CSS border or an image to frame the wallpaper thumbnails."
+msgstr "Wähle ob Du ein CSS Rahmen um das Vorschaubild haben  möchtest."
+
+#: ../functions.php:105
+msgid "Thumbnail Location"
+msgstr "Ort des /der  Vorschaubildes /-bilder"
+
+#: ../functions.php:113
+#: ../functions.php:329
+#: ../monosidebar.php:11
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#: ../functions.php:115
+msgid "None"
+msgstr "Keine"
+
+#: ../functions.php:117
+msgid "Select where you would like the thumbnails to be displayed."
+msgstr "Wähle wo das Vorschaubild angezeigt werden soll."
+
+#: ../functions.php:121
+msgid "Random Wallpaper Option"
+msgstr "Zufalls Hintergrund Funktion"
+
+#: ../functions.php:129
+#, fuzzy
+msgid "Select if a thumbnail should be shown to the user to have random wallpapers."
+msgstr "Wähle ob dem Besucher ein Vorschaubild angezeigt werden soll um zufällige Hintergründe darzustellen."
+
+#: ../functions.php:131
+msgid "Logo Path"
+msgstr "Pfad zum Logo / Bild:"
+
+#: ../functions.php:133
+#: ../functions.php:193
+msgid "Enter the path (relative to \""
+msgstr "Gib den Pfad (relativ zu \""
+
+#: ../functions.php:135
+#, fuzzy
+msgid "\") to the directory containing your site logos or the path to a single logo (leave blank to use \""
+msgstr "\") zum Verzeichnis mit Deinen Seiten Logos / Hintergründen  an  (leer lassen um \""
+
+#: ../functions.php:137
+#, fuzzy
+msgid "\" instead).<br/>If a directory is specified, then every time the site is displayed, a random logo will be selected from this directory.<br/>Recognised types: gif, png, jpeg and tiff"
+msgstr "\", also das jetzige Themeverzeichnis, zu nutzen).<br/>Jedes mal wenn die Seite startet wird ein zufälliges Logo aus diesem Verzeichnis angezeigt.<br/>Dateiformate: gif, png, jpeg and tiff"
+
+#: ../functions.php:139
+msgid "Logo Width"
+msgstr "Logo Breite"
+
+#: ../functions.php:142
+msgid "Logo Height"
+msgstr "Logo Höhe"
+
+#: ../functions.php:145
+msgid "Archive Links"
+msgstr "Archiv Links"
+
+#: ../functions.php:147
+msgid "Older and Newer"
+msgstr "Älter und Neuer"
+
+#: ../functions.php:151
+msgid "Monthly"
+msgstr "monatlich"
+
+#: ../functions.php:153
+msgid "Both"
+msgstr "Beides"
+
+#: ../functions.php:155
+msgid "Select if the Archived menu should display an Older/Newer link, Monthly links or both."
+msgstr "Du kannst wählen ob das Menu des Archivs einen Link zu älteren / Neueren Beiträgen zeigen soll, Monatliche Links oder beides darstellen soll"
+
+#: ../functions.php:157
+msgid "Credits"
+msgstr "Credits"
+
+#: ../functions.php:165
+msgid "If you like Vistered Little, then you can say thank you by showing me some link love.  Otherwise you can disable the link in the footer by selecting hide."
+msgstr "Wenn Dir Visterd Little gefällt dann lasse bitte den Link zu mir, andernfalls schalte ihn halt ab. Es wird Dir aber eh keiner glauben dass Du das Theme selbst entwickelt hast."
+
+#: ../functions.php:167
+msgid "Credits in Meta"
+msgstr "Credits in Meta"
+
+#: ../functions.php:175
+msgid "You can also hide the link to Vistered Little in the Meta widget, by selecting hide here."
+msgstr "Du kannst den Link zu Vistered Little auch im Meta Widget abschalten..."
+
+#: ../functions.php:177
+msgid "Credits in Head"
+msgstr "Credits in Head"
+
+#: ../functions.php:179
+msgid "Include"
+msgstr "einbeziehen"
+
+#: ../functions.php:183
+msgid "Remove"
+msgstr "Entferne"
+
+#: ../functions.php:185
+#, fuzzy
+msgid "There is one more link to Vistered Little, which is located in the xhtml head section (i.e. not visible).  Select remove to get rid of it as well."
+msgstr "Und hier ist noch ein letzter Link zu Vistered Little. Auch den kannst Du abschalten."
+
+#: ../functions.php:187
+msgid "Comment Policy"
+msgstr " Kommentar Regeln (Hausordnung)"
+
+#: ../functions.php:189
+msgid "Here you can specify the comment moderation policy for your site."
+msgstr "Hier kannst Du die deinen Lesern die Regeln für die Kommentierung vorgeben. Es muss ja auch eine Hausordnung geben."
+
+#: ../functions.php:191
+msgid "Customization directory"
+msgstr "Verzeichnis wählen"
+
+#: ../functions.php:195
+msgid "\") to a directory containing custom stylesheets and/or custom php files.<br/>Files ending with \".css\" or \".css.php\" will be included as stylesheets.  Files ending in \"-ie.css\" or \"-ie.css.php\" will also be included as stylesheets, but will only be visible to IE 6.  All other files ending in \".php\" will be included at the end of this themes \"functions.php\" file."
+msgstr "\") zu einem Verzeichnis das die persönlichen  Stylesheets und/oder eigene php files enthält.<br/>Dateien mit Endung \".css\" or \".css.php\" werde als Stylesheets benutzt.  Files mit den Ednungen  \"-ie.css\" or \"-ie.css.php\" werden auch als Stylesheets geladen, werden aber nur im Internet Explorer 6 oder 7 dargestellt.  Alle anderen Dateien mit der Endung  \".php\" werden nach der  \"functions.php\" Datei dieses Themes geladen."
+
+#: ../functions.php:198
+msgid "Sideblog format"
+msgstr "Sideblog Format"
+
+#: ../functions.php:200
+msgid "Combined"
+msgstr "Kombiniert"
+
+#: ../functions.php:202
+msgid "Separated ("
+msgstr "Getrennt ("
+
+#: ../functions.php:205
+#, fuzzy
+msgid "If you want your sideblog to display in a single box, select \"Combined\" and set the sideblog display format to <pre><code>&lt;div&gt;&lt;h4&gt;%title_url%&lt;/h4&gt;%content%&lt;/div&gt;</code></pre>If you want the sideblog title and posts to appear in separate boxes, select \"Separated\" and set the sideblog display format to <pre><code>&lt;div class=\"menubefore\"&gt;&lt;/div&gt;&lt;div class=\"menu\"&gt;&lt;h4&gt;%title_url%&lt;/h4&gt;%content%&lt;/div&gt;&lt;div class=\"menuafter\"&gt;&lt;/div&gt;</code></pre>"
+msgstr "Wenn Du ein Sideblog in einer einzelnen Textbox erstellen möchtest wähle \"Combined\" und stelle das Sideblog Format als<pre><code>&lt;div&gt;&lt;h4&gt;%title_url%&lt;/h4&gt;%content%&lt;/div&gt;</code></pre>Wenn Du den  Sideblog Titel und die Beiträge in verschiedenen Textboxen haben möchtest wähle \"Separated\" und stelle das Sideblog Format als <pre><code>&lt;div class=\"menubefore\"&gt;&lt;/div&gt;&lt;div class=\"menu\"&gt;&lt;h4&gt;%title_url%&lt;/h4&gt;%content%&lt;/div&gt;&lt;div class=\"menuafter\"&gt;&lt;/div&gt;</code></pre>"
+
+#: ../functions.php:208
+msgid "Show Author"
+msgstr ""
+
+#: ../functions.php:216
+msgid "Select Hide if you don't want the author to be displayed at the top of posts."
+msgstr ""
+
+#: ../functions.php:218
+#, fuzzy
+msgid "Font"
+msgstr "am"
+
+#: ../functions.php:220
+msgid "Specify the font you want to use for the site."
+msgstr ""
+
+#: ../functions.php:221
+msgid "<br/>The default is <code>\"verdana\", sans-serif</code>"
+msgstr ""
+
+#: ../functions.php:223
+#, fuzzy
+msgid "Title Font"
+msgstr "Titel:"
+
+#: ../functions.php:225
+msgid "Specify the font you want to use for the site's Title."
+msgstr ""
+
+#: ../functions.php:226
+msgid "<br/>The default is <code>\"Trebuchet MS\", sans-serif</code>"
+msgstr ""
+
+#: ../functions.php:228
+msgid "Font Size"
+msgstr ""
+
+#: ../functions.php:230
+msgid "Specify the font size you want to use for the site."
+msgstr ""
+
+#: ../functions.php:231
+msgid "<br/>The default is <code>22px</code>"
+msgstr ""
+
+#: ../functions.php:320
+#: ../header.php:187
+#: ../header.php:194
+msgid "Banner"
+msgstr ""
+
+#: ../functions.php:338
+#: ../quadsidebar.php:19
+msgid "Quadbar - Top"
+msgstr ""
+
+#: ../functions.php:345
+#: ../quadsidebar.php:32
+msgid "Quadbar - Left"
+msgstr ""
+
+#: ../functions.php:348
+#: ../quadsidebar.php:50
+msgid "Quadbar - Right"
+msgstr ""
+
+#: ../functions.php:351
+#: ../quadsidebar.php:71
+msgid "Quadbar - Bottom"
+msgstr ""
+
+#: ../functions.php:356
+msgid "Footer Bar"
+msgstr ""
+
+#: ../functions.php:365
+#: ../index.php:92
+msgid "End Of Post"
+msgstr ""
+
+#: ../functions.php:373
+#: ../index.php:12
+#: ../index.php:18
+msgid "2nd Banner"
+msgstr ""
+
+#: ../functions.php:381
+#: ../index.php:27
+#: ../index.php:33
+msgid "3rd Banner"
+msgstr ""
+
+#: ../header.php:7
+#: ../header.php:12
+#: ../header.php:17
+#: ../header.php:27
+#: ../header.php:32
+#: ../header.php:37
+#: ../header.php:57
+msgid "@"
+msgstr "@"
+
+#: ../header.php:113
+#: ../header.php:151
+#, fuzzy
+msgid "Search"
+msgstr "Suchen..."
+
+#: ../header.php:114
+msgid "Type and press enter."
+msgstr "Enter drücken!"
+
+#: ../header.php:172
+msgid "Go home."
+msgstr "Zurück zur Startseite"
+
+#: ../index.php:53
+#: ../index.php:58
+msgid "Permalink for"
+msgstr "Permanenter Link:"
+
+#: ../index.php:60
+#: ../search.php:32
+msgid "Posted on"
+msgstr "Erstellt am"
+
+#: ../index.php:69
+msgid "edit."
+msgstr "bearbeiten"
+
+#: ../index.php:71
+#: ../monosidebar.php:28
+#: ../quadsidebar.php:58
+msgid "Categories"
+msgstr "Kategorien"
+
+#: ../index.php:79
+msgid "Next"
+msgstr "Vor"
+
+#: ../index.php:80
+#, fuzzy
+msgid "Previous"
+msgstr "Zurück"
+
+#: ../index.php:86
+msgid "Pages:"
+msgstr "Seiten:"
+
+#: ../index.php:123
+#: ../index.php:128
+msgid "no comments yet."
+msgstr "Noch keine Kommentare."
+
+#: ../index.php:124
+#: ../index.php:129
+msgid "1 comment."
+msgstr "1 Kommentar"
+
+#: ../index.php:125
+#: ../index.php:130
+#, fuzzy, php-format
+msgid "% comments."
+msgstr "1 Kommentar"
+
+#: ../index.php:163
+msgid "There are no posts relating to your query."
+msgstr "Es gibt keine passenden Einträge zu dieser Abfrage"
+
+#: ../miniwidgets.php:84
+msgid "Style:"
+msgstr "Stil:"
+
+#: ../miniwidgets.php:85
+msgid "Class:"
+msgstr "Klasse: "
+
+#: ../miniwidgets.php:86
+msgid "Hide on front page"
+msgstr "Auf der Startseite ausblenden"
+
+#: ../miniwidgets.php:87
+msgid "Hide on individual posts"
+msgstr "Ausblenden bei bestimmten Beiträgen"
+
+#: ../miniwidgets.php:88
+msgid "Hide on \"pages\""
+msgstr "Ausblenden bei \"pages\""
+
+#: ../miniwidgets.php:89
+msgid "Hide on category archives"
+msgstr "In den Kategorie Archiven ausblenden"
+
+#: ../miniwidgets.php:90
+msgid "Hide on date based archives"
+msgstr "In den Datum bezogenen Archiven ausblenden"
+
+#: ../miniwidgets.php:118
+#: ../miniwidgets.php:124
+msgid "MW &raquo; "
+msgstr "MW &raquo; "
+
+#: ../miniwidgets.php:139
+msgid "Print This Post"
+msgstr "Diesen Beitrag drucken"
+
+#: ../miniwidgets.php:170
+msgid "Sociable"
+msgstr "Sociable"
+
+#: ../miniwidgets.php:178
+msgid "Tags: "
+msgstr "Tags: "
+
+#: ../miniwidgets.php:182
+msgid "Jerome's Keywords"
+msgstr "Jerome's Keywords"
+
+#: ../miniwidgets.php:190
+msgid "Bunny's Technorati Tags"
+msgstr "Bunny's Technorati Tags"
+
+#: ../miniwidgets.php:245
+#, fuzzy
+msgid "Related Posts:"
+msgstr "Passende Beiträge:"
+
+#: ../miniwidgets.php:251
+msgid "UTW Primary Tags"
+msgstr "UTW Primary Tags"
+
+#: ../miniwidgets.php:252
+msgid "UTW Secondary Tags"
+msgstr "UTW Secondary Tags"
+
+#: ../miniwidgets.php:253
+msgid "UTW Related Posts"
+msgstr "UTW Related Posts"
+
+#: ../miniwidgets.php:266
+msgid "More From Google"
+msgstr "Mehr von Google"
+
+#: ../miniwidgets.php:273
+msgid "WP-EMail"
+msgstr ""
+
+#: ../monosidebar.php:22
+#: ../quadsidebar.php:52
+msgid "Pages"
+msgstr "Seiten"
+
+#: ../search.php:20
+#, fuzzy
+msgid "Posts related to"
+msgstr "Passende Beiträge zu "
+
+#: ../search.php:40
+#, fuzzy
+msgid "edit"
+msgstr "bearbeiten"
+
+#: ../search.php:42
+#, fuzzy
+msgid "Categories:"
+msgstr "Kategorien:"
+
+#: ../search.php:53
+#, fuzzy
+msgid "There are no posts relating to"
+msgstr "Es gibt keine passenden Einträge zu "
+
+#: ../widgets.php:11
+#: ../widgets.php:22
+#: ../widgets.php:28
+msgid "You can leave a"
+msgstr "Du kannst einen"
+
+#: ../widgets.php:12
+#: ../widgets.php:23
+msgid "comment"
+msgstr "Kommentar abgeben"
+
+#: ../widgets.php:13
+msgid "on or"
+msgstr "oder"
+
+#: ../widgets.php:14
+#: ../widgets.php:29
+msgid "Trackback to"
+msgstr "hierher einen Trackback "
+
+#: ../widgets.php:15
+#: ../widgets.php:30
+msgid "trackback"
+msgstr "Trackback"
+
+#: ../widgets.php:17
+#: ../widgets.php:32
+#, fuzzy
+msgid "to this"
+msgstr "hierher setzen."
+
+#: ../widgets.php:24
+#, fuzzy
+msgid "on this"
+msgstr "zu diesem "
+
+#: ../widgets.php:45
+msgid "Home"
+msgstr "Startseite"
+
+#: ../widgets.php:55
+msgid "Attachment"
+msgstr "Anlage "
+
+#: ../widgets.php:59
+#, fuzzy
+msgid "You are viewing the attachment"
+msgstr "Du betrachtest die Anlage "
+
+#: ../widgets.php:63
+#, fuzzy
+msgid "attachment"
+msgstr "Anlage "
+
+#: ../widgets.php:69
+msgid "Post Information"
+msgstr "Beitrags Information"
+
+#: ../widgets.php:73
+#: ../widgets.php:118
+msgid "You are reading"
+msgstr "Du liest gerade"
+
+#: ../widgets.php:83
+msgid "Oops!"
+msgstr "Ups...!"
+
+#: ../widgets.php:94
+#: ../widgets.php:106
+#: ../widgets.php:130
+#: ../widgets.php:146
+#: ../widgets.php:173
+#: ../widgets.php:187
+#, fuzzy
+msgid "You are looking at posts"
+msgstr "Du liest die Beiträge "
+
+#: ../widgets.php:96
+#, fuzzy
+msgid "that were written on"
+msgstr "vom "
+
+#: ../widgets.php:108
+#, fuzzy
+msgid "in the category"
+msgstr "in der Kategorie"
+
+#: ../widgets.php:114
+msgid "Page Information"
+msgstr "Seiten Information"
+
+#: ../widgets.php:132
+#: ../widgets.php:148
+msgid "that were written"
+msgstr "geschrieben"
+
+#: ../widgets.php:134
+#, fuzzy
+msgid "in the month of"
+msgstr "im Monat"
+
+#: ../widgets.php:136
+#: ../widgets.php:150
+#, fuzzy
+msgid "in the year"
+msgstr "des Jahres"
+
+#: ../widgets.php:156
+msgid "Search Results"
+msgstr "Suchergebnis"
+
+#: ../widgets.php:160
+#, fuzzy
+msgid "You searched for"
+msgstr "Du hast gesucht nach "
+
+#: ../widgets.php:166
+msgid "Author Archives"
+msgstr "Autoren Archiv"
+
+#: ../widgets.php:175
+#, fuzzy
+msgid "written by"
+msgstr "geschrieben von "
+
+#: ../widgets.php:183
+msgid "Tagged"
+msgstr "gekennzeichnet"
+
+#: ../widgets.php:189
+#, fuzzy
+msgid "that have been tagged"
+msgstr "die gekennzeichnet wurden "
+
+#: ../widgets.php:202
+msgid "Gallery"
+msgstr ""
+
+#: ../widgets.php:206
+#, fuzzy
+msgid "You are looking at the "
+msgstr "Du liest die Beiträge "
+
+#: ../widgets.php:228
+#, fuzzy
+msgid "You came here from"
+msgstr "Du kommst von "
+
+#: ../widgets.php:230
+#, fuzzy
+msgid "searching for"
+msgstr "gesucht nach"
+
+#: ../widgets.php:232
+#, fuzzy
+msgid "These posts might also be of interest"
+msgstr "Diese Beiträge könnten Dich auch interessieren:"
+
+#: ../widgets.php:242
+msgid "Archives"
+msgstr "Archiv"
+
+#: ../widgets.php:265
+msgid "Post Info"
+msgstr "Beitrags Information"
+
+#: ../widgets.php:279
+msgid "Wallpaper Selector"
+msgstr "Hintergrund Auswahl"
+
+#: ../widgets.php:285
+#: ../widgets.php:311
+msgid "Site Meta"
+msgstr "Meta Description"
+
+#: ../widgets.php:289
+#: ../widgets.php:290
+#: ../widgets.php:315
+#: ../widgets.php:316
+msgid "Syndicate this site using RSS 2.0"
+msgstr "Abonniere diese Seite mit RSS 2.0"
+
+#: ../widgets.php:292
+#: ../widgets.php:293
+#: ../widgets.php:318
+#: ../widgets.php:319
+msgid "The latest comments to all posts in RSS 2.0"
+msgstr "Die neuesten Kommentare zu allen Beitr&auml;gen als RSS"
+
+#: ../widgets.php:302
+msgid "Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr ""
+
+#: ../widgets.php:332
+msgid "Download your own copy of"
+msgstr "Lade Deine Kopie von"
+
+#: ../widgets.php:349
+msgid "Title:"
+msgstr "Titel:"
+
+#: ../widgets.php:385
+msgid "Links"
+msgstr "Links"
+
+#: ../widgets.php:416
+#, fuzzy
+msgid "Sideblog"
+msgstr "Sideblog Format"
+
+#: ../widgets.php:444
+#, fuzzy
+msgid "Text"
+msgstr "Vor"
+

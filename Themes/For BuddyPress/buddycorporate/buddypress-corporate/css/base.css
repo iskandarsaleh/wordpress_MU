@@ -1,0 +1,502 @@
+#buddypress-welcome .create-account {
+	margin: 0px;
+	padding: 15px 3% 0px;
+	float: left;
+	width: 94%;
+}
+#buddypress-welcome  .visit a   {
+	display: inline-block;
+	padding: 2px 8px;
+	background: #0A3F75;
+	margin: 0px;
+	float: left;
+	font-size: 1em;
+	color: #FFFFFF!important;
+	text-decoration: none!important;
+	text-align: center;
+	border-top: 1px solid #083D73;
+	border-right: 1px solid #062F57;
+	border-bottom: 2px solid #04213E;
+	border-left: 1px solid #083D73;
+	line-height: 18px;
+}
+p.view {
+	font-size: 1.25em;
+	margin-top: 15px;
+	margin-bottom: 0px;
+}
+p.view a, .mu_alert a {
+	color: #184061!important;
+	text-decoration: underline;
+}
+/***********************************************************
+ Global Reset
+************************************************************/
+
+/**, html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, label, fieldset, input, p, blockquote, th, td { margin:0; padding:0 }
+table { border-collapse:collapse; border-spacing:0 }
+fieldset, img { border:0 }
+address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal }
+ul { list-style:none }
+caption, th { text-align:left }
+h1, h2, h3, h4, h5, h6 { font-size:100%; font-weight: normal; }
+q:before, q:after { content:'' }
+a { text-decoration:none }
+strong { font-weight:bold }
+em { font-style:italic }
+* a { position:relative }
+a img { border:none }
+* { outline: none; }*/
+
+/***********************************************************
+ Let the games begin...
+************************************************************/
+
+
+/*
+ Rename this file to 'site-wide.css' to activate it.
+
+ Any CSS styles placed in this file will be applied site-wide regardless of which theme is in
+ use for a particular page. Essentially, if you want to apply common styles to both your home blog
+ theme and your member theme, put them in here.
+
+ This CSS file is not limited to the 'buddypress-home' theme. Place this file in any theme that you
+ activate for your root blog and it will be loaded as long as BuddyPress is enabled.
+*/
+
+#buddypress-welcome {
+	padding-bottom: 25px;
+	margin: 0px;
+	float: left;
+	width: 100%;
+}
+#buddypress-welcome h3 {
+	font-size: 1.25em;
+	margin: 0px;
+	float: left;
+	width: 94%;
+	padding: 3%;
+}
+#buddypress-welcome p {
+	margin: 0px;
+	float: left;
+	width: 94%;
+	padding: 0% 3%;
+	font-size: 1em;
+	line-height: 20px;
+}
+#recent-posts-options {
+	margin: 0px;
+	padding: 0px 2%;
+	float: left;
+	width: 96%;
+	font-size: 1em;
+	line-height: 32px;
+	color: #666666;
+}
+ul#recent-posts {
+	margin: 0px;
+	padding: 2%;
+	float: left;
+	width: 96%;
+	list-style-type: none;
+}
+ul#recent-posts a {
+	color: #13457A;
+	text-decoration: underline;
+}
+ul#recent-posts li {
+	margin: 0px 0px 1em;
+	padding: 0px 0px 1em;
+	float: left;
+	width: 100%;
+	border-bottom: 1px solid #ddd;
+}
+ul#recent-posts .item-avatar {
+	margin: 0px 15px 0px 0px;
+	padding: 0px;
+	float: left;
+}
+.widget img.avatar {
+	padding: 5px;
+	border: 1px solid #ddd;
+	float: left;
+	margin: 0px;
+	height: 48px!important;
+	width: 48px!important;
+}
+
+#footer img.photo {
+	padding: 5px;
+	border: 1px solid #454545;
+	float: left;
+	margin: 0px;
+	height: 48px!important;
+	width: 48px!important;
+}
+
+ul#recent-posts .item {
+	margin: 0px;
+	padding: 0px;
+	width: 72%;
+	float: left;
+}
+h4.item-title {
+	font-size: 1.125em;
+	margin: 0px;
+	padding: 0px 0px 5px;
+	float: left;
+	width: 100%;
+}
+ul#recent-posts .item-content {
+	font-size: 1em;
+	line-height: 20px;
+}
+ul#recent-posts .item-meta {
+	font-size: 1em;
+	color: #666666;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 100%;
+}
+#activity-list-options {
+	margin: 10px 0px;
+	padding: 0% 3%;
+	float: left;
+	width: 94%;
+}
+#activity-list-options a {
+	color: #F19539;
+	text-decoration: none;
+}
+ul#site-wide-stream {
+	margin: 0px;
+	padding: 1% 3%!important;
+	float: left;
+	width: 94%!important;
+	list-style-type: none;
+}
+#site-wide-stream li {
+	margin: 0px 0px 1em;
+	padding: 0px 0px 1em;
+	float: left;
+	width: 100%;
+	border-bottom: 1px solid #ddd;
+}
+.activity-list li p  {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 100%;
+	font-size: 1em;
+	line-height: 20px;
+}
+#site-wide-stream li a {
+	text-decoration: underline!important;
+	color: #13457A;
+	font-weight: bold;
+}
+
+span.time-since {
+	font-size: 0.9em;
+	color: #999999;
+	margin: 0px;
+	padding: 0px 0px 0px 8px;
+	float: left;
+	background: url(../images/clock.gif) no-repeat left center;
+}
+
+#site-wide-stream blockquote {
+	margin: 0px;
+	padding: 8px 0px;
+	float: left;
+	width: 100%;
+	font-size: 1em!important;
+	line-height: 20px;
+}
+.avatar-block {
+	margin: 0px;
+	padding: 10px 3% 20px;
+	float: left;
+	width: 94%;
+}
+#groups-list  {
+	margin: 0px;
+	padding: 0px 0px 25px;
+	float: left;
+	width: 100%;
+}
+.item-options {
+	margin: 0px;
+	padding: 5px 3%;
+	float: left;
+	width: 94%;
+	text-align: right;
+	font-size: 1em;
+}
+#groups-list li {
+	margin: 0px 0px 8px;
+	float: left;
+	width: 94%;
+	padding-right: 3%;
+	padding-left: 3%;
+	padding-bottom: 8px;
+	border-bottom: 1px solid #ddd;
+}
+.item-avatar  {
+	margin: 0px 15px 15px 0px;
+	padding: 0px;
+	float: left;
+}
+.item  {
+	font-size: 1em;
+	line-height: 20px;
+	padding-top: 10px;
+}
+
+
+/***** SIGNUP FORM *******/
+
+#setupform {
+	padding: 30px;
+	background: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	float: left;
+	margin: 0px;
+	width: 70%;
+}
+	#setupform h3 {
+		margin-top: 20px;
+	}
+
+#setupform input, #setupform textarea, #activateform input {
+	width: 95%;
+	padding: 7px 5px;
+	font-size: 1.2em;
+}
+	#setupform input[type='radio'], #setupform input[type='checkbox'] { width: auto; }
+	#setupform select {
+		padding: 3px;
+	}
+	
+	input#submit {
+		width: auto;
+		margin-top: 20px;
+		font-size: 1.2em;
+	}
+
+#setupform label, div.radio span.signup-label, 
+div.checkbox span.signup-label {
+	display: block;
+	font-family: Georgia, times, serif;
+	font-size: 1.3em;
+	margin: 15px 0 5px 0;
+}
+
+p#intro-text, p#extra-fields-help, p#avatar-help-text, p#blog-help-text, p#blog-details-help {
+	margin-bottom: 15px;
+}
+
+p.help-text, span.desc {
+	font-size: 0.9em;
+	color: #888;
+	padding-top: 5px;
+}
+
+div.field-box, div.mu_alert, div#account-fields, div#extra-form-fields, 
+div.avatar-field, div#blog-or-username-fields, div#blog-details-fields {
+	background: #f9f9f9;
+	padding: 5px 15px 15px 15px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+	div.field-box { padding-top: 15px; }
+	
+	#signup-welcome {
+		width: 420px !important;
+		margin: 20px 0;
+	}
+
+div.avatar-field {
+	padding-top: 1px;
+}
+
+div#blog-or-username-fields {
+	padding: 18px 15px 5px 15px;
+}
+	div#blog-or-username-fields p {
+		padding-bottom: 10px;
+	}
+	
+	div#blog-or-username-fields label {
+		margin-left: 3px;
+	}
+
+div#extra-fields, div#avatar-form-fields, div#blog-or-username {
+	margin-top: 30px;
+}
+
+div.mu_alert {
+	padding-top: 15px;
+	margin-bottom: 15px;
+}
+
+p.error, div.error {
+	padding: 7px 10px;
+	margin: 0 0 10px 0;
+}
+	div.error {
+		margin: 10px 0 4px 0 !important;
+	}
+
+div#extra-fields select {
+	width: 280px;
+	font-size: 1.4em;
+}
+
+div#extra-fields div.datefield select {
+	width: auto;
+}
+
+div#extra-fields div.radio label,
+div#extra-fields div.checkbox label,
+div#blog-or-username-fields label {
+	display: inline !important;
+	font-weight: normal;
+	float: none;
+	padding: 0 !important;
+	margin-right: 15px;
+	font-size: 1.1em;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", verdana, arial, sans-serif;
+}
+
+div#signup-welcome {
+	font: normal 1.2em georgia, times, serif;
+}
+	div#signup-welcome span.label {
+		font-weight: bold;
+	}
+
+div.crop-img, div.crop-preview img {
+	padding: 4px;
+	background: #f0f0f0;
+	border: 1px solid #ddd;
+}
+	div.crop-img {
+		float: left;
+		margin-right: 15px;
+	}
+
+#avatar-cropper h4 {
+	font-weight: bold;
+	font-size: 1.1em;
+	margin-bottom: 5px;
+	margin-top: 20px;
+}
+
+#avatar_v1 p, #avatar_v2 p {
+	margin-bottom: 20px;
+}
+
+#avatar_v1 p.submit, #avatar_v2 p.submit {
+	margin-top: 20px;
+}
+
+p.crop-preview {
+	font-size: 1.2em;
+}
+
+/***** FEEDBACK MESSAGES ******/
+
+#message {
+	background: #ddffc4;
+	margin: 0 0 2em 0;
+}
+	#message p {
+		color: #357c00;
+		padding: 1em 2.75em;
+		background: url(../images/info_icon.gif) 1em 1.1em no-repeat;
+	}
+
+#message.error, p.error, div.error {
+	background: #ff3a3a url(../images/error_back.gif) top left repeat-x;
+	color: #fff;
+}
+	#message.error p {
+		background-image: url(../images/error_icon.gif);
+		color: #fff;
+	}
+
+#message.info {
+	background-image: none;
+	background-color: #fcfcd0;
+	color: inherit;
+}
+	#message.info p {
+		background-image: url(../images/info_icon.gif);
+		color: inherit;
+		padding-left: 3.3em;
+	}
+
+/***** BUTTONS ********/
+
+.generic-button {
+	background: url(../images/button_back.gif) top left no-repeat;
+	display: inline-block;
+	margin: 0 5px 8px 0;
+}
+
+.generic-button a {
+	display: block;
+	height: 19px;
+	color: #777;
+	font-size: 1em;
+	padding: 0 33px 0 11px;
+	margin-right: -7px;
+	text-shadow: 0 1px 0 #fff;
+		text-decoration: none;
+}
+	.generic-button a:hover {
+		color: #555;
+		text-decoration: none;
+	}
+
+	.generic-button a {
+		background: url(../images/view_button_side.gif) top right no-repeat;
+	}
+#content .widget-error {
+	background: #eee;
+	padding: 4% 2%;
+	margin-top: 15px;
+	color: #333333;
+	border-top: 2px solid #ddd;
+	border-bottom: 2px solid #ddd;
+	float: left;
+	width: 95%;
+}
+#footer .widget-error {
+	background: #515151;
+	padding: 4% 2%;
+	margin-top: 15px;
+	color: #FFFFFF;
+	border-top: 2px solid #727272;
+	border-bottom: 2px solid #727272;
+	float: left;
+	width: 95%;
+	font-size: 1em;
+}
+#buddypress-whosonline .avatar-block .item-avatar {
+	margin-bottom: 10px;
+}
+#content .register h3 {
+	margin: 0px!important;
+	padding: 15px 0% 0%!important;
+	float: left!important;
+	width: 100%!important;
+}
+.register a {
+	color: #0C3A76;
+	text-decoration: none;
+	border-bottom: 1px dotted #0C3A76;
+}

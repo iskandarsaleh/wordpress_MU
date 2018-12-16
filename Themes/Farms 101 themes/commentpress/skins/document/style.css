@@ -1,0 +1,44 @@
+/*  
+Theme Name: CommentPress Document Skin
+Theme URI: http://www.futureofthebook.org/commentpress
+Description: CommentPress allows readers to comment paragraph by paragraph in the margins of a text.
+Author: Eddie Tejeda & Jesse Wilbur
+Author http://www.futureofthebook.org/commentpress/
+
+*/
+
+/* This style sheet was developed for Mozilla Firefox 2.0 on Win XP
+		It includes hacks for Safari on Mac (noted in comments)
+		IE5,6 style sheet (for IE quirks) is at ./ie6.css
+*/
+#documentIntro p {
+	padding-right: 40px;
+	line-height: 1.4em;
+}
+ol.tocList {
+	line-height: 2em;
+	margin-top: -10px;
+	margin-left: 10px;
+	padding-left: 0px;
+	padding-right: 25px;
+}
+ol.tocList li {
+	list-style-type: decimal;
+	color:  #808088;
+}
+ol.tocList li a, ol.tocList li a:visited {
+	color: #000;
+}
+ol.tocList li a:hover {
+	color: #d00;
+}
+
+#genCommentsList .commentlist {
+	margin-top: 15px;
+}
+#genCommentsList p {
+	line-height: 1.4em;
+}
+#genCommentsForm {
+	margin-top: 15px;
+}

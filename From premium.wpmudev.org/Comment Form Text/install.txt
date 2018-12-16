@@ -1,0 +1,11 @@
+Plugin Name: Comment Form Text
+Author: Andrew Billits
+
+Files:
+----------------------------------------------------------------------
+comment-form-text.php - goes in /wp-content/mu-plugins
+
+Instructions:
+----------------------------------------------------------------------
+1) Place the files in the specified directories
+2) Open comment_form_text.php in your favorite editor and add your content

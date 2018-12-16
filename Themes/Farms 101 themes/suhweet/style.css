@@ -1,0 +1,638 @@
+/*  
+Theme Name: Suhweet
+Theme URI: http://www.solostream.com
+Author: Michael D. Pollock
+Author URI: http://www.solostream.com/
+Description: Simple, straightforward and kinda stylish.
+*/
+
+
+
+/* -------------------[ Main Page Elements ]------------------- */
+
+body {
+	font-size: 10pt;
+	font-family: arial,"Lucida Grande","Lucida Sans Unicode",geneva,verdana,sans-serif;
+        background: #F2EBDA;
+	color: #2D2C28;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+	line-height: 130%;
+	}
+
+#header {
+        clear: both;
+	width: 100%;
+        padding: 40px 0 20px;
+	margin: 0 auto;
+        background: #2B2433;
+	}  
+
+#header h1.blogtitle {
+        width:960px;
+        color: #F2EBDA;
+        text-align:left;
+        font-size:24px;
+        line-height:100%;
+        padding: 0;
+        margin: 0 auto;
+        } 
+
+#header p {
+        width:960px;
+        margin: 0 auto;
+        text-align:left;
+        color: #F2EBDA;
+        }   
+
+#wrap {
+        padding: 0px;
+        clear: both;
+	width: 100%;
+	margin: 0 auto;
+        }
+
+#page {
+        clear: both;
+	width: 960px;
+	margin: 0 auto;
+	padding: 0;
+	} 
+
+
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+.clearfix {display: inline-block;}
+
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */ 
+
+#contentleft {
+        width: 690px;
+        float:left;
+        padding: 20px 0;
+        margin: 0;
+        } 
+
+#content {
+        width: 510px;
+        float: right;
+        margin: 0;
+        padding: 0;
+	}
+
+#midcontent {
+	font-size: 8pt;
+        width: 170px;
+        float: left;
+        margin: 0 0 10px 0;
+	padding: 0;
+        }
+
+#contentright {
+        width: 260px;
+        float:right;
+        padding: 20px 0;
+        margin: 0;
+        } 
+
+#sidebar {
+	font-size: 8pt;
+        width: 260px;
+        float: right;
+        margin: 0 0 10px 0;
+	padding: 0;
+	} 
+
+#footer {
+        border-top:1px solid #fff;
+	font-size: 8pt;
+	line-height: 190%;
+        color:#F2EBDA;
+        background: #2B2433;
+        clear: both;
+        margin: 0px auto 0 auto;
+        padding: 40px 0;
+        text-align: center;
+        }
+
+#footer p {
+        width:960px;
+        padding: 0px;
+        margin: 0 auto;
+        }
+
+/* -------------------[ Headings ]------------------- */
+
+h1, h2, h3, h4, h5, h6, h7 {
+        line-height: 110%;
+	margin: 0;
+	padding: 0;
+	letter-spacing: -1px;
+	text-align: left;
+	color: #2D2C28;
+	}
+
+h1 {
+	font-size: 16pt;
+	}
+
+h2 {
+	font-size: 14pt;
+	}
+
+h3 {
+	font-size: 12pt;
+	}
+
+h4,h5,h6,h7 {
+	font-size: 10pt;
+	}
+
+h1.pagetitle {
+        margin: 0 0 10px 0;
+        }
+
+h2#comments, h2#trackbacks, h2#respond {
+
+        }
+
+
+h2.sectionhead, #sidebar h2, #midcontent h2  {
+        font-weight: bold;
+        line-height: 16px;
+        height:16px;
+        background: url(images/heading-bg.gif) top left repeat-x;
+        padding: 4px 5px;
+        font-size: 9pt;
+        letter-spacing: 0;
+        margin: 0 0 10px 0;
+        }
+
+.entry h1,.entry h2,.entry h3, .entry h4, .entry h5, .entry h6, .entry h7 {
+        margin-bottom: 10px;
+        }
+
+
+/* -------------------[ Links ]------------------- */
+
+a, a:link, a:visited {
+	color: #333366;
+        text-decoration: none;
+        padding: 0;
+        font-size: bold;
+	}
+
+a:hover, a:active {
+	color: #000;
+        text-decoration:underline;
+	}
+
+.entry a, .entry a:link, .entry a:visited, .postinfo a, .postinfo a:link, .postinfo a:visited, .postinfo2 a, .postinfo2 a:link, .postinfo2 a:visited {
+        text-decoration: underline; 
+        }
+
+#footer a {
+        color: #F2EBDA;
+        text-decoration: underline;
+        }
+
+#footer a:hover {
+        background: transparent;
+        color: #ffcc00;
+        text-decoration: underline;
+        }
+
+h1 a, h1 a:link, h1 a:visited, h2 a, h2 a:link, h2 a:visited {
+	color: #2B2433;
+        text-decoration: none;
+        }
+
+h1 a:hover, h2 a:hover {
+        color: #000;
+        text-decoration:underline;
+        }
+
+        
+	
+/* -------------------[ Images ]------------------- */
+
+img.alignright {
+        float: right;
+        clear: right;
+        margin: 0 0 5px 10px;
+        background: #fff;
+        padding: 2px;
+        border: 1px solid #ccc;
+        }
+
+img.alignleft {
+        float: left;
+        clear: left;
+        margin: 0 10px 5px 0px;
+        background: #fff;
+        padding: 2px;
+        border: 1px solid #ccc;
+        }
+
+img.centered { 
+        display: block; 
+        padding: 2px; 
+        margin: 0 auto 20px auto; 
+        border: 1px solid #ccc; 
+        float: none; 
+        clear: both;
+        }
+
+
+
+/* -------------------[ Sidebar ]------------------- */
+
+
+#sidebar ul {
+	list-style-type: none;
+	margin: 0 ;
+	padding: 0;
+	}
+
+#sidebar ul li {
+	list-style-type: none;
+	margin: 0 0 15px 0;
+	padding: 0;
+	}
+
+#sidebar ul li ul {
+        list-style-type: square;
+        margin: 0px;
+        padding: 0 0 0 5px;
+        }
+
+#sidebar ul li ul li {
+        list-style-type:none;
+	background: transparent url(images/oupbullet.gif) no-repeat 0 2px;
+        padding: 0 0 0 15px;
+        border: 0;
+        margin: 0 0 1px;
+        }
+
+#sidebar p {
+        padding: 0 5px;
+        }
+
+/* -------------------[ Middle Content ]------------------- */
+
+#midcontent ul {
+	list-style-type: none;
+	margin: 0 ;
+	padding: 0;
+	}
+
+#midcontent ul li {
+	list-style-type: none;
+	margin: 0 0 15px 0;
+	padding: 0;
+	}
+
+#midcontent ul li ul {
+        list-style-type: square;
+        margin: 0;
+        padding: 0 0 0 5px;
+        }
+
+#midcontent ul li ul li {
+        list-style-type:none;
+	background: transparent url(images/oupbullet.gif) no-repeat 0 2px;
+        padding: 0 0 0 15px;
+        border: 0;
+        margin: 0 0 1px;
+        }
+
+#midcontent p {
+        padding: 0 5px;
+        }
+
+/* -------------------[ Comment Form ]------------------- */
+
+.allcomments {
+        border-top:5px solid #B3ADA1;
+        background: #E5DFCF;
+        border-bottom:5px solid #B3ADA1;
+        margin-bottom:20px;
+        }
+
+#commentform {
+        border-top:1px solid #F2EBDA;
+        border-bottom:1px solid #F2EBDA;
+        padding: 15px 15px 1px;
+        margin: 0;
+        }
+
+#commentform label {
+        display:block;
+        margin: 0;
+        }
+
+#commentform input {
+	width: 170px;
+	padding: 1px;
+	margin: 0px 5px 10px 0;
+	}
+
+#commentform textarea {
+        width: 400px;
+        padding: 0;
+	margin: 0px 0px 10px 0; 
+	}
+
+#commentform #submit {
+	margin: 0 0 20px 0;
+	}
+
+#commentform p {
+        margin: 5px 0;
+	}
+
+
+/* -------------------[ Comments ]------------------- */
+
+
+ol.commentlist {
+        padding: 0;
+        margin: 0 0 1px;
+        }
+
+ol.commentlist li {
+        border-top:1px solid #F2EBDA;
+	display: block;
+	list-style: none;
+        padding: 15px 15px 1px;
+	margin: 0;
+	}
+
+
+ol.commentlist li.commenthead {
+	display: block;
+	list-style: none;
+        padding: 5px 15px;
+	margin: 0;
+	}
+
+ol.commentlist li.commenthead h2 {
+	margin: 0;
+	}
+
+ol.tblist {
+        border-top:1px solid #F2EBDA;
+	list-style: none;
+        padding: 15px;
+        margin: 0 0 1px;
+        }
+
+ol.tblist li {
+	display: block;
+	list-style: none;
+      	background:transparent url(images/hotbullet.gif) 0px 2px no-repeat;
+        padding-left:15px;
+        margin: 0 0 5px;     
+	}
+
+
+
+/* -------------------[ Misc Tags and Classes ]------------------- */
+
+
+
+table {
+        border: 0;
+        }
+
+.post ul, .singlepost ul, .post ol, .singlepost ol {
+        margin: 15px 30px;
+        padding: 0;
+        list-style-type: none;
+        }
+
+.post ul li, .singlepost ul li {
+        list-style-type:none;
+	background: transparent url(images/oupbullet.gif) no-repeat 0 2px;
+        padding: 0 0 2px 15px;
+        border: 0;
+        margin: 0;
+        }
+
+.post ol li, .singlepost ol li {
+        list-style-type:decimal;
+	background: transparent;
+        padding: 0 0 2px 0px;
+	line-height: 1.4em;
+        border: 0;
+        margin: 0 0 0 20px;
+        _height: 1em;
+        }
+
+p {
+	margin-top: 0px;
+	margin-bottom: 15px;
+	}
+
+acronym, abbr, span.caps {
+	cursor: help;
+	}
+
+acronym, abbr {
+	border-bottom: 1px dotted #999;
+	}
+
+* html acronym, abbr {
+	border-bottom: 1px dashed #999;
+	}
+
+blockquote {
+	padding-left: 10px;
+	border-left: 5px solid #000;
+        color: #333;
+	}
+
+.center {
+	text-align: center;
+	}
+
+a img {
+	border: none;
+	}
+
+.navigation {
+	text-align: center;
+	margin: 0
+	padding: 10px 0;
+	}
+
+.navigation .alignright {
+	float: right;
+	margin: 0;
+	}
+	
+.navigation .alignleft {
+	float: left;
+	margin: 0;
+	}
+
+.entry {
+	padding: 10px 0 0 0;
+	margin: 0;
+	}
+
+.postinfo {
+        clear: both;
+	margin: 0px;
+	font-size: 8pt;
+	padding: 0px 0px 0px 0px;
+	}
+
+.postinfo2 {    
+        clear: both;
+	font-size: 8pt;
+	margin: 10px 0 0 0px;
+	}
+
+.post {
+	margin: 0 0 10px 0;
+	padding: 0 5px 10px;
+	line-height: 130%;
+        background: url(images/dot.gif) bottom left repeat-x;
+	}
+
+code {
+	font: 1.1em 'Courier New', Courier, Fixed;
+	}
+
+hr {
+        display: block:
+        clear:both;
+        }
+
+a.more-link {
+        padding-right:17px;
+      	background: transparent url(images/hotbullet.gif) 100% 80% no-repeat;
+        }
+        
+   
+
+/* -------------------[ Search ]------------------- */
+
+#searchform {
+        text-align:right;
+
+        float:right;
+	margin: 0;
+	padding: 6px 0 0; 
+        }
+
+#searchform #s {
+        padding-left:2px;
+        font-size:8pt;
+        width: 140px;
+	margin-right: 1px;
+	}
+
+#searchform #submit {
+        font-size:8pt;
+	}
+
+/* -------------------[ Navigation ]------------------- */
+
+#nav {      
+        font-size:9pt;
+        clear: both;
+        height: 32px;
+	padding: 0;
+	margin: 0 auto;
+	background: #3D2E4D;
+        border-top:1px solid #404080;
+        border-bottom: 1px solid #fff;
+        }
+
+#nav .stopper {
+        width:960px;
+        margin:0 auto;
+        padding:0;
+        }
+
+#nav ul {
+        font-weight:bold;
+        font-size:8pt;
+	float: left;
+	list-style: none;
+        height: 32px;
+	line-height: 32px;
+	padding: 0;
+	margin: 0;
+}
+
+#nav ul li {
+        float: left;
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        }
+
+#nav ul li a, #nav ul li a:link, #nav ul li a:visited {
+        float: left;
+        color: #F2EBDA; 
+        text-decoration: none;
+        margin-right:20px;
+        }
+
+#nav ul li a:hover, #nav ul li a:active {
+        text-decoration:underline;
+        }
+
+/* -------------------[ Feature Post ]------------------- */
+
+.featurepost {
+	margin: 0 0 10px 0;
+	padding: 0 5px 10px;
+	line-height: 130%;
+        background: url(images/dot.gif) bottom left repeat-x;
+	}
+
+
+.featurepost h1 {
+        margin: 0;
+        padding: 0;
+        }
+
+/* ---------------[ Tables ]--------------- */
+
+.entry table {
+	margin-bottom:15px;
+        padding:auto;
+        border:auto;
+        }
+
+.entry tr, .entry td, .entry th {
+	margin:auto; padding:auto; border:auto;
+        }
+
+.entry td, .entry th {
+	padding:8px;
+	vertical-align:top;
+}
+
+.entry th {
+	font-weight:bold;
+	background:#E5DFCF;
+}
+
+.entry td {
+	border:1px solid #E5DFCF;
+}

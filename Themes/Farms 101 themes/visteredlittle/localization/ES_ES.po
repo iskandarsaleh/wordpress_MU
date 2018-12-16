@@ -1,0 +1,724 @@
+msgid ""
+msgstr ""
+"\").<br />Cada vez que se muestra el sitio, se seleccionar&aacute; un logo aleatorio de &eacute;ste directorio.<br />Tipos reconocidos: gif, png, jpeg y tiff.\n"
+"Project-Id-Version: Vistered Little 1.7.4\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2007-06-08 12:01+0100\n"
+"Last-Translator: Pi <pi@eligeotravez.net>\n"
+"Language-Team: Pi <pi@eligeotravez.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: SPAIN\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: C:\\Dev\\www\\wordpress\\wp-content\\themes\\vistered-little-1.7.4\n"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/404.php:12
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/header.php:58
+msgid "Page not found"
+msgstr "P&aacute;gina no encontrada"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/404.php:13
+msgid "You have reached a non-existant url. This address is either outdated or incorrectly linked."
+msgstr "Has alcanzado una url inexistente. Esta dirección ha caducado o está mal enlazada."
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/comments-form.php:9
+msgid "Leave a comment"
+msgstr "Deje un comentario"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/comments-form.php:11
+msgid "Names and email addresses are required (email addresses aren't displayed), url's are optional."
+msgstr "Se requieren nombres y emails (los emails no se muestran), las url son opcionales."
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/comments-form.php:12
+msgid "Comments may contain the following xhtml tags:"
+msgstr "Los comentarios pueden contener los siguientes tags xhtml:"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/comments-form.php:50
+msgid "Name"
+msgstr "Nombre"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/comments-form.php:54
+msgid "E-mail"
+msgstr "E-mail"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/comments-form.php:58
+msgid "Uniform Resource Identifier"
+msgstr "Identificador de Recurso Uniforme"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/comments-form.php:58
+msgid "URI"
+msgstr "URI"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/comments-form.php:66
+msgid "You are logged in as"
+msgstr "Est&aacute;s identificado como"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/comments-form.php:73
+msgid "I'm done, post it."
+msgstr "Hecho, publ&iacute;calo."
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/comments.php:19
+msgid "Your comment is awaiting moderation."
+msgstr "Tu comentario est&aacute; en espera de moderaci&oacute;n."
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/footer.php:23
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/widgets.php:280
+msgid "Theme"
+msgstr "Tema"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/footer.php:24
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/index.php:29
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/search.php:36
+msgid "by"
+msgstr "por"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:34
+msgid "Random"
+msgstr "Aleatorio"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:34
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:60
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:69
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:80
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:88
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:98
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:108
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:124
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:148
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:160
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:170
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:180
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:202
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/skins/default/functions.php:11
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/skins/default/functions.php:20
+msgid "default"
+msgstr "por defecto"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:45
+msgid "Select a default wallpaper for your page."
+msgstr "Elige un fondo por defecto para tu p&aacute;gina."
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:47
+msgid "Enter the width of the logo in pixels. The default is 500."
+msgstr "Introduce la anchura del logo en pixels. Por defecto es 500."
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:48
+msgid "Enter the height of the logo in pixels. The default is 90."
+msgstr "Introduce la anchura del logo en pixels. Por defecto es 90."
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:51
+msgid "An attempt will be made to determine the logo width automatically."
+msgstr "Se intentar&aacute; determinar la anchura del logo autom&aacute;ticamente."
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:52
+msgid "An attempt will be made to determine the logo height automatically."
+msgstr "Se intentar&aacute; determinar la altura del logo autom&aacute;ticamente."
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:56
+msgid "Sidebar Location"
+msgstr "Localizaci&oacute;n de la Barra Lateral"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:58
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:110
+msgid "Right"
+msgstr "Derecha"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:62
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:106
+msgid "Left"
+msgstr "Izquierda"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:64
+msgid "Select which side of the page you want your sidebar to be on."
+msgstr "Elige en que lado de la p&aacute;gina quieres que est&eacute; tu barra lateral."
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:66
+msgid "Side Bar Type"
+msgstr "Tipo de Barra Lateral"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:68
+msgid "Single Position"
+msgstr "Posici&oacute;n Unica"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:70
+msgid "Quad Position"
+msgstr "Posici&oacute;n Cuadruple"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:72
+msgid "A quad position sidebar allows you to configure widgets that are displayed in a wide section at the top of the side bar, on the left and right of the side bar and a wide sections at the bottom of the side bar."
+msgstr "Una barra de posicion cuadruple te permite configurar widgets para mostrarlos en una secci&oacute;n ancha sobre la barra lateral, a la izquierda y derecha de la barra lateral, y en una secci&oacute;n ancha debajo de la barra lateral."
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:74
+msgid "Header Position"
+msgstr "Posici&oacute;n del Encabezado"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:76
+msgid "Normal"
+msgstr "Normal"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:78
+msgid "Fixed"
+msgstr "Fija"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:82
+msgid "Select whether the header should have normal or Fixed positioning."
+msgstr "Elige si el encabezado debe ser de posici&oacute;n normal o fija."
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:84
+msgid "Header Search Field"
+msgstr "Campo de B&uacute;squeda en Encabezado"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:86
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:126
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:158
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:168
+msgid "Show"
+msgstr "Mostrar"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:90
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:122
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:162
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:172
+msgid "Hide"
+msgstr "Ocultar"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:92
+msgid "Select whether to display a search box in the header."
+msgstr "Elige si se debe mostrar una caja de b&uacute;squeda en el encabezado."
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:94
+msgid "Thumbnail Frames"
+msgstr "Marco de Miniaturas"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:96
+msgid "Use CSS Border"
+msgstr "Usar borde CSS"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:100
+msgid "Use Image"
+msgstr "Usar imagen"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:102
+msgid "Select whether to use a CSS border or an image to frame the wallpaper thumbnails."
+msgstr "Elige si se debe usar un borde CSS o una imagen para enmarcar las miniaturas de los fondos."
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:104
+msgid "Thumbnail Location"
+msgstr "Localizaci&oacute;n de las Miniaturas"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:112
+msgid "Sidebar"
+msgstr "Barra lateral"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:114
+msgid "None"
+msgstr "Ninguna"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:116
+msgid "Select where you would like the thumbnails to be displayed."
+msgstr "Elige d&oacute;nde quieres que se muestren las miniaturas"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:120
+msgid "Random Wallpaper Option"
+msgstr "Opci&oacute;n de Fondo Aleatorio"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:128
+msgid "Select if a thumbnail should be shown to the user to have random wallpapers."
+msgstr "Elige si se debe mostrar al usuario una miniatura para tener fondos aleatorios."
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:130
+msgid "Logo Path"
+msgstr "Path de Logos"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:132
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:192
+msgid "Enter the path (relative to \""
+msgstr "Introduce el path (relativo a \""
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:134
+msgid "\") to the directory containing your site logos (leave blank to use \""
+msgstr "\") del directorio que contiene los logos de tu sitio (deja en blanco para usar \""
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:136
+msgid "\" instead).<br />Every time the site is displayed, a random logo will be selected from this directory.<br />Recognised types: gif, png, jpeg and tiff."
+msgstr "\").<br />Cada vez que se muestra el sitio, se seleccionará un logo aleatorio de éste directorio.<br />Tipos reconocidos: gif, png, jpeg y tiff."
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:138
+msgid "Logo Width"
+msgstr "Anchura del Logo"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:141
+msgid "Logo Height"
+msgstr "Altura del Logo"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:144
+msgid "Archive Links"
+msgstr "Enlaces de Archivos"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:146
+msgid "Older and Newer"
+msgstr "M&aacute;s Viejo y M&aacute;s Nuevo"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:150
+msgid "Monthly"
+msgstr "Mensuales"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:152
+msgid "Both"
+msgstr "Ambos"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:154
+msgid "Select if the Archived menu should display an Older/Newer link, Monthly links or both."
+msgstr "Elige si el men&uacute; de Archivo deberia mostrar un enlace a M&aacute;s Nuevo/M&aacute;s Viejo, enlaces mensuales, o ambos."
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:156
+msgid "Credits"
+msgstr "Cr&eacute;ditos"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:164
+msgid "If you like Vistered Little, then you can say thank you by showing me some link love.  Otherwise you can disable the link in the footer by selecting hide."
+msgstr "Si te gusta Vistered Little, entonces puedes agradecerlo mostrando un enlace. Si no, puedes deshabilitarlo en el pie de p&aacute;gina eligiendo \"ocultar\"."
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:166
+msgid "Credits in Meta"
+msgstr "Cr&eacute;ditos en Meta"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:174
+msgid "You can also hide the link to Vistered Little in the Meta widget, by selecting hide here."
+msgstr "Tambi&eacute;n puedes ocultar el enlace a Vistered Little en el widget Meta, eligiendo aqu&iacute; \"ocultar\"."
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:176
+msgid "Credits in Head"
+msgstr "Cr&eacute;ditos en Encabezado"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:178
+msgid "Include"
+msgstr "Incluir"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:182
+msgid "Remove"
+msgstr "Eliminar"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:184
+msgid "There is one more link to Vistered Little, which is located in the xhtml head section (i.e. not visible).  Select remove to get rid of it as well."
+msgstr "Hay un enlace m&aacute;s a Vistered Little, situado en la secci&oacute;n head del xhtml (en otras palabras, no es visible). Elige \"eliminar\" para librarte de &eacute;ste tambi&eacute;n."
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:186
+msgid "Comment Policy"
+msgstr "Pol&iacute;tica de Comentarios"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:188
+msgid "Here you can specify the comment moderation policy for your site."
+msgstr "Aqu&iacute; puedes especificar la pol&iacute;tica de moderaci&oacute;n de comentarios para tu sitio."
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:190
+msgid "Customization directory"
+msgstr "Directorio de Customizaciones"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:194
+msgid "\") to a directory containing custom stylesheets and/or custom php files.<br/>Files ending with \".css\" or \".css.php\" will be included as stylesheets.  Files ending in \"-ie.css\" or \"-ie.css.php\" will also be included as stylesheets, but will only be visible to IE 6.  All other files ending in \".php\" will be included at the end of this themes \"functions.php\" file."
+msgstr "\") del directorio que contiene stylesheets y/o scripts php a medida.<br />Los ficheros que acaben en \".css\" o \".css.php\" ser&aacute;n incluidos como stylesheets. Los ficheros que terminen en \"-ie.css\" o \"-ie.css.php\" tambi&eacute;n ser&aacute;n incluidos como stylesheets, pero s&oacute;lo visibles a IE 6. Todos los dem&aacute;s ficheros que terminen en \".php\" ser&aacute;n incluidos al final del script \"functions.php\" de este tema."
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:197
+msgid "Sideblog format"
+msgstr "Formato de Blog Lateral"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:199
+msgid "Combined"
+msgstr "Combinado"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:201
+msgid "Separated ("
+msgstr "Separado ("
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:204
+msgid "If you want your sideblog to display in a single box, select \"Combined\" and set the sideblog display format to <pre><code>&lt;div&gt;&lt;h4&gt;%title_url%&lt;/h4&gt;%content%&lt;/div&gt;</code></pre>If you want the sideblog title and posts to appear in separate boxes, select \"Separated\" and set the sideblog display format to <pre><code>&lt;div class=\"menubefore\"&gt;&lt;/div&gt;&lt;div class=\"menu\"&gt;&lt;h4&gt;%title_url%&lt;/h4&gt;%content%&lt;/div&gt;&lt;div class=\"menuafter\"&gt;&lt;/div&gt;</code></pre>"
+msgstr "Si quieres que tu blog lateral se muestre en una sola caja, elige \"combinado\" y ajusta el formato de visualizaci&oacute;n del blog lateral a <pre><code>&lt;div&gt;&lt;h4&gt;%title_url%&lt;/h4&gt;%content%&lt;/div&gt;</code></pre>Si quieres el t&iacute;tulo del blog lateral y las entradas en cajas separadas, elige \"Separado\" y ajusta el formato de visualizaci&oacute;n del blog lateral a <pre><code>&lt;div class=\"menubefore\"&gt;&lt;/div&gt;&lt;div class=\"menu\"&gt;&lt;h4&gt;%title_url%&lt;/h4&gt;%content%&lt;/div&gt;&lt;div class=\"menuafter\"&gt;&lt;/div&gt;</code></pre>"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/functions.php:410
+msgid "is not a directory"
+msgstr "no es un directorio"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/header.php:29
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/header.php:34
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/header.php:39
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/header.php:49
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/header.php:54
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/header.php:59
+msgid "@"
+msgstr "en"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/header.php:107
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/header.php:142
+msgid "Search"
+msgstr "Buscar"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/header.php:108
+msgid "Type and press enter."
+msgstr "Escribe y pulsa intro."
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/header.php:159
+msgid "Go home"
+msgstr "Ir a Inicio"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/index.php:18
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/index.php:23
+msgid "Permalink for"
+msgstr "Permalink para"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/index.php:25
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/search.php:32
+msgid "Posted on"
+msgstr "Escrito el"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/index.php:31
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/search.php:40
+msgid "edit"
+msgstr "editar"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/index.php:33
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/monosidebar.php:28
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/quadsidebar.php:58
+msgid "Categories"
+msgstr "Categor&iacute;as"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/index.php:41
+msgid "Next"
+msgstr "Siguiente"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/index.php:42
+msgid "Previous"
+msgstr "Anterior"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/index.php:48
+msgid "Pages:"
+msgstr "P&aacute;ginas:"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/index.php:84
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/index.php:89
+msgid "no comments yet."
+msgstr "sin comentarios todavía."
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/index.php:85
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/index.php:90
+msgid "1 comment."
+msgstr "1 comentario."
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/index.php:86
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/index.php:91
+#, php-format
+msgid "% comments."
+msgstr "% comentarios."
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/index.php:123
+msgid "There are no posts relating to your query."
+msgstr "No hay entradas relacionadas con tu b&uacute;squeda."
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/miniwidgets.php:84
+msgid "Style:"
+msgstr "Estilo:"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/miniwidgets.php:85
+msgid "Class:"
+msgstr "Clase:"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/miniwidgets.php:86
+msgid "Hide on front page"
+msgstr "Ocultar en p&aacute;gina principal"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/miniwidgets.php:87
+msgid "Hide on individual posts"
+msgstr "Ocultar en entradas individuales"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/miniwidgets.php:88
+msgid "Hide on \"pages\""
+msgstr "Ocultar en \"p&aacute;ginas\""
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/miniwidgets.php:89
+msgid "Hide on category archives"
+msgstr "Ocultar en archivos de categor&iacute;as"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/miniwidgets.php:90
+msgid "Hide on date based archives"
+msgstr "Ocultar en archivos basados en fecha"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/miniwidgets.php:118
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/miniwidgets.php:124
+msgid "MW &raquo; "
+msgstr "MW &raquo; "
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/miniwidgets.php:139
+msgid "Print This Post"
+msgstr "Imprime Esta Entrada"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/miniwidgets.php:170
+msgid "Sociable"
+msgstr "Sociable"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/miniwidgets.php:178
+msgid "Tags: "
+msgstr "Tags: "
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/miniwidgets.php:182
+msgid "Jerome's Keywords"
+msgstr "Jerome's Keywords"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/miniwidgets.php:190
+msgid "Bunny's Technorati Tags"
+msgstr "Bunny's Technorati Tags"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/miniwidgets.php:245
+msgid "Related Posts:"
+msgstr "Entradas Relacionadas:"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/miniwidgets.php:251
+msgid "UTW Primary Tags"
+msgstr "UTW Tags Primarios"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/miniwidgets.php:252
+msgid "UTW Secondary Tags"
+msgstr "UTW Tags Secundarios"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/miniwidgets.php:253
+msgid "UTW Related Posts"
+msgstr "UTW Entradas Relacionadas"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/miniwidgets.php:266
+msgid "More From Google"
+msgstr "More From Google"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/monosidebar.php:22
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/quadsidebar.php:52
+msgid "Pages"
+msgstr "P&aacute;ginas"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/search.php:20
+msgid "Posts related to"
+msgstr "Entradas relacionadas con"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/search.php:42
+msgid "Categories:"
+msgstr "Categor&iacute;as:"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/search.php:53
+msgid "There are no posts relating to"
+msgstr "No hay entradas relacionadas con"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/widgets.php:11
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/widgets.php:20
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/widgets.php:26
+msgid "You can leave a"
+msgstr "Puedes dejar un"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/widgets.php:12
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/widgets.php:21
+msgid "comment"
+msgstr "comentario"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/widgets.php:13
+msgid "on or"
+msgstr "en o"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/widgets.php:14
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/widgets.php:27
+msgid "Trackback to"
+msgstr "Retroenlace a"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/widgets.php:15
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/widgets.php:28
+msgid "trackback"
+msgstr "retroenlazar"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/widgets.php:22
+msgid "on this"
+msgstr "en este"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/widgets.php:30
+msgid "to this"
+msgstr "a este"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/widgets.php:43
+msgid "Home"
+msgstr "Inicio"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/widgets.php:53
+msgid "Attachment"
+msgstr "Adjunto"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/widgets.php:57
+msgid "You are viewing the attachment"
+msgstr "Est&aacute;s viendo el adjunto"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/widgets.php:61
+msgid "attachment"
+msgstr "adjunto"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/widgets.php:67
+msgid "Post Information"
+msgstr "Informaci&oacute;n de Entrada"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/widgets.php:71
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/widgets.php:116
+msgid "You are reading"
+msgstr "Est&aacute;s leyendo"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/widgets.php:81
+msgid "Oops!"
+msgstr "Vaya!"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/widgets.php:92
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/widgets.php:104
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/widgets.php:128
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/widgets.php:144
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/widgets.php:171
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/widgets.php:185
+msgid "You are looking at posts"
+msgstr "Estas viendo entradas"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/widgets.php:94
+msgid "that were written on"
+msgstr "que fueron escritas en"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/widgets.php:106
+msgid "in the category"
+msgstr "en la categor&iacute;a"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/widgets.php:112
+msgid "Page Information"
+msgstr "Informaci&oacute;n de P&aacute;gina"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/widgets.php:130
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/widgets.php:146
+msgid "that were written"
+msgstr "que fueron escritas"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/widgets.php:132
+msgid "in the month of"
+msgstr "en el mes de"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/widgets.php:134
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/widgets.php:148
+msgid "in the year"
+msgstr "en el a&nacute;o"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/widgets.php:154
+msgid "Search Results"
+msgstr "Resultados de la B&uacute;squeda"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/widgets.php:158
+msgid "You searched for"
+msgstr "Has buscado"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/widgets.php:164
+msgid "Author Archives"
+msgstr "Archivos de Autor"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/widgets.php:173
+msgid "written by"
+msgstr "escrito por"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/widgets.php:181
+msgid "Tagged"
+msgstr "Taggeado"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/widgets.php:187
+msgid "that have been tagged"
+msgstr "que han sido marcados"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/widgets.php:199
+msgid "You came here from"
+msgstr "Has venido de"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/widgets.php:201
+msgid "searching for"
+msgstr "buscando"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/widgets.php:203
+msgid "These posts might also be of interest"
+msgstr "Estas entradas tambien podr&iacute;an ser de inter&eacute;s"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/widgets.php:213
+msgid "Archives"
+msgstr "Archivos"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/widgets.php:236
+msgid "Post Info"
+msgstr "Info de Entrada"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/widgets.php:250
+msgid "Wallpaper Selector"
+msgstr "Selector de Fondo"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/widgets.php:256
+msgid "Site Meta"
+msgstr "Meta del Sitio"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/widgets.php:260
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/widgets.php:261
+msgid "Syndicate this site using RSS 2.0"
+msgstr "Redifusiona este sitio usando RSS 2.0"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/widgets.php:263
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/widgets.php:264
+msgid "The latest comments to all posts in RSS 2.0"
+msgstr "Los &uacute;ltimos comentarios de todas las entradas en RSS 2.0"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/widgets.php:273
+msgid "Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr "Gestionado con WordPress, una avanzada plataforma sem&aacute;ntica de publicaci&oacute;n personal."
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/widgets.php:280
+msgid "Download your own copy of"
+msgstr "Descarga tu copia de"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/widgets.php:297
+msgid "Title:"
+msgstr "Título:"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/widgets.php:329
+msgid "Links"
+msgstr "Enlaces"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/yatcp_comments.php:26
+msgid "This post is password protected. To view it please enter your password below:"
+msgstr "Esta entrada est&aacute; protegida. Para verla, introduce la contraseña:"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/skins/default/functions.php:5
+msgid "Width"
+msgstr "Anchura"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/skins/default/functions.php:7
+msgid "Narrow"
+msgstr "Estrecho"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/skins/default/functions.php:9
+msgid "Wide"
+msgstr "Ancho"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/skins/default/functions.php:13
+msgid "Flex"
+msgstr "Flexible"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/skins/default/functions.php:15
+msgid "Select the page width."
+msgstr "Elige la anchura de p&aacute;gina."
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/skins/default/functions.php:16
+msgid "Tone"
+msgstr "Tono"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/skins/default/functions.php:18
+msgid "Dark"
+msgstr "Oscuro"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/skins/default/functions.php:22
+msgid "Light"
+msgstr "Claro"
+
+# C:\Dev\www\wordpress\wp-content\themes\vistered-little-1.7.4/skins/default/functions.php:24
+msgid "Select the tone."
+msgstr "Elige el tono."
+

@@ -1,0 +1,20 @@
+/*
+Theme Name: BuddyPress Fun Member Theme
+Theme URI: http://premium.wpmudev.org/
+Description: A BuddyPress theme full of customizability and options - with a heap of fun thrown in.
+Version: 1.0.3 
+Author: Incsub
+Author URI: http://incsub.com
+*/
+
+/**
+ * I find it easier to break down CSS into seperate files, each one tackling a specific component.
+ * Of course this is only a guide, you could quite easily keep all your CSS in this style.css file.
+ */
+
+/* First, include the "base" styles, that will structure and style the header, main content areas and footer. */
+@import url( css/base.css );
+
+/* Next, include the CSS file for each component. Profile, Groups, Friends, etc... */
+@import url( css/member-css.css );
+@import url( css/global.css );

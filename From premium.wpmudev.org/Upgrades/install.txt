@@ -1,0 +1,20 @@
+Plugin Name: Upgrades
+Author: Andrew Billits
+
+Files:
+----------------------------------------------------------------------
+
+paypal.php - goes in / <-- root directory
+upgrades.php - goes in /wp-admin
+0-upgrades-hook.php - goes in /wp-content/mu-plugins
+upgrades-framework.php - goes in /wp-content/mu-plugins
+upgrades-payment-module-paypal.php - goes in /wp-content/mu-plugins
+
+Instructions:
+----------------------------------------------------------------------
+1) If upgrading from 'Premium Lite' following the directions in upgrade.txt first.
+2) Place the files in the specified directories
+3) Visit the plugin page under the site admin - the auto-installer will attempt to install the plugin
+4) If the auto-install does not add the db table(s) for you then run the sql code in "sql.txt" on your wpmu db
+5) Create the directoy /wp-content/mu-plugins/upgrade-plugins
+6) Choose whichever features you wish from /upgrade plugins/ and drop the files into /wp-content/mu-plugins/upgrade-plugins

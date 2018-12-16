@@ -1,0 +1,19 @@
+/* CSS Document */
+/* IE hacks/fixes */
+
+/* fix margin/spacing of document/index_document.php */
+
+#container_sidebar #sectionCol1 {
+	margin-left: -25px;
+}
+#cp_commentsTotal {
+	position: absolute;
+	padding-top: 58px;
+	font-size: .75em;
+}
+#cp_showAll {
+	float: right;
+	text-align: right;
+	margin-top: 13px;
+	margin-right: 0px;
+}

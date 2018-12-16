@@ -1,0 +1,25 @@
+#navigation {
+	background: url(corporate-orange/navs.png) no-repeat!important;
+}
+
+ul#nav li.selected, ul#nav li.current_page_item {
+	background: url(corporate-orange/leftbar.png) no-repeat left center!important;
+}
+ul#nav li.selected a, ul#nav li.current_page_item a {
+	background: url(corporate-orange/rightbar.png) no-repeat right center!important;
+}
+#post-entry h2.widgettitle {
+	background: url(corporate-orange/longbar.png) no-repeat!important;
+}
+#center-column h2.widgettitle {
+	background: url(corporate-orange/mediumbar.png) no-repeat!important;
+}
+#right-column h2.widgettitle {
+	background: url(corporate-orange/shortbar.png) no-repeat!important;
+}
+
+
+#userbar #meprofile {
+    background: url(corporate-orange/side.png) repeat-x!important;
+
+}

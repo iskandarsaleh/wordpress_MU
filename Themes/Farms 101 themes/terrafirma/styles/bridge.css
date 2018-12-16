@@ -1,0 +1,20 @@
+#header
+{
+background: #a3571d url(images/bb.jpg) no-repeat left center;
+height:140px;
+
+}
+#splash
+{
+background: #a3571d url(images/bb.jpg) no-repeat right center;
+height:140px;
+
+}
+#menu
+{
+height: 60px;
+padding: 0px 20px 0px 5px;
+margin: 150px 0px 20px 0px;
+font-family:Tahoma, Georgia, Arial, Verdana, Serif;
+text-transform:uppercase;
+}

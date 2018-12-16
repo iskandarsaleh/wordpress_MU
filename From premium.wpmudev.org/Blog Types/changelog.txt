@@ -1,0 +1,16 @@
+Plugin Name: Blog Types
+Author: Andrew Billits
+
+Change Log:
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+
+2.0.1 - 10/28/2008
+----------------------------------------------------------------------
+- Fixed a typo in install.txt
+- Fixed a bug that caused the blog type to not be updated when changed
+- Various little fixes
+
+2.0.0 - 10/26/2008
+----------------------------------------------------------------------
+- Initial (Premium) Release.

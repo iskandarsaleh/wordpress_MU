@@ -1,0 +1,698 @@
+/*  
+Theme Name: LetoPrime
+Theme URI: http://misguidedthoughts.com/
+Description: Nice headers and round corners, just for you.
+Version: 0.9.6
+Author: david hodgkins
+Author URI: http://misguidedthoughts.com/
+*/
+/*Thanks to Ozh http://planetOzh.com/ for the Theme Toolkit and Joen Asmussen
+http://www.noscope.com/ for the Fauna theme, since without both of them, I'd never 
+have been able to get the selectable headers to work! And also Mark from http://famfamfam.com 
+for the silk icons. */
+
+
+/**** If you are using custom headers, adjust the site name and description below: ***/
+h1 {
+	padding-top: 20px; 
+	text-align:center;
+	margin: 0;
+	font-size: 2em;
+	text-align:right;
+	/*adjust color below*/
+	}
+
+h1, h1 a, h1 a:hover, h1 a:visited, #headerimg .description {
+	text-decoration: none;
+	color: white;
+	}
+	
+#headerimg .description {
+	font-size: 1.2em;
+	text-align: center;
+	}
+	
+/**************************** FOOTER *******************************
+if you're using footergrey.jpg or your own footer, change the image name below***/	
+
+#footer {
+	background: #fff url(images/footer.jpg) no-repeat;
+	padding: 20px 0 0 20px;
+	margin: 0 auto;
+	width: 777px;
+	height: 100px;
+	clear: both;
+	}
+
+#footer p {
+	margin: 0;
+	padding: 20px 0 0 20px;
+	text-align: left;
+	}	
+/******* end footer *******/	
+	
+/* Begin Typography & Colors */
+body {
+	font-size: 62.5%; /* Resets 1em to 10px */
+	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	background-color: #fff;
+	color: #333;
+	text-align: center;
+	}
+
+#page {
+	background-color: white;
+	text-align: left;
+	}
+
+#header {
+	background: #fff;
+	}
+
+#content {
+	font-size: 1.3em
+	}
+
+.narrowcolumn .entry {
+	line-height: 1.4em; 
+	}
+
+.narrowcolumn .postmetadata {
+	text-align: center;
+	}
+/****
+.alt {
+	background-color: #f8f8f8;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	} ****/
+
+small {
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-size: 0.9em;
+	line-height: 1.5em;
+	}
+
+h1, h2, h3 {
+	font-family:  Verdana, Arial, 'Trebuchet MS', 'Lucida Grande',Sans-Serif;
+	font-weight: bold;
+	}
+
+h2 {
+	font-size: 1.6em; border-bottom: 1px solid red;
+	}
+
+h2.pagetitle {
+	font-size: 1.6em;  border-bottom: 1px solid red;
+	}
+.entrytext h2 {
+	font-size: 1.2em; font-weight:bold; border-bottom: 1px solid #aaa;
+}
+
+#sidebar h2 {
+	font-family:  Verdana, 'Lucida Grande', Sans-Serif;
+	font-size: 1.2em;  border-bottom: 1px solid red; text-align:right;
+	}
+
+h3 {
+	font-size: 1.3em;
+	}
+
+h2, h2 a, h2 a:visited, h3, h3 a, h3 a:visited {
+	color: #333;
+	}
+
+h2, h2 a, h2 a:hover, h2 a:visited, h3, h3 a, h3 a:hover, h3 a:visited, #sidebar h2, #wp-calendar caption, cite {
+	text-decoration: none;
+	}
+
+.entry p a:visited {
+	color: #b85b5a;
+	}
+
+.commentlist li, #commentform input, #commentform textarea {
+	font: 1.0em 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	}
+	
+.commentlist li {
+	font-weight: bold;
+	}
+
+.commentlist cite, .commentlist cite a {
+	font-weight: bold;
+	font-style: normal;
+	font-size: 1.1em;
+	}
+
+.commentlist p {
+	font-weight: normal;
+	line-height: 1.5em;
+	text-transform: none;
+	}
+
+#commentform p {
+	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	}
+
+.commentmetadata {
+	font-weight: normal;
+	}
+
+#sidebar {
+	font: 1.2em Verdana, 'Lucida Grande',  Arial, Sans-Serif;
+	}
+
+small, #sidebar ul ul li, #sidebar ul ol li, .nocomments, .postmetadata, blockquote, strike {
+	color: #777;
+	}
+	
+.titlemeta {
+	padding: 5px 0 0 0; text-align:right;
+	}	
+code {
+	font: 1.1em 'Courier New', Courier, Fixed; background: #edf2f2;
+	}
+	
+.utwtags {
+		list-style: none; 
+		}
+
+acronym, abbr, span.caps {
+	font-size: 0.9em;
+	letter-spacing: .07em;
+	}
+
+a, h2 a:hover, h3 a:hover {
+	color: #06c;
+	text-decoration: none;
+	}
+
+a:hover {
+	color: #147;
+	text-decoration: underline;
+	}
+	
+/* End Typography & Colors */
+
+
+
+/* Begin Structure */
+body {
+	margin: 0;
+	padding: 0; 
+	}
+
+#page {
+	background: white url(images/pageback.gif) repeat-y;
+	margin: 0px auto;
+	padding: 0;
+	width: 777px;
+	}
+	
+#header {
+	padding: 0;
+	margin: 0 auto;
+	height: 160px;
+	width: 100%;
+	background: #fff url(header/header-mountain.jpg) no-repeat top;
+	}
+
+#headerimg {
+	margin: 0;
+	height: 160px;
+	width: 100%;
+	}
+
+.narrowcolumn {
+	float: left;
+	padding: 0 0 20px 10px;
+	margin: 0px 0 0;
+	width: 480px;
+	}
+
+.post {
+	margin: 0 0 40px;
+	text-align: left;
+	}
+
+.narrowcolumn .postmetadata {
+	padding-top: 5px;
+	}
+
+.postmetadata {
+	clear: left;
+}
+
+
+/* End Structure */
+
+
+
+/*	Begin Headers */
+
+h2 {
+	margin: 30px 0 0;
+	}
+
+h2.pagetitle {
+	margin-top: 30px;
+	text-align: center;
+}
+
+#sidebar h2 {
+	margin: 5px 0 0;
+	padding: 0;
+	}
+
+h3 {
+	padding: 0;
+	margin: 30px 0 0;
+	}
+
+h3.comments {
+	padding: 0;
+	margin: 40px auto 20px ;
+	}
+/* End Headers */
+
+
+
+/* Begin Images */
+p img {
+	padding: 0;
+	max-width: 100%;
+	}
+
+/*	Using 'class="alignright"' on an image will (who would've
+	thought?!) align the image to the right. And using 'class="centered',
+	will of course center the image. This is much better than using
+	align="center", being much more futureproof (and valid) */
+
+img.center, img[align="right"] {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	
+img.alignright, img[align="right"] {
+	padding: 4px;
+	margin: 0 0 2px 7px;
+	display: inline;
+	}
+
+img.alignleft, img[align="left"] {
+	padding: 4px;
+	margin: 0 7px 2px 0;
+	display: inline;
+	}
+.alignright {
+	float: right;  
+	}
+.navigation .alignright a {	background: url(images/next.png) no-repeat right; padding-right: 18px; }
+.alignleft {
+	float: left; 
+	}
+.navigation	.alignleft a {background: url(images/previous.png) no-repeat; padding-left: 18px; }
+/* End Images */
+
+
+
+/* Begin Lists
+
+	Special stylized non-IE bullets
+	Do not work in Internet Explorer, which merely default to normal bullets. */
+
+html>body .entry ul {
+	margin-left: 0px;
+	padding: 0 0 0 30px;
+	list-style: none;
+	padding-left: 10px;
+	text-indent: -10px;
+	} 
+
+html>body .entry li {
+	margin: 7px 0 8px 10px;
+	}
+	
+.entry ol {
+	padding: 0 0 0 35px;
+	margin: 0;
+	}
+
+.entry ol li {
+	margin: 0;
+	padding: 0;
+	}
+
+.postmetadata ul, .postmetadata li {
+	display: inline;
+	list-style-type: none;
+	list-style-image: none;
+	}
+
+#sidebar ul, #sidebar ul ol {
+	margin: 0;
+	padding: 0;
+	}
+
+#sidebar ul li {
+	list-style-type: none;
+	list-style-image: none;
+	margin-bottom: 15px;
+	}
+
+#sidebar ul p, #sidebar ul select {
+	margin: 5px 0 8px;
+	}
+
+#sidebar ul ul, #sidebar ul ol {
+	margin: 5px 0 0 5px;
+	}
+
+#sidebar ul ul ul, #sidebar ul ol {
+	margin: 0 0 0 10px;
+	}
+
+ol li, #sidebar ul ol li {
+	list-style: decimal outside;
+	}
+
+#sidebar ul ul li, #sidebar ul ol li {
+	margin: 3px 0 0;
+	padding: 0;
+	}
+/* End Entry Lists */
+
+
+
+/* Begin Form Elements */
+#searchform {
+	margin: 10px auto;
+	padding: 5px 3px; 
+	text-align: center;
+	}
+
+#sidebar #searchform #s {
+	width: 115px;
+	padding: 2px;
+	}
+
+#sidebar #searchsubmit {
+	padding: 1px;
+	}
+
+.entry form { /* This is mainly for password protected posts, makes them look better. */
+	text-align:center;
+	}
+
+select {
+	width: 130px;
+	}
+
+#commentform input {
+	width: 170px;
+	padding: 2px;
+	margin: 5px 5px 1px 0;
+	}
+
+#commentform textarea {
+	width: 100%;
+	padding: 2px;
+	}
+
+#commentform #submit {
+	margin: 0;
+	float: right;
+	}
+/* End Form Elements */
+
+
+
+/* Begin Comments*/
+.alt {
+	margin: 0;
+	padding: 0;
+	}
+
+.commentlist {
+	padding: 0;
+	text-align: left;
+	}
+
+.commentlist li {
+	list-style: none;
+	width: 450px;  
+	}
+	
+.commenttitle {
+	background: url(images/commhead1.gif) no-repeat top; 
+	padding-top: 5px; 
+	padding-left: 20px; 
+	padding-bottom: 5px;}
+
+.commentbody {
+	background: #fffded; 
+	border-left: 1px solid #0000ff; border-right: 1px solid #0000ff; 
+	margin-top: -10px;
+	margin-bottom: -10px;
+	padding: 0 10px; 
+	}
+	
+.commentfooter {
+	background:url(images/commfoot1.gif) no-repeat bottom; 
+	height: 22px; 
+	margin-bottom: 20px; 
+	} 
+
+.alt .commenttitle {
+	background: url(images/commheadalt.gif) no-repeat top; 
+	padding-top: 5px; 
+	padding-left: 20px; 
+	padding-bottom: 5px;}
+	
+.alt .commentbody {background: #F8F8F8; 
+	border-left: 1px solid #0000ff; border-right: 1px solid #0000ff; 
+	margin-top: -10px;
+	margin-bottom: -10px;
+	padding: 0 10px; }
+
+.alt .commentfooter {
+	background:url(images/commfootalt.gif) no-repeat bottom; 
+	height: 22px; 
+	margin-bottom: 20px; 
+	}
+
+.commentlist p { 
+	margin: 10px 5px 10px 0;
+	}
+
+#commentform p {
+	margin: 5px 0;
+	}
+
+.nocomments {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	}
+
+.commentmetadata {
+	margin: 0;
+	display: block;
+	border-bottom: 1px solid #666;
+	}
+/* End Comments */
+
+
+
+/* Begin Sidebar */
+#sidebar
+{
+	padding: 0 0 10px 0;
+	margin-left: 565px;
+	width: 190px;
+	}
+
+#sidebar form {
+	margin: 0;
+	}
+/* End Sidebar */
+
+
+
+/************************* Begin Calendar */
+#wp-calendar #prev a {
+	font-size: 9pt;
+	}
+
+#wp-calendar a {
+	text-decoration: none;
+	}
+
+#wp-calendar caption {
+	font: bold 1.3em 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	text-align: center;
+	}
+
+#wp-calendar th {
+	font-style: normal;
+	text-transform: capitalize;
+	}
+#wp-calendar {
+	empty-cells: show;
+	margin: 10px auto 0;
+	width: 155px;
+	}
+
+#wp-calendar #next a {
+	padding-right: 10px;
+	text-align: right;
+	}
+
+#wp-calendar #prev a {
+	padding-left: 10px;
+	text-align: left;
+	}
+
+#wp-calendar a {
+	display: block;
+	}
+
+#wp-calendar caption {
+	text-align: center;
+	width: 100%;
+	}
+
+#wp-calendar td {
+	padding: 3px 0;
+	text-align: center;
+	}
+
+#wp-calendar td.pad:hover { /* Doesn't work in IE */
+	background-color: #fff; }
+/* End Calendar */
+
+
+
+/* Begin Various Tags & Classes */
+.postmetadata {
+	border-top: 2px solid #ff0000;
+	width: 300px;
+	margin-top: 35px;
+	margin-left:auto;
+	margin-right:auto;
+}	
+.utwfeedicon {float:right;}
+acronym, abbr, span.caps {
+	cursor: help;
+	}
+
+acronym, abbr {
+	border-bottom: 1px dashed #999;
+	}
+
+blockquote {
+	margin: 15px 30px 0 10px;
+	padding-left: 10px;
+	border-left: 5px double #ff0000;
+	color: #333;
+	}
+
+blockquote cite {
+	margin: 5px 0 0;
+	display: block;
+	}
+
+.center {
+	text-align: center;
+	}
+
+hr {
+	display: none;
+	}
+
+a img {
+	border: none;
+	}
+
+.navigation {
+	display: block;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 60px;
+	}
+/* End Various Tags & Classes*/
+
+/***************************** top navigation  *********/
+#topnav 
+{
+	list-style:none;
+	font-size:1.1em;
+	margin:0 auto;
+	margin-top: -20px;	
+	padding:0px 0px 0 15px;
+	text-align:left;	
+	font-family:Verdana, Arial, Sans-Serif;
+}
+#topnav li 
+{
+	list-style:none;
+	display:inline;
+	padding:0;
+	margin:0;
+	font-weight:bold;
+}
+
+#topnav li a:link, #topnav li a:visited {
+	text-decoration:none;	
+	color:#0033cc;
+	}
+#topnav li a:hover, #topnav li a:active
+{
+	color:#3366ff;	
+	}
+
+/************************ styles the information under the post title *****/
+.metaright {text-align:right;}
+
+.articlemeta  {list-style:none; }
+
+.articlemeta {display:inline;padding-top: 3px;}
+
+.articlemeta li {list-style:none; display:inline; }
+.articlemeta .comm  {
+	background: url('images/comment.gif') no-repeat left;
+	height: 16px;
+	padding-left: 18px;
+	text-align:right;
+	}
+.articlemeta .cat {
+	display:inline;
+	text-align:right;
+	background: url(images/folder.gif) no-repeat left;
+	height: 16px;
+	padding-left: 18px;
+}
+.articlemeta .date   {
+	background:url(images/calendar.gif) no-repeat left;
+	height: 16px;
+	text-align:right;
+	display:inline; padding-left: 18px;
+	}
+.articlemeta .postauthor  li {
+	background:url(images/user.gif) no-repeat left;
+	height: 16px;
+	text-align:right;
+	padding-left: 18px;
+	}
+.editentry li {
+	height: 16px;
+	padding-right: 18px;
+	text-align:right;
+	}
+.metaright .utwtags  {
+	background: url(images/star.gif) no-repeat top right;
+	min-height: 16px;
+	padding-right: 18px;
+	text-align:right; 
+	}

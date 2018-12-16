@@ -1,0 +1,13 @@
+Plugin Name: Site Generator Replacement
+Author: Luke Poland (Incsub)
+Copyright: © Copyright 2008, Luke Poland, Incsub. All rights reserved.
+Content may not be redistributed in whole or in part.
+
+
+Change Log:
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+
+1.0 - 07/08/2008
+----------------------------------------------------------------------
+    - Initial Release.

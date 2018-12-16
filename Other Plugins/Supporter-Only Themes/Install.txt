@@ -1,0 +1,1 @@
+Drop into wp-content/mu-plugins/ and visit the "Premium Themes" menu item under Site Admin. You will need to have the Supporter plugin from WPMU Dev Premium installed.

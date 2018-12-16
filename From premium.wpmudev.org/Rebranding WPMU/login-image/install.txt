@@ -1,0 +1,11 @@
+Plugin Name: Login Image
+Author: Andrew Billits
+
+Files:
+----------------------------------------------------------------------
+login-image.php - goes in /wp-content/mu-plugins
+/login-image/ - create at /wp-content/login-image/
+
+Instructions:
+----------------------------------------------------------------------
+1) Place the files in the specified directories

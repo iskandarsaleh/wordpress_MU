@@ -1,0 +1,159 @@
+/*
+
+Theme Name: Pink-Kupy
+
+Theme URI: <a href="http://www.pinkseo.info/ituloy-angsulong/pink-kupy.zip">
+
+Description: Pink, pink, pink... and pianos.
+
+Version: 1.0
+
+Author: Pink SEO
+
+Author URI: http://www.pinkseo.info/
+
+Feel free to customize to your heart's desire, just please don't change the credits in the style.css or in the footer.
+
+This theme is licensed under the Creative Commons Attribution-ShareAlike 2.5
+
+This basically means that you are allowed to distribute and modify this theme, as long as you leave the credit in the footer of the theme, and you keep this license how it is.
+
+Of course, you can contact me and I'll probably allow you to do anything you want with it :-)
+
+Read the full license here: http://creativecommons.org/licenses/by-nc-sa/2.5/legalcode
+
+CHANGE LOG:
+
+1.2: Bugfix - sidebar would overrun whitespace, ugly! Thanks to Drew at http://damaged-ink.net.
+
+*/
+
+/* LINKS */
+
+a {color: #FD257F; text-decoration: none; border: none;}
+
+a:visited {color: #FD257F;}
+
+a:hover {text-decoration: underline; border: none;}
+
+a img {border: none; }
+
+a.name {text-decoration: none; color: #FD257F; font-weight: bold; font-size: 16px; }
+
+a.postlink { text-decoration: none; color: #FD257F; font-weight: bold; font-size: 24px; letter-spacing:-1px}
+
+.style1 {
+	color: #FFFFFF;
+	font-size: 11px;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	}
+.td1 { text-align:center; letter-spacing:3px; background-color:#FE61A5; }
+.td2 { background-color:#FFE8F2; border:1px #FFD4E7 solid; text-align: left;}
+.td3 { border-left:1px #FFE8F2 solid; border-right:1px #FFE8F2 solid; border-bottom:1px #FFE8F2 solid; }
+.tdleft { background:no-repeat; background-image:url(images/bg_left.gif); background-color:#FFFFFF;  }
+.paddingtop { padding-top:30px; }
+.bgsmall {background-image:url(images/bg3.gif); }
+.BGbig { background:no-repeat; background-image:url(images/bg_big.gif);  background-attachment:fixed;}
+.title { text-align:right; padding-top:80px; padding-right:112px; font-size:26px; font-family: Geneva, Arial, Helvetica, sans-serif; font-weight:bold; line-height:20px; }
+.sub { text-align:right; font-size:16px; font-family: Geneva, Arial, Helvetica, sans-serif; }
+.image1 { background-image:url(images/header-1.gif); }
+.image2 { background-image:url(images/header-2.gif); }
+.image3 { background-image:url(images/bg_col_1.gif); }
+.image4 { background-image:url(images/leftmost.gif); width:52px; height:159px; no-repeat }
+.image5 { background-image:url(images/bg_col_2.gif); }
+.image6 { background-image:url(images/rightmost.gif); width:108px; height:159px; no-repeat }
+
+blockquote {
+border-left: 1px dashed #ccc;
+margin-left: 1.5em;
+padding-left: 5px;
+}
+
+body {
+color: #E27297;
+font-family: Geneva, Arial, Helvetica, sans-serif;
+font-size: 11px;
+text-align: left;
+}
+
+#cats {
+font-size: 10px;
+padding-left: 5px;
+}
+
+.commentbox {
+padding-left: 10px;
+margin-left: 3px;
+padding: 5px;
+border: 1px solid #ffffff;
+background-color: #FFF1F7;
+width: 350px;
+}
+
+#content {
+margin-left: 20px;
+margin-right: 15px;
+}
+
+#desc {
+font-size: 11px;
+color: #555555;
+}
+
+#divider {
+padding-top: 15px;
+}
+
+#foot {           /* F00TER */
+font-size: 10px;
+margin-bottom: 10px;
+text-align: center;
+color: #555555;
+clear: both;
+}
+
+#head {                 /* HEADER */
+font-size: 11px;
+}
+
+li {list-style: none;}
+
+ul {list style: none;}
+
+#menutitle {
+font-size: 11px;
+font-weight:bold;
+color: #888888;
+}
+
+#menu {           /* SIDEBAR */
+padding-top: 2px;
+padding-right: 20px;
+text-align: right;
+}
+
+#postdata {
+color: #555555;
+font-size: 10px;
+}
+
+#search {
+background-color: #B71748;
+font-size: 11px;
+border: 1px solid #ffffff;
+color: #ffffff;
+font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+#searchbutton {
+font-size: 11px;
+color: #ffffff;
+border: 2px solid #8D002B;
+background-color: #FF5990;
+}
+
+#textbox {background-color: #B71748; font-size: 11px; border: 1px solid #8D002B; color: #ffffff;}
+
+#textbox:focus {background-color: #8D002B; font-size: 11px; color: #ffffff;}
+
+textarea {font-family: Geneva, Arial, Helvetica, sans-serif, Times, Serif; font-size: 11px; color: #ffffff; border: 1px solid #8D002B}

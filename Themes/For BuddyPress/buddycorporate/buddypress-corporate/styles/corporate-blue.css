@@ -1,0 +1,25 @@
+#navigation {
+	background: url(corporate-blue/navs.png) no-repeat!important;
+}
+
+ul#nav li.selected, ul#nav li.current_page_item {
+	background: url(corporate-blue/leftbar.png) no-repeat left center!important;
+}
+ul#nav li.selected a, ul#nav li.current_page_item a {
+	background: url(corporate-blue/rightbar.png) no-repeat right center!important;
+}
+#post-entry h2.widgettitle {
+	background: url(corporate-blue/longbar.png) no-repeat!important;
+}
+#center-column h2.widgettitle {
+	background: url(corporate-blue/mediumbar.png) no-repeat!important;
+}
+#right-column h2.widgettitle {
+	background: url(corporate-blue/shortbar.png) no-repeat!important;
+}
+
+
+#userbar #meprofile {
+    background: url(corporate-blue/side.png) repeat-x!important;
+
+}

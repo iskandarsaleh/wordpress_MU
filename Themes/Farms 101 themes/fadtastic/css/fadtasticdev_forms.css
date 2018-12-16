@@ -1,0 +1,22 @@
+#comment_form {
+	margin-top:1em;
+	background-image: url(../images/bg_form.gif);
+	background-repeat: repeat-x;
+	background-position: left top;
+	padding:10px;
+	border-top: 3px solid #d3e6ef;
+}
+
+#comment_form label {
+font-weight:bold;
+}
+
+#comment_form input, #comment_form textarea {
+margin-top:0.25em !important;
+margin-top:0.1em;
+margin-bottom:0.5em !important;
+margin-bottom:0.2em;
+}
+
+.button {
+}

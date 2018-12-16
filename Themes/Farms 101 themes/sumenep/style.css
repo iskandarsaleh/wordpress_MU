@@ -1,0 +1,493 @@
+/*  
+Theme Name: sumenep
+Theme URI: http://www.jauhari.net/themes/sumenep
+Description: A dark theme with curly flowers and a customisable header.
+Version: 1.0
+Author: Nurudin Jauhari
+Author URI: http://www.jauhari.net/
+
+	This theme was designed and built by Nurudin Jauhari,
+	whose blog you will find at http://www.jauhari.net/themes/sumenep
+	Crafted on 11 May 2007
+	Last Edit: 11 May 2007 16.22  +7 GMT
+
+	The CSS, XHTML and design is released under a Creative Commons Attribution 3.0 License:
+	http://creativecommons.org/licenses/by/3.0/
+
+*/
+
+/* Social Style 
+********************* */
+
+html
+{
+	height: 100%;
+	margin-bottom: 0.1em;
+}
+*
+{
+	margin: 0;
+	padding: 0;
+}
+img
+{
+	border: 0;
+}
+p
+{
+	line-height: 1.6em;
+	margin: 0.7em 0;
+}
+dl
+{
+	margin: 1em 0;
+}
+dt
+{
+	font-weight: bold;
+}
+dd
+{
+	margin: 0.5em;
+	padding: 0;
+}
+img.right
+{
+	float: right;
+	margin: 10px 0 0 10px;
+}
+img.left
+{
+	float: left;
+	margin: 0 10px 10px 0;
+}
+hr
+{
+	display: none;
+}
+a
+{
+	text-decoration: none;
+}
+a:link, a:visited
+{
+	color: #fff;
+}
+a:hover, a:active
+{
+}
+h1, h2, h3, h4, h5, h6
+{
+	font-family: Georgia, Verdana, Arial, Serif;
+}
+
+body
+{
+	background-attachment: fixed;
+	background: #000 url(images/bgbg.gif) center top no-repeat;
+	font: 73%/1.6em Verdana, Arial, Serif;
+	color: #ccc;
+	margin: 0 0 1px;
+	padding: 0 0 1px;
+	text-align: center;
+}
+/* Etc
+******************** */
+br.clear {
+	clear: both;
+}
+
+/* Design 
+******************** */
+#top {
+	background: url(images/bgtr.gif) center bottom no-repeat;
+	height: 27px;
+	margin-top: 150px;
+}
+#page {
+	text-align: left;
+	width: 710px;
+	background: #353535 url(images/bgcr.gif) center 0 repeat-y;
+	margin: 0 auto;
+	padding: 0 20px 0;
+	border-top: none;
+	border-bottom:none;
+}
+#botr {
+	background: url(images/bgbr.gif) center top no-repeat;
+	height: 19px;
+	margin: 0;
+	padding:0;
+}
+
+
+#headr {
+	margin: 0 auto;
+	background: url(images/bgheadr.png) 0 0 no-repeat;
+	
+	/*
+	background: url(images/bgheadr.gif) 0 0 no-repeat;
+ */
+	height: 130px;
+	padding: 10px 20px;
+}
+#pre {
+	background: #67EE4B url() left top no-repeat;
+}
+#headr .description {
+	color: #333;
+}
+
+#content {
+	width: 480px;
+	float: left;
+	padding-right: 20px;
+	padding-bottom: 0px;	
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.post {
+	padding: 10px 0 0;
+	text-align: justify;
+}
+.post  a{
+	color: #fff;
+}	
+
+
+#sidebar {
+	width: 200px;
+	float: right;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 20px;
+}
+
+
+/* Design 
+******************** */
+#sidebar  ul{
+	list-style: none;
+}
+#sidebar ul li ul {
+	list-style-type:square;
+	margin-left: 15px;
+}
+#sidebar  ul li.about, #sidebar .categories,.linkcat, .linkside{
+	margin-bottom: 10px;
+}
+
+/* Design  Typo
+********************* */
+#headr h1 {
+	margin: 0;
+	color: #efefef;
+	font: 2.5em "Trebuchet MS", Verdana, sans-serif;
+}
+#headr h1 a {
+	color: #000;
+	}
+#sidebar h2{
+	font: 1.4em "Trebuchet MS", Verdana, sans-serif;
+	color: #67EE4B;
+	border-bottom: 1px solid #efefef;
+	padding-right: 5px;
+	padding-bottom: 1px;
+	margin-bottom: 5px;
+}
+
+#sidebar  ul li.about a, #sidebar .categories a,.linkcat a, .linkside a {
+	color: #fff;
+}
+#sidebar ul li a:hover {
+	color: #ffff00;
+}
+#sidebar ul li ul li a {
+}
+#sidebar ul.children {
+	margin-left: 16px;
+}
+#sidebar a:hover {
+	color: #1A4568;
+}
+#sidebar #avatr {
+	border: 1px solid #666;
+}
+
+/* Page Navigation Style 
+********************* */
+ul.menu li a
+{
+	color: #fff;
+	display: block;
+}
+ul..menu li a:hover {
+	color: #FFFF00;
+}
+ul.menu li a:active, ul.menu li.current_page_item a
+{
+	color: #FFFF00;
+	display: block;
+	font-weight: bold;
+}
+
+
+h2.pagetitle {
+	margin-top: 10px;
+	text-align: right;
+	border-bottom: 1px solid #ccc;
+}
+.post h2 {
+	font: 1.8em "Trebuchet MS", Verdana, sans-serif; 
+}
+.post h2 a {	
+	color: #FFFF00;
+}
+.post h2 a:hover {
+	color: #67EE4B;
+}
+.post ul {
+	margin-left: 35px;
+}
+.post ol {
+	margin-left: 40px;
+}
+p.postmeta {
+	font-size: 85%;
+	padding: 0;
+	border-top: 1px solid #ccc;
+}
+
+p.postmetadata
+{
+	color: #efefef;
+	text-align: right;
+	font-size: 85%;
+	margin-bottom: 10px;
+	border-bottom: 2px solid #efefef;
+	/* A3B291 */
+	padding: 5px 0;
+}
+p.postmetadata a
+{
+	color: #efefef;
+	text-decoration: none;
+}
+.post ul.postspermonth{
+	list-style:none;
+	padding: 0;
+	margin: 0;
+}
+.post p a {
+	border-bottom: 1px solid #ccc;
+}
+.post p a:hover {
+	border: none;
+}
+.post a img, .post img {
+	border: none;
+	float: left;
+	padding-right: 5px;
+}	
+
+.categr, .monthr {
+	margin-bottom: 20px;
+}
+.categr h2, .monthr h2{
+	border-bottom: 1px solid #ccc;
+}
+#footer {
+	margin: 0 auto 10px;
+	background: #999 url(images/bgfr.gif) center bottom no-repeat;
+	padding: 0 10px 10px;
+	width: 580px;
+	text-align: left;
+	color: #ccc;
+	font-size: 0.95em;
+	height: 50px;
+}
+#footer p {
+	width: 55%;
+	float: left;
+}
+#footer p.right {
+	float: right;
+	width: 40%;
+	text-align:right;
+}
+
+#footer a {
+	color: #ddd;
+	text-decoration: underline;
+}
+#footer a:hover {
+	color: #666;
+	text-decoration: none;
+}
+.rss {
+	background: url(images/feed-icon-10x10.png) left center no-repeat;
+	padding-left: 12px;
+}
+/* Comment Etc
+********************* */
+.navigation {
+	margin-top: 10px;
+}
+.navigation a
+{
+	color: #67EE4B;
+}
+.alignleft
+{
+	float: left;
+	width: 50%;
+}
+.alignright
+{
+	float: right;
+	text-align: right;
+	width: 50%;
+}
+
+.ileft {
+	float: left;
+	margin-right: 5px;
+}
+.iright {
+	float: right;
+	margin-left: 5px;
+}
+
+p.stats {
+	color: #999;
+	font-size: .8em;
+	border: 1px solid #ccc;
+	border-left: none;
+	border-right: none;
+}
+blockquote
+{
+	background: url(images/blockquote.gif) no-repeat left top;
+	color: #999;
+	margin: 1em;
+	padding: 0 0 0 50px;
+}
+#content .commentsfeedr
+{
+	background: url(images/feed.png) no-repeat left center;
+	padding-left: 20px;
+}
+#content .trackbackr
+{
+	background: url(images/arrow_refresh.png) no-repeat left center;
+	padding-left: 20px;
+}
+h3#respond,h3#comments {
+	border-bottom: 1px solid #ccc;
+	color: #F06100;
+	font: 1.4em "Trebuchet MS", Verdana, sans-serif; 
+	margin-top: 10px;
+}
+input.textbox, textarea
+{
+	background: #fff url(images/shadow_top.gif) repeat-x top;
+	border: #ccc 1px solid;
+	font: 1em Verdana, Arial, Serif;
+	padding: 2px;
+}
+input.textbox:focus, textarea:focus
+{
+	background: #fff url(images/shadow_top.gif) repeat-x top;
+	border: #999 1px solid;
+}
+#submit
+{
+	padding: 3px 5px;
+}
+.comment
+{
+	background: #5d6062;
+	border-bottom: #ddd 1px solid;
+	list-style: none;
+	margin: 0;
+	padding: 1em 0.5em;
+}
+.alt
+{
+	background: #262626;
+}
+.MyAvatars
+{
+	border: 1px solid #ccc;
+	border-bottom: 1px solid #999;
+	border-right: 1px solid #999;
+	float: right;
+	margin-left: 5px;
+	margin-right: 10px;
+	padding: 3px;
+}
+#comment {
+	width: 100%;
+}
+
+#sidebar input#s {
+	width: 93%;
+	padding: 5px;
+	margin-bottom: 10px;
+	background: #F7F7D4;
+	font-weight: bold;
+	border: 2px solid #67EE4B;
+	color: #2FC312;
+}
+#sidebar input#s:focus {
+	width: 93%;
+	padding: 5px;
+	margin-bottom: 10px;
+	background: #efefef;
+	color: #333;
+	border: 2px solid #999;
+}
+
+#sidebar input#searchsubmit
+{
+	background: #30BA47;
+	border: #269237 2px solid;
+	color: #fff;
+	font-size: 1.3em;
+	margin: 0;
+	font-weight: bold;
+	padding: 2px 6px;
+}
+#right input#searchsubmit:focus
+{
+	background: #BCE240;
+}
+fieldset {
+	border: none;
+}
+textarea#cont_message {
+	width: 100%;
+}
+
+pre {
+	width: 95%;
+	overflow:auto;
+	font: 13px 'Courier New', Courier, Verdana, Arial, sans-serif;
+	color: #333;
+	max-height: 350px;
+	line-height: 18px;
+	margin: 10px 0;
+	border: 1px solid #ccc;
+	padding: 5px;
+	background: #efefef;
+}
+
+code {
+font: 13px 'Courier New', Courier, Verdana, Arial, sans-serif;
+color: #ccc;
+padding: 2px;
+}
+
+/* Change Log *** 
+1.0	: Public Releaed
+*** */

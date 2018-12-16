@@ -1,0 +1,14 @@
+Plugin Name: Forums
+Author: Andrew Billits
+
+Files:
+----------------------------------------------------------------------
+forums-framework.php - goes in /wp-content/mu-plugins
+forums.php - goes in /wp-admin
+
+Instructions:
+----------------------------------------------------------------------
+1) Open forums.php in your editor and configure the options in the config section
+2) Place the files in the specified directories
+3) If the auto-install does not add the db table(s) for you then run the sql code in "sql.txt" on your wpmu db
+

@@ -1,0 +1,59 @@
+Plugin Name: MU Support System
+Author: Luke Poland/Andrew Billits (Incsub)
+
+----------------------------------------------------------------------
+This plugin adds a new "support" menu to the far right of the top
+level menu structure.
+
+It allows for users to:
+  - View FAQ's (that you create), rate the helpfulness of them.
+  - Submit support tickets, which site admins can view and respond
+    to in order to improve the end user experience.
+    - Note, when a user submits a ticket or reply, an email is sent
+      to the site admins email address (the user does not see this).
+      When an admin reply's to a ticket, the user gets an email, which
+      will come from the email address for the site (Just like any
+      other emails a user may receive from the site).
+
+
+Files:
+----------------------------------------------------------------------
+All files in this package are structured to match the MU installation,
+please place the files in their corresponding directory structure. You
+will need to create a few directories, so just follow the layout in the
+package and you will be fine.
+
+
+Instructions:
+----------------------------------------------------------------------
+1) Place the files in the specified, corresponding directory. Creating
+   the directory if it doesn't exists.
+2) If you're not running our Premium Multiple Databases plugin, skip to 
+   step 3. 
+
+   Add the following to your db-config.php file, or wherever you are
+   declaring your global tables.
+
+add_global_table('system_faq');
+add_global_table('system_faq_cats');
+add_global_table('system_tickets');
+add_global_table('system_tickets_cats');
+add_global_table('system_tickets_messages');
+
+
+3) Visit Site Admin -> FAQ Manager, and Site Admin -> Support Ticket Manager
+   so that the required tables auto install. If it does not create 5 new
+   tables, see the sql.txt file in this package for MySQL queries you 
+   can run.
+
+
+Usage:
+----------------------------------------------------------------------
+For FAQ's:
+    Visit Site Admin -> FAQ Manager to get started. Add some categories,
+    and then some questions and answers.
+
+For Support Ticket's:
+    Visit Site Admin -> Support Ticket Manager to get started. 
+    Add some categories, and you're set.
+

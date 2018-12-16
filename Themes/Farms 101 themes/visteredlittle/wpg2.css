@@ -1,0 +1,27 @@
+/* g2image styles */
+.g2image_normal
+{
+margin: 4px;
+}
+
+.g2image_float_left
+{
+float: left;
+clear: left;
+margin: 4px;
+}
+
+.g2image_float_right
+{
+float: right;
+clear: right;
+margin: 4px;
+}
+
+.g2image_centered
+{
+display: block;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}

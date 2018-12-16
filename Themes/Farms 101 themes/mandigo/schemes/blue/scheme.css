@@ -1,0 +1,8 @@
+a, .posttitle a:hover, .entry p a:visited { color: #2E8FC6; }
+a:hover { color: #0F3461; }
+.cal { background: #1C5B9E url(images/cal_bg.jpg) repeat-x; }
+
+.calborder { 
+  background: #A3CFEC;
+  border: 1px solid #0F3461;
+}

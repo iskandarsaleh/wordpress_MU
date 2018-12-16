@@ -1,0 +1,11 @@
+Plugin Name: Google Analytics
+Author: Andrew Billits
+
+Files:
+----------------------------------------------------------------------
+google-analytics.php - goes in /wp-content/mu-plugins
+
+Instructions:
+----------------------------------------------------------------------
+1) Place the files in the specified directories
+2) If you're using the Supporter plugin visit the Site Admin > Supporter page to configure the Google Analytics option

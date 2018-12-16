@@ -1,0 +1,110 @@
+/*
+Theme name: "Ocean Mist" 
+Editor: Mahyar Abbaspour, Navid Kashani
+Persian Wordpress Project : wp-persian.com
+*/
+
+* {
+    direction: rtl;
+    text-align: justify;
+    font-size: 100%;
+    line-height: 1.6em;
+}
+
+body {
+    font-family: Tahoma;
+    font-size: 72.5%;
+}
+
+.post {
+    margin: 0pt 18px 0pt 18px;
+}
+
+h1 {
+    letter-spacing: 0px;
+}
+
+h2,h3,h4 {
+    margin-right: 25px
+}
+
+input {
+    padding: 3px;
+    font-family:Tahoma;
+}
+
+#content .postwrapper .title h2 {
+    background-position: 344px 50%;
+    font-weight: bold;
+    position: relative;
+    left: 31.5%;
+    margin-right: 20.75%;
+    text-align: right;
+}
+
+.title small {
+    position: relative;
+    right: 62%;
+    font-size: 11px;
+    text-align: right;
+}
+
+#sidebar .title h2 {
+    margin: 9px 15px 12px 24px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#sidebar {
+    text-align: right;
+}
+
+#sidebar .widget ul {
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+#submit {
+    padding: 3px;
+    font-family:Tahoma;
+}
+
+.catlist {
+    float: right;
+}
+
+table {
+    margin: 0 auto;
+}
+
+pre {
+    font-size: 1.3em
+}
+
+.archive .postinfo p {
+position: relative;
+left: 223%;
+}
+
+.archive .entry p {
+    position: relative;
+    right: 50%;
+}
+
+.avatar {
+    float: left;
+    position: relative;
+    right: 50%;
+}
+
+#commentform .postinfo p {
+    position: static
+}
+
+textarea {
+    font-family: Tahoma
+}
+
+blockquote {
+    font-style: italic;
+}

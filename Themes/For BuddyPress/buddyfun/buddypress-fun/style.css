@@ -1,0 +1,31 @@
+/*
+Theme Name: BuddyPress-Fun
+Theme URI: http://premium.wpmudev.org/
+Description: A BuddyPress theme full of customizability and options - with a heap of fun thrown in.
+Version: 1.0.3 
+Author: Incsub
+Author URI: http://incsub.com
+*/
+
+/* Load the base styles */
+
+
+@import url(css/base.css);
+@import url(css/global.css);
+@import url(css/wp-comments.css);
+
+@import url(css/member-css.css);
+
+
+/***
+ * Rename /css/custom-sample.css to /css/custom.css and uncomment the following line to load your own
+ * custom styles without modifying the originals (this will preserve your changes across theme updates)
+ *
+ * @import url(css/custom.css);
+ */
+
+/***
+ * NOTE: If you rename /css/site-wide-sample.css to /css/site-wide.css you can apply CSS styles to any
+ * theme that is in use across your whole site. This includes any blog or member theme. You do not
+ * need to add an @import declaration in this file, it will load automaticaly.
+ */

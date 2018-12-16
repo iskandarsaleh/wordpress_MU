@@ -1,0 +1,14 @@
+To install, just upload the single PHP file (mu_blog_banners.php) to the "mu-plugins" folder under "wp-content".
+
+The full image tag can be output using the "show_blog_banner" function. The function takes two optional parameters:
+
+    * "alt value" - the "alt tag" value for the image (defaults to the blog name).
+    * "blog id" - ID of the blog whose banner you want to retrieve (defaults to the current blog)
+
+For instance, if you want to show the current blog's banner, and use the blog tagline for the alt tag, use:
+
+show_blog_banner(get_bloginfo('description'));
+
+If you only want to retrieve the image path for the banner, you can use the "get_blog_banner_src" function, which has 1 parameter (blog ID). Note that this returns the source, and does not display (echo) it.
+
+This has only been fully tested with the latest version of WordPress MU as of its release: 2.8.1. It should work in previous versions that support attachment hooks, including 2.7 builds.

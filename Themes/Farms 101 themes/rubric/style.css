@@ -1,0 +1,205 @@
+/*
+Theme Name: Rubric
+Description: Flexible and somewhat academic, wouldn't you say.
+Version: 1.0
+Author: Hadley Wickham
+Author URI: http://ineffable.co.nz/
+*/
+
+#wpcombar a {
+	border: none;
+}
+#wpcombar a:hover {
+	background: #6da6d1;
+	color: black;
+}
+
+body {
+	background-color: #fff;
+	background-image: url("images/rubric/gradient.gif");
+	background-attachment: fixed;
+	background-position: bottom;
+	background-repeat: repeat-x;
+}
+	 
+#content {
+	margin-right: 20em;
+	margin-left: 40px;
+	background-color: #fff;
+	padding: 0.5em;
+	margin-top: 60px;
+	
+	border: 1px #eee solid;
+}
+* html #content { margin-top: 180px; }
+/* Image from sxc.hu (http://www.sxc.hu/browse.phtml?f=view&id=16710)
+   Thanks bradleym! */
+
+
+#header {
+	position: absolute;
+	top: 40px;
+	left: 0px;
+	background-image: url("images/rubric/pen-sm.jpg");
+	background-position: top right;
+	background-repeat: no-repeat;
+	width:80%;
+	margin: 0;
+	height: 150px;
+	
+	padding-left: 45px;
+	
+	font-family: Georgia;
+	font-weight: normal;
+	font-size: 3em;
+}
+
+
+/* Content & menu
+   -------------------------------------------- */
+
+#menu {
+	width: 14em;
+	position: absolute;
+	float: right;
+	top: 200px;
+	right: 5em;
+	
+	font-size: 90%;
+}
+* html #menu { /* make IE put it in the right place */
+	right: 5em;
+}
+
+
+#menu ul {
+	margin-top: 0;
+	padding-left: 0;
+	margin-left: 0;
+	list-style: none;	
+	font-weight: bold;
+	color: #B54141;
+}
+
+#menu h2 {
+	font-size: 1em;
+}
+
+#menu a:link, #menu a:visited {
+	color: black;
+	border: none;
+}
+
+#menu ul ul {
+	margin-left: 0;
+	list-style: disc;
+	list-style-position: inside;
+	padding-left: 0.5em;
+	text-indent: 0;
+	font-weight: normal;
+	color: black;
+}
+
+
+#menu form{
+	margin: 0;	 
+}
+#menu form br {
+	display:none;
+}
+
+ 
+/* Post
+   -------------------------------------------- */
+
+
+#content h2 {
+	font-size: 0.9em;
+	color: #666;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+h3 {
+	font-size: 1.5em;
+	font-weight: normal;
+	margin-bottom: 0.33em;
+}
+
+.storytitle {
+	margin-top: 0.25em;
+}
+
+.post-categories {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+.post-categories li {
+	display: inline;
+	margin-left: 0 3px 0 0;
+	padding: 0;
+}
+
+.post .meta {
+	font-size: 0.85em;
+	color: #666;
+}
+.post .meta * {
+	margin-top: 0;
+}	
+
+.post .feedback {
+	margin-bottom: 3em;
+	border-bottom: 1px solid #ccc; 
+	padding-bottom: 1px;
+}
+
+
+/* Credit
+   -------------------------------------------- */
+	 
+p.credit {	
+	margin-right: 20em;
+	margin-left: 40px;
+	padding: 0.5em;
+	font-size: 90%;
+}
+p.credit a:visited, p.credit a:link {
+	border: none;
+}
+	
+
+/* Basic typography
+   -------------------------------------------- */
+
+body {
+	font-family: Verdana, Tahoma, Arial, sans-serif;
+	font-size: 80%;
+}
+
+p, td, th, li {
+	font-size: 1em;
+	line-height: 1.65em;
+}
+
+
+a:link, a:visited {
+	text-decoration: none;
+	color: #B54141;
+	border: 1px solid white;
+}
+a:hover {
+	background-color: #eee;
+	border: 1px solid #ccc;
+}
+
+#comment { width: 95%; }
+* html #comment { width: 400px; }
+
+#commentlist li .avatar { 
+	float: right;
+	padding: 2px;
+	border: 1px solid #eee;
+	margin-right: 15px;
+}
